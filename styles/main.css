@@ -1,0 +1,81 @@
+body {
+  font-family: "Roboto", Arial, sans-serif !important;
+  user-select: none;
+  color: #202124;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Manrope", "Roboto", Arial, sans-serif;
+  margin: 0px !important;
+}
+
+p {
+  margin: 6px 0px !important;
+}
+
+a:link,
+a:visited {
+  color: #1eb0f3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active,
+a:visited:active,
+a:hover {
+  color: #23a0da;
+  cursor: pointer;
+}
+
+.duoBack {
+  display: block;
+  background-color: #f1f3f4;
+  width: 100%;
+  margin: 0px !important;
+  padding: 8px;
+}
+
+.fixWidth {
+  width: auto !important;
+}
+
+.material-icons {
+  font-size: 20px;
+  color: #575757;
+  float: right;
+  cursor: pointer;
+}
+
+.material-icons:hover {
+  color: #3d3d3d;
+}
+
+.big-icon {
+  font-size: 24px;
+}
+
+textarea {
+  resize: none;
+}
+
+.warning {
+  color: rgb(212, 41, 41);
+  margin: 8px 0px;
+  display: inline-block;
+}
+
+.centerImage {
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block;
+}
+
+.maxImageSize {
+  max-width: 396px;
+  max-height: max-content;
+}

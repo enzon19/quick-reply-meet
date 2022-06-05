@@ -1,0 +1,24 @@
+{
+  "ButtonsRoundness": "8",
+  "CheckMeetStarts": "1500",
+  "WaitToAppend": "1000",
+  "buttonsPosition": { 
+    "elementID": "btnPos0_0", 
+    "value": "beforebegin" 
+  },
+  "dropdownFunction": { 
+    "action": "delete", 
+    "send": false 
+  },
+  "leftClickAction": {
+    "action": "delete",
+    "elementID": "btnClick0_1",
+    "send": true
+  },
+  "messageList": [],
+  "rightClickAction": {
+    "action": "delete",
+    "elementID": "btnClick2_2",
+    "send": false
+  }
+}

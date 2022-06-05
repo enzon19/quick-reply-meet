@@ -1,0 +1,27 @@
+.dropdownLabel {
+  font-weight: bold;
+  color: #0f8c80;
+}
+
+.mui-btn--primary {
+  background-color: #0f8c80 !important;
+}
+
+.mui-dropdown__menu {
+  cursor: pointer;
+}
+
+.mui-btn.mui-btn--flat.primary,
+.mui-btn.mui-btn--flat.primary:hover,
+.mui-btn.mui-btn--flat.primary:active,
+.mui-btn.mui-btn--flat.primary:focus {
+  color: #0f8c80;
+}
+
+.mui-textfield>input:focus, .mui-textfield>textarea:focus {
+  border-color: #0f8c80 !important;
+}
+
+.mui-textfield>input:focus~label, .mui-textfield>textarea:focus~label {
+  color: #0f8c80 !important;
+}

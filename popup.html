@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title id="settings">Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon.ico">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/mui.css">
+  <link rel="stylesheet" href="styles/detailsAndSummary.css">
+  <link rel="stylesheet" href="styles/range.css">
+  <link rel="stylesheet" href="styles/scroll.css">
+  <link rel="stylesheet" href="styles/messageManager.css">
+  <link href="https://cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body style="width: 412px;">
+
+  <!-- This project is full made by Enzo - github.com/enzon19 -->
+
+  <script src="js/packages/mui.min.js"></script>
+
+  <!-- Title -->
+  <div class="duoBack">
+    <h1 id="extensionName">Quick Reply Meet</h1>
+    <p id="extensionDescription">Add shortcuts to pre-defined messages made by you to send quickly in the chat.</p>
+  </div>
+
+  <!-- Set messages for Meet -->
+  <details>
+    <summary><span id="manageMessages" class="dropdownLabel">Manage messages</span></summary>
+    <div class="spacing">
+      <button class="mui-btn mui-btn--primary" id="addMessage">Add new message</button><br>
+      <span id="messages" class="dropdownLabel">Messages</span>
+      <div id="showMessages">
+        <img src="/assets/images/general/empty.png">
+      </div>
+    </div>
+  </details>
+
+  <details>
+    <summary><span id="manageButtons" class="dropdownLabel">Manage buttons actions and position</span></summary>
+    <!-- Select the position of the buttons -->
+    <div class="spacing">
+      <!-- Label -->
+      <span id="buttonsPosition" class="dropdownLabel">Position of the buttons</span><br>
+      <!-- Dropdown -->
+      <div class="mui-dropdown">
+        <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+          <span class="dropdown__value">ABOVE</span>
+          <span class="mui-caret"></span>
+        </button>
+        <ul class="mui-dropdown__menu">
+          <li><a id="btnPos0_0">Above the chat bar/box</a></li>
+          <li><a id="btnPos1_0">Below the chat bar/box</a></li>
+        </ul>
+      </div><br>
+    </div>
+
+    <!-- Select the roundness of the buttons -->
+    <div class="spacing">
+      <!-- Label -->
+      <span id="buttonsRoundness" class="dropdownLabel">Roundness of the buttons</span><br>
+      <input type="range" min="0" max="25" value="8" data-previous="" id="sliderButtonsRoundness">
+      <div style="padding: 0px !important; display:inline;" class="mui-textfield">
+        <input style="display:inline; width: auto; bottom: -6px;" type="number" min="0" max="25" value="8" data-previous="" id="displayButtonsRoundness">
+      </div>
+      <span data-section="ButtonsRoundness" class="material-icons big-icon">replay</span>
+    </div>
+
+    <!-- Select what type of action one click does -->
+    <div class="spacing">
+      <!-- Label -->
+      <span id="leftClickAction" class="dropdownLabel">Action of left click</span><br>
+      <!-- Dropdown -->
+      <div class="mui-dropdown">
+        <button id="leftClickSelect" class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+          <span class="dropdown__value">Direct send, deleting content</span>
+          <span class="mui-caret"></span>
+        </button>
+        <ul class="mui-dropdown__menu">
+          <li><a id="btnClick0_1">Direct send, deleting content of the chat bar/box</a></li>
+          <li><a id="btnClick1_1">Direct send, add to the content of the chat bar/box</a></li>
+          <li><a id="btnClick2_1">Don't send, deleting content of the chat bar/box</a></li>
+          <li><a id="btnClick3_1">Don't send, add to the content of the chat bar/box</a></li>
+        </ul>
+      </div><br>
+      <!-- Image -->
+      <img class="maxImageSize" id="leftClickActionImage" src="assets/click/opt0.gif">
+    </div>
+
+    <!-- Select what type of action double click does -->
+    <div class="spacing">
+      <!-- Label -->
+      <span id="rightClickAction" class="dropdownLabel">Action of right click</span><br>
+      <!-- Dropdown -->
+      <div class="mui-dropdown">
+        <button id="rightClickSelect" class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+          <span class="dropdown__value">Don't send, add to the content</span>
+          <span class="mui-caret"></span>
+        </button>
+        <ul class="mui-dropdown__menu">
+          <li><a id="btnClick0_2">Direct send, deleting content of the chat bar/box</a></li>
+          <li><a id="btnClick1_2">Direct send, add to the content of the chat bar/box</a></li>
+          <li><a id="btnClick2_2">Don't send, deleting content of the chat bar/box</a></li>
+          <li><a id="btnClick3_2">Don't send, add to the content of the chat bar/box</a></li>
+        </ul>
+      </div><br>
+      <!-- Image -->
+      <img class="maxImageSize" id="rightClickActionImage" src="assets/click/opt2.gif">
+    </div>
+  </details>
+
+  <!-- Set time to wait until the meet starts -->
+  <details>
+    <summary><span id="manageTime" class="dropdownLabel">Manage time to execution</span></summary>
+    <div class="spacing">
+      <span id="checkMeetStarts" style="font-weight: bold;">Check for the meet starts</span>
+      <p id="descriptionCheckMeetStarts" style="margin-top: 0px !important;">How often milliseconds the extension will check if the meet already started. This setting is will be applied only before the meet starts.</p>
+      <input style="display:inline" type="range" min="1" max="10000" value="1500" data-previous="" id="sliderCheckMeetStarts">
+      <div style="padding: 0px !important; display:inline;" class="mui-textfield">
+        <input style="display:inline; width: auto; bottom: -6px;" type="number" min="1" max="10000" value="1500" data-previous="" id="displayCheckMeetStarts">
+      </div>
+      <span data-section="CheckMeetStarts" class="material-icons big-icon">replay</span><br id="toWarnCheckMeetStarts"><br>
+
+      <span id="waitToAppend" style="font-weight: bold;">Wait for append buttons on the chat</span>
+      <p id="descriptionWaitToAppend" style="margin-top: 0px !important;">How many milliseconds the extension need to wait to append the buttons. This setting is will be applied only before the meet starts.</p>
+      <input type="range" min="1" max="10000" value="1000" data-previous="" id="sliderWaitToAppend">
+      <div style="padding: 0px !important; display:inline;" class="mui-textfield">
+        <input style="display:inline; width: auto; bottom: -6px;" type="number" min="1" max="10000" value="1000" data-previous="" id="displayWaitToAppend">
+      </div>
+      <span data-section="WaitToAppend" class="material-icons big-icon">replay</span><br id="toWarnWaitToAppend"><br>
+    </div>
+  </details>
+
+  <footer class="duoBack end" id="credits">Developed by <a target="blank" href="https://enzon19.bolhastudios.com">Enzo (enzon19)</a>. See this project on <a target="blank" href="https://github.com/enzon19/quick-reply-meet">GitHub</a>. Make an donation <a target="blank" href="https://enzon19.bolhastudios.com/#donate">here</a>.</footer>
+  
+  <script src="js/range.js" async defer></script>
+  <script src="js/dropdown.js" async defer></script>
+  <script src="js/messagesManager.js" async defer></script>
+  <script src="js/reset.js" async defer></script>
+  <script src="js/translate.js" async defer></script>
+  <script src="js/popup.js" async defer></script>
+</body>
+
+</html>

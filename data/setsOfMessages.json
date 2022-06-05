@@ -1,0 +1,16 @@
+{
+  "en": [
+    ["Good morning!", "Good afternoon!", "Good evening!"],
+    ["Hello!", "Hi!", "What's up?", "How are you?", "I'm fine, thanks! And you?", "How's it going?"],
+    ["OK", "Yes", "No", "I don't know", "Got it!", "Yep!", "All right!"],
+    ["Thanks!", "Thank you so much!", "Thank you!", "You're welcome!"],
+    ["Bye!", "Good bye!", "See you!", "See you later!", "Good night!"]
+  ],
+  "pt": [
+    ["Bom dia!", "Boa tarde!", "Boa noite!"],
+    ["Olá!", "Oi!", "E aí?", "Tudo bem?", "Tudo e você?", "Como vai?"],
+    ["Ok", "Sim", "Não", "Não sei", "Entendi", "Beleza!", "Tranquilo!"],
+    ["Obrigado!", "Muito obrigado!", "Valeu!", "Por nada!", "De nada!"],
+    ["Tchau!", "Falou!", "Até logo!", "Até a próxima!", "Até mais tarde!", "Adeus!"]
+  ]
+}
