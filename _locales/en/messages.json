@@ -264,12 +264,16 @@
     "description": ""
   },
   "warnings": { 
-    "message": "• Don't use the extension for flood or spam;<br>• The owner of the extension isn't responsible for bad use or any banning, use this extension for your own.<br><br>If you have any bug or recommendation, please report them on <a href=\"https://github.com/enzon19/quick-reply-meet/issues\" target=\"_blank\">extension's GitHub page</a>.",
+    "message": "• The extension isn't enable for private windows by default, enable this on the browser settings;<br>• Don't use the extension for flood or spam;<br>• The owner of the extension isn't responsible for bad use or any banning, use this extension for your own.<br><br>If you have any bug or recommendation, please report them on <a href=\"https://github.com/enzon19/quick-reply-meet/issues\" target=\"_blank\">extension's GitHub page</a>.",
     "description": ""
   },
   "creditsTitle": { 
     "message": "Credits",
     "description": ""
+  },
+  "creditsComplete": { 
+    "message": "Developed by <a target=\"blank\" href=\"https://enzon19.bolhastudios.com\">Enzo (enzon19)<\/a>. Design made using <a target=\"blank\" href=\"https://www.muicss.com\">MUI<\/a>. See this project on <a target=\"blank\" href=\"https:\/\/github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Make an donation <a target=\"blank\" href=\"https://enzon19.bolhastudios.com/#donate\">here</a>.",
+    "description": "Na página de boas vindas"
   },
   "startUsing": { 
     "message": "Start using",
