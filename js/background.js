@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
     chrome.tabs.create({
       url: "/pages/welcome.html",
     });
-    chrome.runtime.setUninstallURL('https://quickreplymeet.bolhastudios.com/uninstall');
+    chrome.runtime.setUninstallURL('https://qrm.enzon19.com/uninstall');
   } else if (details.reason == "update") {
     chrome.tabs.create({
       url: "/pages/updated.html",

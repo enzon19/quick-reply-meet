@@ -152,7 +152,7 @@
     "description": "Showed when you try to change the values for CheckMeetStarts and WaitToAppend"
   },
   "credits": {
-    "message": "Developed by <a target=\"blank\" href=\"https://enzon19.bolhastudios.com\">Enzo (enzon19)<\/a>. See this project on <a target=\"blank\" href=\"https:\/\/github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Make an donation <a target=\"blank\" href=\"https://enzon19.bolhastudios.com/#donate\">here</a>.",
+    "message": "Developed by <a target=\"blank\" href=\"https://enzon19.com\">Enzo (enzon19)<\/a>. See this project on <a target=\"blank\" href=\"https:\/\/github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Make an donation <a target=\"blank\" href=\"https://enzon19.com/#donate\">here</a>.",
     "description": ""
   },
   "welcomeTitle": { 
@@ -272,7 +272,7 @@
     "description": ""
   },
   "creditsComplete": { 
-    "message": "Developed by <a target=\"blank\" href=\"https://enzon19.bolhastudios.com\">Enzo (enzon19)<\/a>. Design made using <a target=\"blank\" href=\"https://www.muicss.com\">MUI<\/a>. See this project on <a target=\"blank\" href=\"https:\/\/github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Make an donation <a target=\"blank\" href=\"https://enzon19.bolhastudios.com/#donate\">here</a>.",
+    "message": "Developed by <a target=\"blank\" href=\"https://enzon19.com\">Enzo (enzon19)<\/a>. Design made using <a target=\"blank\" href=\"https://www.muicss.com\">MUI<\/a>. See this project on <a target=\"blank\" href=\"https:\/\/github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Make an donation <a target=\"blank\" href=\"https://enzon19.com/#donate\">here</a>.",
     "description": "Na página de boas vindas"
   },
   "startUsing": { 

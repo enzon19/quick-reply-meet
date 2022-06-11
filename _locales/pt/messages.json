@@ -152,7 +152,7 @@
     "description": "Mostrado ao trocar os valores de CheckMeetStarts e WaitToAppend"
   },
   "credits": {
-    "message": "Desenvolvido por <a target=\"blank\" href=\"https://enzon19.bolhastudios.com\">Enzo (enzon19)<\/a>. Veja esse projeto no <a target=\"blank\" href=\"https://github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Faça uma doação <a target=\"blank\" href=\"https://enzon19.bolhastudios.com/#donate\">aqui</a>.",
+    "message": "Desenvolvido por <a target=\"blank\" href=\"https://enzon19.com\">Enzo (enzon19)<\/a>. Veja esse projeto no <a target=\"blank\" href=\"https://github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Faça uma doação <a target=\"blank\" href=\"https://enzon19.com/#donate\">aqui</a>.",
     "description": ""
   },
   "welcomeTitle": { 
@@ -272,7 +272,7 @@
     "description": ""
   },
   "creditsComplete": { 
-    "message": "Desenvolvido por <a target=\"blank\" href=\"https://enzon19.bolhastudios.com\">Enzo (enzon19)<\/a>. Design feito usando <a target=\"blank\" href=\"https://www.muicss.com\">MUI<\/a>. Veja esse projeto no <a target=\"blank\" href=\"https://github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Faça uma doação <a target=\"blank\" href=\"https://enzon19.bolhastudios.com/#donate\">aqui</a>.",
+    "message": "Desenvolvido por <a target=\"blank\" href=\"https://enzon19.com\">Enzo (enzon19)<\/a>. Design feito usando <a target=\"blank\" href=\"https://www.muicss.com\">MUI<\/a>. Veja esse projeto no <a target=\"blank\" href=\"https://github.com\/enzon19\/quick-reply-meet\">GitHub<\/a>. Faça uma doação <a target=\"blank\" href=\"https://enzon19.com/#donate\">aqui</a>.",
     "description": "Na página de boas vindas"
   },
   "startUsing": { 
