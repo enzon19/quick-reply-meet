@@ -8,4 +8,4 @@ Create shortcuts for messages usually used by you to be sent quickly on chat.
 ### Get the messages ready for meetings
 Do you always send the same message when you enter a meeting? Tired of typing this every day? With the Quick Reply Meet extension, message shortcuts predefined by you will be added to the chat so you can send with a single click.
 
-**Know more about this project [here, on the site of the extension](https://google.com).**
+**Know more about this project [here, on the site of the extension](https://qrm.enzon19.com).**
