@@ -76,7 +76,7 @@ textarea {
 }
 
 .maxImageSize {
-  max-width: 396px !important;
+  max-width: 392px !important;
   max-height: max-content;
   border: 2px solid #0f8c80;
   border-radius: 8px;
