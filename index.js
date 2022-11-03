@@ -2,7 +2,7 @@
 let settings = chrome.storage.sync.get(['ButtonsRoundness', 'CheckMeetStarts', 'WaitToAppend', 'buttonsPosition', 'leftClickAction', 'rightClickAction', 'messageList']);
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  const chat = document.getElementsByTagName('textarea')[0].parentNode;
+  const chat = document.getElementsByTagName('textarea')[0];
   if (chat && request == 'update') addShortcutsToChat(chat, true);
   sendResponse(true);
 });
@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     clearInterval(waitButton);
     chatButton.parentNode.click();
     setTimeout(() => {
-      addShortcutsToChat(document.getElementsByTagName('textarea')[0].parentNode, true);
+      addShortcutsToChat(document.getElementsByTagName('textarea')[0], true);
     }, settings.WaitToAppend);
   }
 })();
@@ -45,7 +45,7 @@ async function addShortcutsToChat(chat, refresh) {
     settings = await chrome.storage.sync.get(['ButtonsRoundness', 'CheckMeetStarts', 'WaitToAppend', 'buttonsPosition', 'leftClickAction', 'rightClickAction', 'messageList']);
   }
 
-  const fullChat = chat.parentNode.parentNode.parentNode;
+  const fullChat = chat.parentNode.parentNode.parentNode.parentNode;
   const positionProperties = {
     'afterend': {
       'position': 'afterend',
