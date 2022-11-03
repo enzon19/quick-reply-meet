@@ -2,7 +2,7 @@
 let settings = chrome.storage.sync.get(['ButtonsRoundness', 'CheckMeetStarts', 'WaitToAppend', 'buttonsPosition', 'leftClickAction', 'rightClickAction', 'messageList']);
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  const chat = document.getElementsByTagName('textarea')[0];
+  const chat = document.getElementsByTagName('textarea')[0].parentNode;
   if (chat && request == 'update') addShortcutsToChat(chat, true);
   sendResponse(true);
 });
@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     clearInterval(waitButton);
     chatButton.parentNode.click();
     setTimeout(() => {
-      addShortcutsToChat(document.getElementsByTagName('textarea')[0], true);
+      addShortcutsToChat(document.getElementsByTagName('textarea')[0].parentNode, true);
     }, settings.WaitToAppend);
   }
 })();

@@ -3,7 +3,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "author": "Enzo N. Barata @ Bolha (enzon19)",
-  "version": "1.0.0.1",
+  "version": "1.0.0.2",
   "homepage_url": "https://quickreplymeet.enzon19.com",
   "default_locale": "en",
   "icons": { 

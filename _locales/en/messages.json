@@ -283,8 +283,16 @@
     "message": "Updated!",
     "description": ""
   },
-  "extensionUpdated": { 
-    "message": "The extension is updated.",
+  "updatedPageTitle": { 
+    "message": "Update for",
+    "description": ""
+  },
+  "updateVersion": { 
+    "message": "Update v1.0.0.2",
+    "description": ""
+  },
+  "updateChangelog": { 
+    "message": "[Fixed] Buttons appearing in the input.",
     "description": ""
   }
 }

@@ -283,8 +283,20 @@
     "message": "Atualizado!",
     "description": ""
   },
+  "updatedPageTitle": { 
+    "message": "Atualização para",
+    "description": ""
+  },
   "extensionUpdated": { 
     "message": "A extensão está atualizada.",
+    "description": ""
+  },
+  "updateVersion": { 
+    "message": "Atualização v1.0.0.2",
+    "description": ""
+  },
+  "updateChangelog": { 
+    "message": "[Corrigido] Botões aparecendo no campo de texto.",
     "description": ""
   }
 }
