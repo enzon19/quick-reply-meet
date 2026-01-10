@@ -1,0 +1,85 @@
+{
+	"@@locale": {
+		"message": "pt_BR",
+		"description": "Language code of this file"
+	},
+	"extensionName": {
+		"message": "Quick Reply para Google Meet",
+		"description": "Nome da extensão"
+	},
+	"extensionDescription": {
+		"message": "Envie mensagens no chat sem precisar digitar.",
+		"description": "Descrição da extensão"
+	},
+	"messages": {
+		"message": "Mensagens"
+	},
+	"settings": {
+		"message": "Configurações",
+		"description": ""
+	},
+	"noMessagesFallback": {
+		"message": "Você não tem nenhuma mensagem.<br>Crie uma clicando no +",
+		"description": ""
+	},
+	"newMessageButton": {
+		"message": "Nova mensagem",
+		"description": ""
+	},
+	"editMessageTitle": {
+		"message": "Editar mensagem",
+		"description": ""
+	},
+	"newMessageTitle": {
+		"message": "Nova mensagem",
+		"description": ""
+	},
+	"messageContentField": {
+		"message": "Conteúdo da mensagem",
+		"description": ""
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Enviar mensagem no chat imediatamente",
+		"description": ""
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Se desativar, a mensagem será adicionada ao campo de envio primeiro, necessitando que você clique no botão de envio.",
+		"description": ""
+	},
+	"chatRegexField": {
+		"message": "Responder automaticamente (Regex)",
+		"description": ""
+	},
+	"keyboardShortcutLabel": {
+		"message": "Atalho de teclado: $1",
+		"description": ""
+	},
+	"keyboardShortcutButton": {
+		"message": "Registrar atalho",
+		"description": ""
+	},
+	"keyboardShortcutRecording": {
+		"message": "Registrando...",
+		"description": ""
+	},
+	"deleteMessageButton": {
+		"message": "Apagar",
+		"description": ""
+	},
+	"saveMessageButton": {
+		"message": "Salvar",
+		"description": ""
+	},
+	"cancelButton": {
+		"message": "Cancelar",
+		"description": ""
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Delete message?",
+		"description": ""
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" will be permanently removed from your browser.",
+		"description": ""
+	}
+}

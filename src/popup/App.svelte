@@ -1,0 +1,122 @@
+<script lang="ts">
+	import {
+		LoadingIndicator,
+		NavCMLX,
+		NavCMLXItem,
+		sharedAxisTransition,
+		TextFieldOutlined
+	} from 'm3-svelte';
+	import 'svooltip/styles.css';
+
+	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import MessagesList from './pages/MessagesList.svelte';
+	import ManageMessage from './pages/ManageMessage.svelte';
+	import { onMount } from 'svelte';
+	const settingsIcon = materialSymbols['settings'];
+	const messagesIcon = materialSymbols['android-messages'];
+	const settingsIconOutline = materialSymbols['settings-outline'];
+	const messagesIconOutline = materialSymbols['android-messages-outline'];
+
+	let page: 'messages' | 'settings' = $state('messages');
+	let messagesSubpage: MessagesSubpages = $state('list');
+
+	let messages: Message[] = $state([]);
+	let loading = $state(true);
+	async function loadMessages() {
+		console.log('loading messages from storage');
+
+		loading = true;
+		const result = (await chrome.storage.local.get('messages')) as Record<'messages', Message[]>;
+		messages = result.messages ?? [];
+		loading = false;
+	}
+
+	let currentMessage: Message | undefined = $state();
+
+	function normalizeMessage(m: Message): Message {
+		return {
+			...m,
+			keyboardShortcut: m.keyboardShortcut ? [...m.keyboardShortcut] : []
+		};
+	}
+
+	async function onMessageUpdate(updatedMessage: Partial<Message>) {
+		if (updatedMessage) {
+			if (!updatedMessage.id) {
+				updatedMessage.id = crypto.randomUUID();
+				messages.push(updatedMessage as Message);
+			} else {
+				const index = messages.findIndex((e) => e.id === updatedMessage.id);
+				messages[index] = updatedMessage as Message;
+			}
+
+			await chrome.storage.local.set({
+				messages: messages.map(normalizeMessage)
+			});
+		}
+	}
+
+	async function onMessageDelete(updatedMessage: Partial<Message>) {
+		messages = messages.filter((e) => e.id !== updatedMessage.id);
+
+		await chrome.storage.local.set({
+			messages: messages.map(normalizeMessage)
+		});
+	}
+
+	onMount(loadMessages);
+</script>
+
+<div class="page-container">
+	{#if page == 'messages'}
+		{#if messagesSubpage === 'list'}
+			{#if loading}
+				<div style="text-align: center">
+					<LoadingIndicator />
+				</div>
+			{:else}
+				<MessagesList {messages} bind:currentMessage bind:page={messagesSubpage} />
+			{/if}
+		{:else if (messagesSubpage === 'new' || messagesSubpage === 'edit') && currentMessage}
+			<ManageMessage
+				message={currentMessage}
+				onchange={onMessageUpdate}
+				ondelete={onMessageDelete}
+				bind:page={messagesSubpage}
+				state={messagesSubpage} />
+		{/if}
+	{:else if page === 'settings'}
+		<div>config</div>
+	{/if}
+</div>
+
+<NavCMLX variant="compact">
+	<NavCMLXItem
+		variant="compact"
+		icon={page === 'messages' ? messagesIcon : messagesIconOutline}
+		text={chrome.i18n.getMessage('messages')}
+		onclick={() => {
+			if (page === 'messages') messagesSubpage = 'list';
+			page = 'messages';
+		}}
+		selected={page === 'messages'}
+		disabled={false} />
+	<NavCMLXItem
+		variant="compact"
+		icon={page === 'settings' ? settingsIcon : settingsIconOutline}
+		text={chrome.i18n.getMessage('settings')}
+		onclick={() => (page = 'settings')}
+		selected={page === 'settings'} />
+</NavCMLX>
+
+<style>
+	.page-container {
+		position: relative;
+		overflow: auto;
+		overflow-x: hidden;
+		height: 400px;
+		padding: 16px;
+		display: flex;
+		flex-direction: column;
+	}
+</style>
