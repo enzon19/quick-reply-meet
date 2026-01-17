@@ -1,5 +1,13 @@
 <script lang="ts">
-	import { Button, Dialog, Icon, Switch, TextFieldOutlined } from 'm3-svelte';
+	import {
+		Button,
+		Dialog,
+		Icon,
+		Switch,
+		Tabs,
+		TextFieldOutlined,
+		TextFieldOutlinedMultiline
+	} from 'm3-svelte';
 	import 'svooltip/styles.css';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
@@ -22,6 +30,8 @@
 		ondelete: (updatedMessage: Partial<Message>) => void;
 	} = $props();
 
+	let currentTab: 'details' | 'triggers' = $state('details');
+
 	function saveMessage() {
 		if (message.content && message.content != '') onchange(message);
 	}
@@ -37,8 +47,8 @@
 		deleteDialogOpen = false;
 		saveMessage();
 		message = {};
+		currentTab = 'details';
 	}
-
 </script>
 
 <Dialog bind:open={deleteDialogOpen} headline={chrome.i18n.getMessage('deleteMessageDialogTitle')}>
@@ -51,7 +61,7 @@
 	{/snippet}
 </Dialog>
 
-<div class="flex-center" style="justify-content: space-between; margin-bottom: 16px">
+<div class="flex-center" style="justify-content: space-between;">
 	<div class="flex-center">
 		<button onclick={goBack}>
 			<Icon icon={arrowBackIcon} />
@@ -60,22 +70,32 @@
 	</div>
 </div>
 <div class="flex-gap">
-	<TextFieldOutlined
-		bind:value={message.content}
-		label={chrome.i18n.getMessage('messageContentField')} />
-	<label class="switch-label">
-		<div>
-			<div>{chrome.i18n.getMessage('sendRightAwayToggleLabel')}</div>
-			<p style="font-size: 8pt; margin: 4px 0px 0px; color: var(--m3c-on-surface-variant)">
-				{chrome.i18n.getMessage('sendRightAwayToggleDescription')}
-			</p>
-		</div>
-		<Switch bind:checked={message.sendRightAway} />
-	</label>
-	<TextFieldOutlined
-		label={chrome.i18n.getMessage('chatRegexField')}
-		bind:value={message.chatRegex} />
-	<ShortcutRecorder bind:shortcut={message.keyboardShortcut} />
+	<Tabs
+		bind:tab={currentTab}
+		items={[
+			{ name: chrome.i18n.getMessage('detailsTab'), value: 'details' },
+			{ name: chrome.i18n.getMessage('triggersTab'), value: 'triggers' }
+		]} />
+
+	{#if currentTab === 'details'}
+		<TextFieldOutlinedMultiline
+			bind:value={message.content}
+			label={chrome.i18n.getMessage('messageContentField')} />
+		<label class="switch-label">
+			<div>
+				<div>{chrome.i18n.getMessage('sendRightAwayToggleLabel')}</div>
+				<p style="font-size: 8pt; margin: 4px 0px 0px; color: var(--m3c-on-surface-variant)">
+					{chrome.i18n.getMessage('sendRightAwayToggleDescription')}
+				</p>
+			</div>
+			<Switch bind:checked={message.sendRightAway} />
+		</label>
+	{:else if currentTab === 'triggers'}
+		<TextFieldOutlined
+			label={chrome.i18n.getMessage('chatRegexField')}
+			bind:value={message.chatRegex} />
+		<ShortcutRecorder bind:shortcut={message.keyboardShortcut} />
+	{/if}
 </div>
 <div class="buttons-end">
 	{#if managementType == 'edit'}
@@ -91,6 +111,10 @@
 <style>
 	:global(.m3-container:has(> input)) {
 		width: 100%;
+	}
+
+	:global(.m3-container:has(> textarea)) {
+		min-height: 3.5rem !important;
 	}
 
 	.switch-label {
@@ -143,6 +167,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		margin-bottom: 16px;
 	}
 
 	.buttons-end {

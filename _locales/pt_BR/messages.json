@@ -85,5 +85,13 @@
 	"deleteMessageDialogDescription": {
 		"message": "\"$1\" será removida permanentemente do seu navegador.",
 		"description": ""
+	},
+	"detailsTab": {
+		"message": "Detalhes",
+		"description": ""
+	},
+	"triggersTab": {
+		"message": "Gatilhos",
+		"description": ""
 	}
 }
