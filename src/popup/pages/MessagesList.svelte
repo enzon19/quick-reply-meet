@@ -37,7 +37,7 @@
 	{#each messages as message (message.id)}
 		<div animate:flip={{ duration: flipDurationMs }}>
 			<ListItem
-				headline={message.content}
+				headline={message.content.substring(0, 40) + (message.content.length > 40 ? '...' : '')}
 				onclick={() => {
 					currentMessage = message;
 					page = 'edit';
