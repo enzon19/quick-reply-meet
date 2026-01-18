@@ -20,6 +20,7 @@
 
 	let page: 'messages' | 'settings' = $state('messages');
 	let messagesSubpage: MessagesSubpages = $state('list');
+	let settingsSubpage: SettingsSubpages = $state();
 
 	let messages: Message[] = $state([]);
 	let loading = $state(true);
@@ -87,7 +88,7 @@
 				state={messagesSubpage} />
 		{/if}
 	{:else if page === 'settings'}
-		<Settings />
+		<Settings bind:page={settingsSubpage} />
 	{/if}
 </div>
 
@@ -106,8 +107,12 @@
 		variant="compact"
 		icon={page === 'settings' ? settingsIcon : settingsIconOutline}
 		text={chrome.i18n.getMessage('settings')}
-		onclick={() => (page = 'settings')}
-		selected={page === 'settings'} />
+		onclick={() => {
+			if (page === 'settings') settingsSubpage = undefined;
+			page = 'settings';
+		}}
+		selected={page === 'settings'}
+		disabled={false} />
 </NavCMLX>
 
 <style>

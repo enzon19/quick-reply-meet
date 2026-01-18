@@ -93,5 +93,17 @@
 	"triggersTab": {
 		"message": "Gatilhos",
 		"description": ""
+	},
+	"settingsButtonsRoundness": {
+		"message": "Redondeza dos Botões",
+		"description": ""
+	},
+	"settingsButtonsPosition": {
+		"message": "Posição dos Botões",
+		"description": ""
+	},
+	"settingsAbout": {
+		"message": "Sobre o Quick Reply Meet",
+		"description": ""
 	}
 }
