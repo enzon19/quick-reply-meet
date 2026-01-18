@@ -11,6 +11,7 @@
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	import MessagesList from './pages/MessagesList.svelte';
 	import ManageMessage from './pages/ManageMessage.svelte';
+	import Settings from './pages/Settings.svelte';
 	import { onMount } from 'svelte';
 	const settingsIcon = materialSymbols['settings'];
 	const messagesIcon = materialSymbols['android-messages'];
@@ -86,7 +87,7 @@
 				state={messagesSubpage} />
 		{/if}
 	{:else if page === 'settings'}
-		<div>config</div>
+		<Settings />
 	{/if}
 </div>
 
