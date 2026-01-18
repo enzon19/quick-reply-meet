@@ -88,6 +88,10 @@
 		z-index: 1;
 	}
 
+	.list-wrapper > * + * {
+		border-top: solid 1px var(--m3c-outline-variant);
+	}
+
 	.drag-handle {
 		width: 25px;
 		height: 25px;
