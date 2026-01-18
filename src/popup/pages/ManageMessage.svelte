@@ -12,7 +12,8 @@
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	import ShortcutRecorder from '@/components/ShortcutRecorder.svelte';
-	const arrowBackIcon = materialSymbols['arrow-back'];
+	import AppBar from '@/components/AppBar.svelte';
+	import TextFieldOutlinedSecretMultiline from '@/components/TextFieldOutlinedSecretMultiline.svelte';
 	const deleteIcon = materialSymbols['delete-forever'];
 	const checkIcon = materialSymbols['check'];
 
@@ -52,7 +53,11 @@
 </script>
 
 <Dialog bind:open={deleteDialogOpen} headline={chrome.i18n.getMessage('deleteMessageDialogTitle')}>
-	{chrome.i18n.getMessage('deleteMessageDialogDescription', message.content)}
+	{chrome.i18n.getMessage(
+		'deleteMessageDialogDescription',
+		message.content?.substring(0, 40) +
+			(message.content && message.content.length > 40 ? '...' : '')
+	)}
 	{#snippet buttons()}
 		<Button variant="text" onclick={() => (deleteDialogOpen = false)}
 			>{chrome.i18n.getMessage('cancelButton')}</Button>
@@ -61,14 +66,7 @@
 	{/snippet}
 </Dialog>
 
-<div class="flex-center" style="justify-content: space-between;">
-	<div class="flex-center">
-		<button onclick={goBack}>
-			<Icon icon={arrowBackIcon} />
-		</button>
-		<h1>{chrome.i18n.getMessage(managementType + 'MessageTitle')}</h1>
-	</div>
-</div>
+<AppBar title={chrome.i18n.getMessage(managementType + 'MessageTitle')} {goBack} />
 <div class="flex-gap">
 	<Tabs
 		bind:tab={currentTab}
@@ -78,9 +76,11 @@
 		]} />
 
 	{#if currentTab === 'details'}
-		<TextFieldOutlinedMultiline
+		<TextFieldOutlinedSecretMultiline
 			bind:value={message.content}
-			label={chrome.i18n.getMessage('messageContentField')} />
+			id="messageContentInput"
+			label={chrome.i18n.getMessage('messageContentField')}
+			maxlength={2000} />
 		<label class="switch-label">
 			<div>
 				<div>{chrome.i18n.getMessage('sendRightAwayToggleLabel')}</div>
@@ -113,10 +113,6 @@
 		width: 100%;
 	}
 
-	:global(.m3-container:has(> textarea)) {
-		min-height: 3.5rem !important;
-	}
-
 	.switch-label {
 		display: flex;
 		justify-content: space-between;
@@ -124,43 +120,10 @@
 		gap: 8px;
 	}
 
-	button {
-		all: unset;
-		cursor: pointer;
-		width: 40px;
-		height: 40px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border-radius: 100%;
-		margin: 8px 14px 8px 3px;
-	}
-
-	button:hover {
-		background-color: var(--m3c-surface-container-highest);
-	}
-
-	button :global(svg) {
-		width: 24px;
-		height: 24px;
-	}
-
-	h1 {
-		margin: 0;
-		font-family: 'Google Sans Flex', sans-serif;
-		font-weight: 400;
-		font-size: 22pt;
-	}
-
 	label {
 		margin: 0;
 		font-size: 12pt;
 		font-family: 'Google Sans Flex', sans-serif;
-	}
-
-	.flex-center {
-		display: flex;
-		align-items: center;
 	}
 
 	.flex-gap {
