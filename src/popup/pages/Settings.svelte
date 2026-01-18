@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { ListItem, Divider, Icon } from 'm3-svelte';
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import AppBar from '@/components/AppBar.svelte';
 
 	const roundnessIcon = materialSymbols['rounded-corner'];
 	const positionIcon = materialSymbols['position-bottom-left'];
@@ -13,16 +14,22 @@
 	} = $props();
 </script>
 
-{#if page == 'buttonRoundness'}
-	buttonRoundness
-{:else if page == 'buttonPosition'}
-	buttonPosition
+{#if page}
+	<AppBar
+		title={chrome.i18n.getMessage('settings' + page[0].toUpperCase() + page.substring(1))}
+		goBack={() => (page = undefined)} />
+{/if}
+
+{#if page == 'buttonsRoundness'}
+	buttonsRoundness
+{:else if page == 'buttonsPosition'}
+	buttonsPosition
 {:else if page == 'about'}
 	about
 {:else}
 	<ListItem
 		headline={chrome.i18n.getMessage('settingsButtonsRoundness')}
-		onclick={() => (page = 'buttonRoundness')}>
+		onclick={() => (page = 'buttonsRoundness')}>
 		{#snippet leading()}
 			<Icon icon={roundnessIcon} />
 		{/snippet}
@@ -30,7 +37,7 @@
 	<Divider />
 	<ListItem
 		headline={chrome.i18n.getMessage('settingsButtonsPosition')}
-		onclick={() => (page = 'buttonPosition')}>
+		onclick={() => (page = 'buttonsPosition')}>
 		{#snippet leading()}
 			<Icon icon={positionIcon} />
 		{/snippet}
