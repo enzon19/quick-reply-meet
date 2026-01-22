@@ -5,15 +5,15 @@
 		Icon,
 		Switch,
 		Tabs,
-		TextFieldOutlined,
-		TextFieldOutlinedMultiline
+		TextFieldOutlined
 	} from 'm3-svelte';
 	import 'svooltip/styles.css';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	import ShortcutRecorder from '@/components/ShortcutRecorder.svelte';
 	import AppBar from '@/components/AppBar.svelte';
 	import TextFieldOutlinedSecretMultiline from '@/components/TextFieldOutlinedSecretMultiline.svelte';
+	
+	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const deleteIcon = materialSymbols['delete-forever'];
 	const checkIcon = materialSymbols['check'];
 
