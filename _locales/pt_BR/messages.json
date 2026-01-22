@@ -105,5 +105,13 @@
 	"settingsAbout": {
 		"message": "Sobre o Quick Reply Meet",
 		"description": ""
+	},
+	"credits": {
+		"message": "Desenvolvido por <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": ""
+	},
+	"donateButton": {
+		"message": "Doar",
+		"description": ""
 	}
 }
