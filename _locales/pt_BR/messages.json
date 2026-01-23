@@ -102,6 +102,14 @@
 		"message": "Posição dos Botões",
 		"description": ""
 	},
+	"bottomButtonsPosition": {
+		"message": "Botões abaixo do campo de mensagem",
+		"description": ""
+	},
+	"topButtonsPosition": {
+		"message": "Botões acima do campo de mensagem",
+		"description": ""
+	},
 	"settingsAbout": {
 		"message": "Sobre o Quick Reply Meet",
 		"description": ""
