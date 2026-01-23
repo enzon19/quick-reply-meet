@@ -118,7 +118,6 @@
 <style>
 	.page-container {
 		position: relative;
-		overflow: auto;
 		overflow-x: hidden;
 		height: 400px;
 		padding: 16px;
