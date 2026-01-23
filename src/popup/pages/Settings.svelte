@@ -74,19 +74,21 @@
 		{/snippet}
 	</ListItem>
 {:else if page == 'about'}
-	<img src="/logo512.png" class="logo" alt="Quick Reply Meet Logo" />
-	<h1>Quick Reply Meet</h1>
-	<p>2026 • v2.0.0</p>
-	<p>{@html chrome.i18n.getMessage('credits')}</p>
-	<div class="flex">
-		<Button iconType="left" href="https://enzon19.com/donate" target="_blank">
-			<Icon icon={heartIcon} viewBox="0 0 24 24" />
-			{chrome.i18n.getMessage('donateButton')}
-		</Button>
-		<Button iconType="left" href="https://github.com/enzon19/quick-reply-meet" target="_blank">
-			<Icon icon={ghIcon} viewBox="0 0 24 24" />
-			GitHub
-		</Button>
+	<div class="about">
+		<img src="/logo512.png" class="logo" alt="Quick Reply Meet Logo" />
+		<h1>Quick Reply Meet</h1>
+		<p>2026 • v2.0.0</p>
+		<p>{@html chrome.i18n.getMessage('credits')}</p>
+		<div class="flex">
+			<Button iconType="left" href="https://enzon19.com/donate" target="_blank">
+				<Icon icon={heartIcon} viewBox="0 0 24 24" />
+				{chrome.i18n.getMessage('donateButton')}
+			</Button>
+			<Button iconType="left" href="https://github.com/enzon19/quick-reply-meet" target="_blank">
+				<Icon icon={ghIcon} viewBox="0 0 24 24" />
+				GitHub
+			</Button>
+		</div>
 	</div>
 {:else}
 	<ListItem
@@ -135,20 +137,13 @@
 	.flex {
 		display: flex;
 		flex-direction: row;
-		gap: 5px;
+		gap: 10px;
 		margin: 18px auto 0px auto;
 	}
 
-	label {
-		display: inline-flex;
-		font-size: 0.875rem;
-		gap: 1.5rem;
-	}
-
-	.radios {
+	.about {
 		display: flex;
 		flex-direction: column;
-		gap: 1.5rem;
 	}
 
 	:global(.m3-container input[type='range'] ~ .value) {
