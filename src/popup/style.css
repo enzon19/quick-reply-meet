@@ -70,3 +70,8 @@
 body {
 	margin: 0px;
 }
+
+.link {
+	color: var(--m3c-primary);
+	text-decoration: none;
+}
