@@ -3,12 +3,8 @@
 		"message": "pt_BR",
 		"description": "Language code of this file"
 	},
-	"extensionName": {
-		"message": "Quick Reply para Google Meet",
-		"description": "Nome da extensão"
-	},
 	"extensionDescription": {
-		"message": "Envie mensagens no chat sem precisar digitar.",
+		"message": "Envie mensagens no chat do Google Meet sem precisar digitar.",
 		"description": "Descrição da extensão"
 	},
 	"messages": {
