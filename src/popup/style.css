@@ -8,8 +8,6 @@
 	background-color: var(--m3c-surface);
 	color: var(--m3c-on-surface);
 	color-scheme: light dark;
-	height: 400px;
-	width: 450px;
 
 	--svooltip-bg: var(--m3c-surface-container-highest);
 	--svooltip-text: var(--m3c-on-surface);

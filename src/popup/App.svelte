@@ -120,6 +120,7 @@
 		position: relative;
 		overflow-x: hidden;
 		height: 400px;
+		width: 450px;
 		padding: 16px;
 		display: flex;
 		flex-direction: column;
