@@ -25,8 +25,6 @@
 	let messages: Message[] = $state([]);
 	let loading = $state(true);
 	async function loadMessages() {
-		console.log('loading messages from storage');
-
 		loading = true;
 		const result = (await chrome.storage.local.get('messages')) as Record<'messages', Message[]>;
 		messages = result.messages ?? [];
