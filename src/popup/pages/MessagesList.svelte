@@ -19,7 +19,6 @@
 		page: MessagesSubpages;
 	} = $props();
 
-	$inspect(messages);
 	const flipDurationMs = 200;
 	async function handleSort(e: any) {
 		messages = e.detail.items;

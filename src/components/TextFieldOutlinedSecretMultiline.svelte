@@ -16,7 +16,6 @@
 		if (!container) return;
 
 		requestAnimationFrame(() => {
-			console.log('fix textarea');
 			if (textarea.scrollHeight > container.clientHeight) {
 				textarea.dispatchEvent(new Event('input', { bubbles: true }));
 			}
