@@ -21,9 +21,13 @@
 	let buttonsPosition: 'top' | 'bottom' | undefined = $state();
 
 	onMount(async () => {
-		const { borderRadius: borderRadiusFromSync } = await chrome.storage.sync.get('borderRadius');
-		const { buttonsPosition: buttonsPositionFromSync } =
-			await chrome.storage.sync.get('buttonsPosition');
+		const { settings } = (await chrome.storage.sync.get('settings')) as { settings: Settings };
+		let borderRadiusFromSync: any, buttonsPositionFromSync: any;
+
+		if (settings) {
+			borderRadiusFromSync = settings.buttons.roundness;
+			buttonsPositionFromSync = settings.buttons.position;
+		}
 
 		if (borderRadiusFromSync != null) {
 			borderRadius = Number(borderRadiusFromSync);
@@ -31,15 +35,25 @@
 			borderRadius = 20;
 		}
 
-		if (buttonsPositionFromSync && ['top', 'bottom'].includes(buttonsPositionFromSync.toString()))
+		if (buttonsPositionFromSync && ['top', 'bottom'].includes(buttonsPositionFromSync.toString())) {
 			buttonsPosition = buttonsPositionFromSync as 'top' | 'bottom';
+		} else {
+			buttonsPosition = 'top';
+		}
 	});
 
+	function syncSettings() {
+		const settings: Settings = {
+			buttons: {
+				position: buttonsPosition || 'top',
+				roundness: borderRadius ?? 20
+			}
+		};
+
+		chrome.storage.sync.set({ settings });
+	}
 	$effect(() => {
-		if (borderRadius != null) chrome.storage.sync.set({ borderRadius });
-	});
-	$effect(() => {
-		if (buttonsPosition) chrome.storage.sync.set({ buttonsPosition });
+		if (buttonsPosition) syncSettings();
 	});
 </script>
 
@@ -53,7 +67,7 @@
 	<ChatIllustration {borderRadius} {buttonsPosition} />
 	<div style="margin-top: 16px">
 		{#if borderRadius != null}
-			<Slider bind:value={borderRadius} endStops={false} max={25} />
+			<Slider bind:value={borderRadius} endStops={false} max={25} onchange={() => syncSettings()} />
 		{/if}
 	</div>
 {:else if page == 'buttonsPosition'}
