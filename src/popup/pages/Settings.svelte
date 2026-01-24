@@ -67,7 +67,12 @@
 	<ChatIllustration {borderRadius} {buttonsPosition} />
 	<div style="margin-top: 16px">
 		{#if borderRadius != null}
-			<Slider bind:value={borderRadius} endStops={false} max={25} onchange={() => syncSettings()} />
+			<Slider
+				bind:value={borderRadius}
+				endStops={false}
+				max={25}
+				step={1}
+				onchange={() => syncSettings()} />
 		{/if}
 	</div>
 {:else if page == 'buttonsPosition'}
