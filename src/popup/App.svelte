@@ -36,7 +36,8 @@
 	function normalizeMessage(m: Message): Message {
 		return {
 			...m,
-			keyboardShortcut: m.keyboardShortcut ? [...m.keyboardShortcut] : []
+			keyboardShortcut:
+				m.keyboardShortcut && Array.isArray(m.keyboardShortcut) ? [...m.keyboardShortcut] : []
 		};
 	}
 
