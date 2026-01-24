@@ -1,0 +1,37 @@
+#qrm-buttons-container {
+	display: inline-grid;
+	column-gap: 0.5rem;
+	grid-auto-flow: column;
+	text-align: center;
+	display: grid;
+	grid-auto-flow: column;
+	overflow-x: auto;
+	white-space: nowrap;
+	margin: 0px 15px;
+	padding-bottom: 15px;
+	scrollbar-gutter: stable;
+}
+
+#qrm-buttons-container.qrm-bottom {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.qrm-button {
+	all: unset;
+	font-family: 'Google Sans', Roboto, Arial, sans-serif;
+	font-size: 0.875rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.25rem;
+	color: var(--gm3-sys-color-on-surface, #1f1f1f);
+	background-color: var(--gm3-sys-color-surface-container-high, #e9eef6);
+	padding: 0.75rem;
+	cursor: pointer;
+	border-radius: var(--qrm-radius, 20px);
+	transition: background-color 0.2s;
+}
+
+.qrm-button:hover {
+	background-color: var(--gm3-sys-color-surface-container-highest, #e9eef6);
+}

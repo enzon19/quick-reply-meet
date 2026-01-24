@@ -25,11 +25,11 @@ export default defineManifest({
 	action: {
 		default_icon: icons,
 		default_popup: 'src/popup/index.html'
-	}
-	// content_scripts: [
-	//   {
-	//     js: ["src/content/main.ts"],
-	//     matches: ["https://*/*"],
-	//   },
-	// ]
+	},
+	content_scripts: [
+		{
+			matches: ['https://meet.google.com/*'],
+			js: ['src/content/main.ts']
+		}
+	]
 });
