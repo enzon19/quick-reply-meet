@@ -31,7 +31,7 @@
 }
 
 .qrm-button:hover {
-	background-color: var(--gm3-sys-color-surface-container-highest, #e9eef6);
+	background-color: var(--gm3-sys-color-surface-container-highest, #c5c9cf);
 }
 
 #qrm-buttons-container::-webkit-scrollbar {
