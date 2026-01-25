@@ -1,4 +1,5 @@
 export function typeInInput(input: HTMLTextAreaElement | HTMLInputElement, value: string) {
+	console.log("[QRM] Typing message in input.");
 	input.value = value;
 	input.dispatchEvent(new Event('input', { bubbles: true }));
 }
