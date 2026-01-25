@@ -4,7 +4,7 @@ export function typeInInput(input: HTMLTextAreaElement | HTMLInputElement, value
 }
 
 export function waitForClear(input: HTMLTextAreaElement | HTMLInputElement): Promise<void> {
-	return new Promise(resolve => {
+	return new Promise((resolve) => {
 		const observer = new MutationObserver(() => {
 			if (input.value === '') {
 				observer.disconnect();
