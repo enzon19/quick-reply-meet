@@ -33,21 +33,6 @@ generalUIObserver.observe(document.body, {
 	subtree: true
 });
 
-chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
-	if (message === 'update') {
-		console.log('[QRM] Updated settings.');
-
-		const alreadyAddedButtons = document.querySelector('#qrm-buttons-container');
-		if (!alreadyAddedButtons) return;
-
-		const textarea = document.querySelector('textarea');
-		if (!textarea) return;
-
-		alreadyAddedButtons.remove();
-		sendResponse(true);
-	}
-});
-
 async function addButtons(input: HTMLTextAreaElement) {
 	const root = input.closest(`[jsname="${inputWrapperID}"]`);
 	if (!root) {
@@ -115,10 +100,29 @@ function sendMessage(message: Message, input: HTMLTextAreaElement) {
 			which: 13
 		})
 	);
+	currentlyPressed.clear();
 
 	waitForClear(input).then(() => typeInInput(input, previouslyTypedInputContent));
 }
 
+// FORCE UPDATE WHEN SETTINGS CHANGE
+chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
+	if (message === 'update') {
+		console.log('[QRM] Updated settings.');
+
+		const alreadyAddedButtons = document.querySelector('#qrm-buttons-container');
+		if (!alreadyAddedButtons) return;
+
+		const textarea = document.querySelector('textarea');
+		if (!textarea) return;
+
+		alreadyAddedButtons.remove();
+		sendResponse(true);
+	}
+});
+
+// TRIGGERS
+// Chat RegExp
 let lastProcessedMessageID: string | null = null;
 function checkChat(chatMessages: Element[]) {
 	console.log('[QRM] Checking chat...');
@@ -154,3 +158,55 @@ function checkChat(chatMessages: Element[]) {
 		if (messageInput) sendMessage(matchedMessage, messageInput);
 	}
 }
+// Keyboard Shortcuts
+// <AIGenerated>
+let currentlyPressed = new Set<string>();
+
+function normalizeCode(code: string): string {
+	if (code === 'ControlLeft' || code === 'ControlRight') return 'Control';
+	if (code === 'ShiftLeft' || code === 'ShiftRight') return 'Shift';
+	if (code === 'AltLeft' || code === 'AltRight') return 'Alt';
+	if (code === 'MetaLeft' || code === 'MetaRight') return 'Meta';
+	return code;
+}
+
+function arraysEqual(a: string[], b: Set<string>): boolean {
+	if (a.length !== b.size) return false;
+	return a.every((item) => b.has(item));
+}
+
+document.addEventListener('keydown', (e) => {
+	if (!messageInput) return;
+
+	const normalized = normalizeCode(e.code);
+	currentlyPressed.add(normalized);
+
+	console.log('[QRM] Currently pressed:', Array.from(currentlyPressed));
+
+	// Verificar se alguma combinação corresponde exatamente
+	const matchedMessage = messages.find((m) => {
+		if (!m.keyboardShortcut || m.keyboardShortcut.length === 0) return false;
+		return arraysEqual(m.keyboardShortcut, currentlyPressed);
+	});
+
+	if (matchedMessage) {
+		e.preventDefault();
+		e.stopPropagation();
+		console.log(
+			'[QRM] Keyboard shortcut triggered:',
+			matchedMessage.keyboardShortcut,
+			matchedMessage
+		);
+		sendMessage(matchedMessage, messageInput);
+	}
+});
+
+document.addEventListener('keyup', (e) => {
+	const normalized = normalizeCode(e.code);
+	currentlyPressed.delete(normalized);
+});
+
+window.addEventListener('blur', () => {
+	currentlyPressed.clear();
+});
+// </AIGenerated>
