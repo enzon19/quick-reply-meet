@@ -4,7 +4,9 @@ import { typeInInput, waitForClear } from './utils';
 const chatBubbleID = 'dTKtvb';
 const inputWrapperID = 'pob9Hc';
 
-let messages: Message[] = [];
+let messages: (Message & {
+	_compiledRegex?: RegExp;
+})[] = [];
 let hasToCheckChat = false;
 let messageInput: HTMLTextAreaElement | undefined;
 
@@ -21,7 +23,6 @@ const generalUIObserver = new MutationObserver(() => {
 	if (messageInput && alreadyAddedButtons) return;
 
 	messageInput = textarea;
-	// observer.disconnect();
 
 	console.log("[QRM] Trying to add buttons because of page's changes...");
 	addButtons(messageInput);
@@ -65,7 +66,17 @@ async function addButtons(input: HTMLTextAreaElement) {
 		messages: Message[];
 	};
 	messages = messagesFromStorage ?? [];
-	hasToCheckChat = messages.some((e) => e.chatRegex);
+	hasToCheckChat = false;
+	for (const message of messages) {
+		if (message.chatRegex) {
+			try {
+				message._compiledRegex = new RegExp(message.chatRegex, 'i');
+				hasToCheckChat = true;
+			} catch (e) {
+				console.error('[QRM] Error parsing RegExp:', e);
+			}
+		}
+	}
 
 	const buttonContainer = document.createElement('div');
 	buttonContainer.id = 'qrm-buttons-container';
@@ -93,6 +104,7 @@ function sendMessage(message: Message, input: HTMLTextAreaElement) {
 
 	if (!message.sendRightAway) return;
 
+	console.log('[QRM] Automatically sending.');
 	input.dispatchEvent(
 		new KeyboardEvent('keydown', {
 			bubbles: true,
@@ -130,13 +142,11 @@ function checkChat(chatMessages: Element[]) {
 		return;
 	lastProcessedMessageID = lastChatMessageID;
 
-	const matchedMessages = messages.filter(({ chatRegex, content }) => {
-		if (chatRegex) {
-			const regex = new RegExp(chatRegex, 'i');
-			return regex.test(text);
+	const matchedMessages = messages.filter(({ _compiledRegex }) => {
+		if (_compiledRegex) {
+			return _compiledRegex.test(text);
 		}
 	});
-
 	if (matchedMessages.length === 0) return;
 
 	for (const matchedMessage of matchedMessages) {
