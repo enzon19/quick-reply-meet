@@ -8,8 +8,6 @@
 	overflow-x: auto;
 	white-space: nowrap;
 	margin: 0px 15px;
-	padding-bottom: 15px;
-	scrollbar-gutter: stable;
 }
 
 #qrm-buttons-container.qrm-bottom {
@@ -34,4 +32,14 @@
 
 .qrm-button:hover {
 	background-color: var(--gm3-sys-color-surface-container-highest, #e9eef6);
+}
+
+#qrm-buttons-container::-webkit-scrollbar {
+	height: 12px;
+}
+
+#qrm-buttons-container::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	border-top: 0.5rem solid transparent;
+	background-clip: padding-box;
 }
