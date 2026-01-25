@@ -2,9 +2,10 @@
 	import { ListItem, Divider, Icon, Button, Slider, RadioAnim1 } from 'm3-svelte';
 	import AppBar from '@/components/AppBar.svelte';
 	import ChatIllustration from '@/components/ChatIllustration.svelte';
+	import { requestChangesOnPage } from '@/utils';
+	import { onMount } from 'svelte';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
-	import { onMount } from 'svelte';
 	const roundnessIcon = materialSymbols['rounded-corner'];
 	const positionIcon = materialSymbols['position-bottom-left'];
 	const infoIcon = materialSymbols['info'];
@@ -51,6 +52,7 @@
 		};
 
 		chrome.storage.sync.set({ settings });
+		requestChangesOnPage();
 	}
 	$effect(() => {
 		if (buttonsPosition) syncSettings();

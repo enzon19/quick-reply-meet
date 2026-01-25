@@ -1,18 +1,13 @@
 <script lang="ts">
-	import {
-		LoadingIndicator,
-		NavCMLX,
-		NavCMLXItem,
-		sharedAxisTransition,
-		TextFieldOutlined
-	} from 'm3-svelte';
+	import { LoadingIndicator, NavCMLX, NavCMLXItem } from 'm3-svelte';
 	import 'svooltip/styles.css';
-
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { onMount } from 'svelte';
+	import { saveMessages } from '@/utils';
 	import MessagesList from './pages/MessagesList.svelte';
 	import ManageMessage from './pages/ManageMessage.svelte';
 	import Settings from './pages/Settings.svelte';
-	import { onMount } from 'svelte';
+	
+	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const settingsIcon = materialSymbols['settings'];
 	const messagesIcon = materialSymbols['android-messages'];
 	const settingsIconOutline = materialSymbols['settings-outline'];
@@ -33,14 +28,6 @@
 
 	let currentMessage: Message | undefined = $state();
 
-	function normalizeMessage(m: Message): Message {
-		return {
-			...m,
-			keyboardShortcut:
-				m.keyboardShortcut && Array.isArray(m.keyboardShortcut) ? [...m.keyboardShortcut] : []
-		};
-	}
-
 	async function onMessageUpdate(updatedMessage: Partial<Message>) {
 		if (updatedMessage) {
 			if (!updatedMessage.id) {
@@ -51,18 +38,13 @@
 				messages[index] = updatedMessage as Message;
 			}
 
-			await chrome.storage.local.set({
-				messages: messages.map(normalizeMessage)
-			});
+			await saveMessages(messages);
 		}
 	}
 
 	async function onMessageDelete(updatedMessage: Partial<Message>) {
 		messages = messages.filter((e) => e.id !== updatedMessage.id);
-
-		await chrome.storage.local.set({
-			messages: messages.map(normalizeMessage)
-		});
+		await saveMessages(messages);
 	}
 
 	onMount(loadMessages);

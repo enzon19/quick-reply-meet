@@ -4,6 +4,7 @@
 	import 'svooltip/styles.css';
 	import { flip } from 'svelte/animate';
 	import { dragHandleZone, dragHandle } from 'svelte-dnd-action';
+	import { saveMessages } from '@/utils';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const newIcon = materialSymbols['add'];
@@ -22,9 +23,7 @@
 	const flipDurationMs = 200;
 	async function handleSort(e: any) {
 		messages = e.detail.items;
-		await chrome.storage.local.set({
-			messages: [...messages]
-		});
+		saveMessages(messages);
 	}
 </script>
 
