@@ -103,7 +103,7 @@
 			<Icon icon={deleteIcon} viewBox="0 0 24 24" />{chrome.i18n.getMessage('deleteMessageButton')}
 		</Button>
 	{/if}
-	<Button style="width: 100%" onclick={saveMessage}>
+	<Button style="width: 100%" onclick={goBack}>
 		<Icon icon={checkIcon} viewBox="0 0 24 24" />{chrome.i18n.getMessage('saveMessageButton')}
 	</Button>
 </div>
