@@ -1,21 +1,35 @@
 <script lang="ts">
-	import { ListItem, Divider, Icon, Button, Slider, RadioAnim1 } from 'm3-svelte';
+	import {
+		ListItem,
+		Divider,
+		Icon,
+		Button,
+		Slider,
+		RadioAnim1,
+		snackbar,
+		Snackbar
+	} from 'm3-svelte';
 	import AppBar from '@/components/AppBar.svelte';
 	import ChatIllustration from '@/components/ChatIllustration.svelte';
-	import { requestChangesOnPage } from '@/utils';
+	import { requestChangesOnPage, saveMessages } from '@/utils';
 	import { onMount } from 'svelte';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const roundnessIcon = materialSymbols['rounded-corner'];
 	const positionIcon = materialSymbols['position-bottom-left'];
+	const swapIcon = materialSymbols['swap-vert'];
+	const importIcon = materialSymbols['upload'];
+	const exportIcon = materialSymbols['download'];
 	const infoIcon = materialSymbols['info'];
 	const heartIcon = materialSymbols['favorite'];
 	const ghIcon = materialSymbols['code'];
 
 	let {
-		page = $bindable()
+		page = $bindable(),
+		loadMessages
 	}: {
 		page: SettingsSubpages;
+		loadMessages: () => void;
 	} = $props();
 
 	let borderRadius: number | undefined = $state();
@@ -57,6 +71,85 @@
 	$effect(() => {
 		if (buttonsPosition) syncSettings();
 	});
+
+	async function exportMessages() {
+		try {
+			const { messages } = await chrome.storage.local.get('messages');
+
+			const blob = new Blob([JSON.stringify(messages)], {
+				type: 'application/json'
+			});
+			const url = URL.createObjectURL(blob);
+
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = `qrm-export-${Number(new Date())}.json`;
+			a.click();
+
+			URL.revokeObjectURL(url);
+
+			snackbar(chrome.i18n.getMessage('successExport'));
+		} catch (e) {
+			console.error(e);
+			snackbar('Error');
+		}
+	}
+
+	function readFile(file: File): Promise<string> {
+		return new Promise((resolve, reject) => {
+			const reader = new FileReader();
+
+			reader.onload = () => resolve(reader.result as string);
+			reader.onerror = () => reject(reader.error);
+			reader.readAsText(file);
+		});
+	}
+
+	async function importMessages(e: Event) {
+		try {
+			const element = e.target as HTMLInputElement | null;
+			if (!element || !element.files?.length) return;
+
+			const file = element.files[0];
+			if (!file.type.includes('/json')) throw 'Not a JSON file.';
+
+			const importedMessages = JSON.parse(await readFile(file));
+			if (!Array.isArray(importedMessages)) throw 'Not an array.';
+
+			const { messages } = (await chrome.storage.local.get('messages')) as Record<
+				'messages',
+				Message[]
+			>;
+
+			const newMessages: Message[] = [];
+			for (const importedMessage of importedMessages) {
+				if (importedMessage?.id && messages.some((e) => e.id == importedMessage.id)) continue; // se tem o mesmo id, skip
+
+				let newMessage: Partial<Message> = {
+					sendRightAway: importedMessage.sendRightAway ?? true,
+					chatRegex: importedMessage.chatRegex,
+					keyboardShortcut: importedMessage.keyboardShortcut
+				};
+				if (importedMessage.content && importedMessage.id) {
+					newMessage.id = importedMessage.id;
+					newMessage.content = importedMessage.content;
+					newMessages.push(newMessage as Message);
+				}
+			}
+
+			await saveMessages([...messages, ...newMessages]);
+
+			if (newMessages.length > 0) {
+				snackbar(chrome.i18n.getMessage('successImport', newMessages.length.toString()));
+				loadMessages();
+			} else {
+				snackbar(chrome.i18n.getMessage('noImports'));
+			}
+		} catch (e) {
+			console.error(e);
+			snackbar('Error');
+		}
+	}
 </script>
 
 {#if page}
@@ -94,6 +187,29 @@
 			</RadioAnim1>
 		{/snippet}
 	</ListItem>
+{:else if page == 'exportAndImport'}
+	<ListItem headline={chrome.i18n.getMessage('exportButton')} onclick={exportMessages}>
+		{#snippet leading()}
+			<Icon icon={exportIcon} />
+		{/snippet}
+	</ListItem>
+	<Divider />
+	<ListItem
+		headline={chrome.i18n.getMessage('importButton')}
+		onclick={() => (document.querySelector('#import-messages-input') as HTMLInputElement)?.click()}>
+		{#snippet leading()}
+			<Icon icon={importIcon} />
+		{/snippet}
+	</ListItem>
+	<input
+		type="file"
+		id="import-messages-input"
+		accept="application/json"
+		hidden
+		onchange={importMessages} />
+	<div class="snackbarWrapper">
+		<Snackbar />
+	</div>
 {:else if page == 'about'}
 	<div class="about">
 		<img src="/logo512.png" class="logo" alt="Quick Reply Meet Logo" />
@@ -125,6 +241,14 @@
 		onclick={() => (page = 'buttonsPosition')}>
 		{#snippet leading()}
 			<Icon icon={positionIcon} />
+		{/snippet}
+	</ListItem>
+	<Divider />
+	<ListItem
+		headline={chrome.i18n.getMessage('settingsExportAndImport')}
+		onclick={() => (page = 'exportAndImport')}>
+		{#snippet leading()}
+			<Icon icon={swapIcon} />
 		{/snippet}
 	</ListItem>
 	<Divider />
@@ -165,6 +289,10 @@
 	.about {
 		display: flex;
 		flex-direction: column;
+	}
+
+	:global(.holder:has(> .m3-container)) {
+		bottom: 64px !important;
 	}
 
 	:global(.m3-container input[type='range'] ~ .value) {

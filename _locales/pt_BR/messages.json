@@ -110,6 +110,30 @@
 		"message": "Sobre o Quick Reply Meet",
 		"description": ""
 	},
+	"settingsExportAndImport": {
+		"message": "Exportar e Importar Mensagens",
+		"description": ""
+	},
+	"exportButton": {
+		"message": "Exportar mensagens",
+		"description": ""
+	},
+	"importButton": {
+		"message": "Importar mensagens",
+		"description": ""
+	},
+	"successExport": {
+		"message": "Mensagens exportadas com sucesso.",
+		"description": ""
+	},
+	"successImport": {
+		"message": "$1 mensagem(ns) importada(s).",
+		"description": ""
+	},
+	"noImports": {
+		"message": "Nenhuma mensagem foi importada.",
+		"description": ""
+	},
 	"credits": {
 		"message": "Desenvolvido por <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
 		"description": ""

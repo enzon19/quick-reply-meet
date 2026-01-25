@@ -69,7 +69,7 @@
 				state={messagesSubpage} />
 		{/if}
 	{:else if page === 'settings'}
-		<Settings bind:page={settingsSubpage} />
+		<Settings bind:page={settingsSubpage} {loadMessages} />
 	{/if}
 </div>
 
