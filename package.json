@@ -2,7 +2,7 @@
 	"name": "quick-reply-meet",
 	"author": {
 		"name": "enzon19",
-		"email": "qrm@enzon19.com",
+		"email": "contato@enzon19.com",
 		"url": "https://enzon19.com"
 	},
 	"type": "module",
@@ -18,7 +18,6 @@
 		"prettier-plugin-svelte": "^3.4.1",
 		"svelte": "^5.36.12",
 		"svelte-dnd-action": "^0.9.69",
-		"unplugin-icons": "^22.5.0",
 		"vite-plugin-functions-mixins": "^0.4.1"
 	},
 	"devDependencies": {
