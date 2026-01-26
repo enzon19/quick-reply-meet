@@ -60,7 +60,7 @@
 	.messageGrid {
 		display: grid;
 		grid-template-columns: auto auto auto;
-		gap: 5px;
+		gap: 0.5rem;
 	}
 
 	.illustrationContainer {
