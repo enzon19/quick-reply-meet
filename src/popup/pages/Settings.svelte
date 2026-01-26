@@ -188,17 +188,17 @@
 		{/snippet}
 	</ListItem>
 {:else if page == 'exportAndImport'}
-	<ListItem headline={chrome.i18n.getMessage('exportButton')} onclick={exportMessages}>
-		{#snippet leading()}
-			<Icon icon={exportIcon} />
-		{/snippet}
-	</ListItem>
-	<Divider />
 	<ListItem
 		headline={chrome.i18n.getMessage('importButton')}
 		onclick={() => (document.querySelector('#import-messages-input') as HTMLInputElement)?.click()}>
 		{#snippet leading()}
 			<Icon icon={importIcon} />
+		{/snippet}
+	</ListItem>
+	<Divider />
+	<ListItem headline={chrome.i18n.getMessage('exportButton')} onclick={exportMessages}>
+		{#snippet leading()}
+			<Icon icon={exportIcon} />
 		{/snippet}
 	</ListItem>
 	<input

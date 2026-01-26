@@ -5,10 +5,11 @@
 	},
 	"extensionDescription": {
 		"message": "Envie mensagens no chat do Google Meet sem precisar digitar.",
-		"description": "Descrição da extensão"
+		"description": "Extension description"
 	},
 	"messages": {
-		"message": "Mensagens"
+		"message": "Mensagens",
+		"description": ""
 	},
 	"settings": {
 		"message": "Configurações",
@@ -111,7 +112,7 @@
 		"description": ""
 	},
 	"settingsExportAndImport": {
-		"message": "Exportar e Importar Mensagens",
+		"message": "Importar e Exportar Mensagens",
 		"description": ""
 	},
 	"exportButton": {
