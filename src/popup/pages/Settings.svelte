@@ -29,7 +29,7 @@
 		loadMessages
 	}: {
 		page: SettingsSubpages;
-		loadMessages: () => void;
+		loadMessages?: () => void;
 	} = $props();
 
 	let borderRadius: number | undefined = $state();
@@ -141,7 +141,7 @@
 
 			if (newMessages.length > 0) {
 				snackbar(chrome.i18n.getMessage('successImport', newMessages.length.toString()));
-				loadMessages();
+				if (loadMessages) loadMessages();
 			} else {
 				snackbar(chrome.i18n.getMessage('noImports'));
 			}
