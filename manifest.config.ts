@@ -18,10 +18,7 @@ export default defineManifest({
 	default_locale: 'pt_BR',
 	homepage_url: 'https://quickreplymeet.enzon19.com',
 	options_page: 'src/options/index.html',
-	permissions: [
-		'storage'
-		// "contentSettings",
-	],
+	permissions: ['storage'],
 	action: {
 		default_icon: icons,
 		default_popup: 'src/popup/index.html'
@@ -31,5 +28,9 @@ export default defineManifest({
 			matches: ['https://meet.google.com/*'],
 			js: ['src/content/main.ts']
 		}
-	]
+	],
+	background: {
+		service_worker: 'src/background.ts',
+		type: 'module'
+	}
 });
