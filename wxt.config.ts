@@ -12,6 +12,12 @@ export default defineConfig({
 		description: '__MSG_extensionDescription__',
 		homepage_url: 'https://quickreplymeet.enzon19.com',
 		default_locale: 'en',
-		permissions: ['storage']
+		permissions: ['storage'],
+		browser_specific_settings: {
+			gecko: {
+				id: 'qrm@bolhastudios.com',
+				strict_min_version: '58.0'
+			}
+		}
 	}
 });
