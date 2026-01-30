@@ -173,14 +173,17 @@
 {:else if page == 'buttonsPosition'}
 	<ChatIllustration {borderRadius} {buttonsPosition} />
 
-	<ListItem label headline={browser.i18n.getMessage('topButtonsPosition')} style="margin-top: 16px">
+	<ListItem
+		label
+		headline={browser.i18n.getMessage('topButtonsPosition')}
+		style="margin-top: 16px; width: 100%">
 		{#snippet leading()}
 			<RadioAnim1>
 				<input type="radio" name="buttonsPosition" value="top" bind:group={buttonsPosition} />
 			</RadioAnim1>
 		{/snippet}
 	</ListItem>
-	<ListItem label headline={browser.i18n.getMessage('bottomButtonsPosition')}>
+	<ListItem style="width: 100%" label headline={browser.i18n.getMessage('bottomButtonsPosition')}>
 		{#snippet leading()}
 			<RadioAnim1>
 				<input type="radio" name="buttonsPosition" value="bottom" bind:group={buttonsPosition} />
@@ -189,6 +192,7 @@
 	</ListItem>
 {:else if page == 'exportAndImport'}
 	<ListItem
+		style="width: 100%"
 		headline={browser.i18n.getMessage('importButton')}
 		onclick={() => (document.querySelector('#import-messages-input') as HTMLInputElement)?.click()}>
 		{#snippet leading()}
@@ -196,7 +200,10 @@
 		{/snippet}
 	</ListItem>
 	<Divider />
-	<ListItem headline={browser.i18n.getMessage('exportButton')} onclick={exportMessages}>
+	<ListItem
+		style="width: 100%"
+		headline={browser.i18n.getMessage('exportButton')}
+		onclick={exportMessages}>
 		{#snippet leading()}
 			<Icon icon={exportIcon} />
 		{/snippet}
@@ -229,6 +236,7 @@
 	</div>
 {:else}
 	<ListItem
+		style="width: 100%"
 		headline={browser.i18n.getMessage('settingsButtonsRoundness')}
 		onclick={() => (page = 'buttonsRoundness')}>
 		{#snippet leading()}
@@ -237,6 +245,7 @@
 	</ListItem>
 	<Divider />
 	<ListItem
+		style="width: 100%"
 		headline={browser.i18n.getMessage('settingsButtonsPosition')}
 		onclick={() => (page = 'buttonsPosition')}>
 		{#snippet leading()}
@@ -245,6 +254,7 @@
 	</ListItem>
 	<Divider />
 	<ListItem
+		style="width: 100%"
 		headline={browser.i18n.getMessage('settingsExportAndImport')}
 		onclick={() => (page = 'exportAndImport')}>
 		{#snippet leading()}
@@ -252,7 +262,10 @@
 		{/snippet}
 	</ListItem>
 	<Divider />
-	<ListItem headline={browser.i18n.getMessage('settingsAbout')} onclick={() => (page = 'about')}>
+	<ListItem
+		style="width: 100%"
+		headline={browser.i18n.getMessage('settingsAbout')}
+		onclick={() => (page = 'about')}>
 		{#snippet leading()}
 			<Icon icon={infoIcon} />
 		{/snippet}
