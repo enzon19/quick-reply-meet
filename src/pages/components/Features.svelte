@@ -4,9 +4,11 @@
 	import { onMount } from 'svelte';
 
 	let {
-		type = 'gallery'
+		type = 'gallery',
+		size = 22
 	}: {
 		type?: 'gallery' | 'list';
+		size?: number;
 	} = $props();
 
 	let slider: any = $state();
@@ -45,7 +47,7 @@
 {#snippet gallery()}
 	{#each features as feature, index}
 		<div class="feature">
-			<svg width="22rem" height="22rem" style:margin="auto" viewBox="24 20 332 340">
+			<svg width="{size}rem" height="{size}rem" viewBox="24 20 332 340">
 				<defs>
 					<clipPath id="clip-{index}">
 						<path d={feature.shape} />
@@ -69,6 +71,7 @@
 {#if type == 'gallery'}
 	<div
 		class="gallery"
+		style="max-width: {size}rem; height: {size + 3}rem;"
 		role="region"
 		aria-label="Gallery"
 		onmouseenter={() => (isPaused = true)}
@@ -91,11 +94,11 @@
 	.feature {
 		display: flex;
 		flex-direction: column;
+		align-content: start;
+		gap: 0.5rem;
 	}
 
 	.gallery {
-		max-width: 22rem;
-		height: 25rem;
 		margin: 0 auto;
 	}
 
