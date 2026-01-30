@@ -212,7 +212,7 @@
 		"description": ""
 	},
 	"welcomeDescription": {
-		"message": "Obrigado pelo download! Caso goste do trabalho, <a class=\"link\" href=\"\">faça uma doação</a> e <a class=\"link\" href=\"\">avalie a extensão</a> na loja para apoiar o desenvolvimento.",
+		"message": "Obrigado pelo download! Caso goste do trabalho, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">faça uma doação</a> e <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">avalie a extensão</a> na loja para apoiar o desenvolvimento.",
 		"description": ""
 	},
 	"welcomeButton": {
