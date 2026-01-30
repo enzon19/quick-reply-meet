@@ -3,6 +3,7 @@
 	import Features from '../components/Features.svelte';
 	import SetMessages from '../components/SetMessages.svelte';
 	import ButtonAppearance from '../components/ButtonAppearance.svelte';
+	import { saveMessages } from '@/utils';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const wavingIcon = materialSymbols['waving-hand'];
@@ -19,10 +20,24 @@
 	];
 	let newMessages: any = $state(['hello']);
 
-	function nextPage() {
+	async function nextPage() {
 		if (currentPage < 2) {
 			if (currentPage == 1) {
-				// add new messages
+				const result = (await chrome.storage.local.get('messages')) as Record<
+					'messages',
+					Message[]
+				>;
+				let messages = result.messages ?? [];
+
+				for (const message of newMessages) {
+					messages.push({
+						id: crypto.randomUUID(),
+						content: chrome.i18n.getMessage('defaultMessage_' + message),
+						sendRightAway: true
+					});
+				}
+
+				saveMessages(messages)
 			}
 			currentPage++;
 		} else {
