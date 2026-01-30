@@ -32,7 +32,7 @@
 				for (const message of newMessages) {
 					messages.push({
 						id: crypto.randomUUID(),
-						content: browser.i18n.getMessage('defaultMessage_' + message),
+						content: browser.i18n.getMessage(('defaultMessage_' + message) as any),
 						sendRightAway: true
 					});
 				}
@@ -59,10 +59,10 @@
 <div class="container">
 	<div>
 		<Icon icon={pages[currentPage].icon} viewBox="0 0 24 24" size={56} />
-		<h2>{browser.i18n.getMessage(`${pages[currentPage].name}Title`)}</h2>
-		<p>{@html browser.i18n.getMessage(`${pages[currentPage].name}Description`)}</p>
+		<h2>{browser.i18n.getMessage(`${pages[currentPage].name}Title` as any)}</h2>
+		<p>{@html browser.i18n.getMessage(`${pages[currentPage].name}Description` as any)}</p>
 		<Button onclick={nextPage} size="m" iconType="left" style="margin-top: 1rem">
-			{browser.i18n.getMessage(`${pages[currentPage].name}Button`)}
+			{browser.i18n.getMessage(`${pages[currentPage].name}Button` as any)}
 			<Icon icon={currentPage == 2 ? checkIcon : arrowIcon} viewBox="0 0 24 24" />
 		</Button>
 	</div>

@@ -39,7 +39,7 @@
 			onclick={() => {
 				messages[message as MessageKey] = !messages[message as MessageKey];
 				onSelectedMessagesChanged(messages);
-			}}>{browser.i18n.getMessage('defaultMessage_' + message)}</Chip>
+			}}>{browser.i18n.getMessage(('defaultMessage_' + message) as any)}</Chip>
 	{/each}
 </div>
 

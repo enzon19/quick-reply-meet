@@ -154,7 +154,7 @@
 
 {#if page}
 	<AppBar
-		title={browser.i18n.getMessage('settings' + page[0].toUpperCase() + page.substring(1))}
+		title={browser.i18n.getMessage(('settings' + page[0].toUpperCase() + page.substring(1)) as any)}
 		goBack={() => (page = undefined)} />
 {/if}
 

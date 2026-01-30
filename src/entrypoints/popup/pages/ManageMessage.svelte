@@ -59,7 +59,7 @@
 	{/snippet}
 </Dialog>
 
-<AppBar title={browser.i18n.getMessage(managementType + 'MessageTitle')} {goBack} />
+<AppBar title={browser.i18n.getMessage((managementType + 'MessageTitle') as any)} {goBack} />
 <div class="flex-gap">
 	<Tabs
 		bind:tab={currentTab}
