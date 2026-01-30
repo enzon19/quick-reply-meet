@@ -5,7 +5,7 @@
 	import ButtonAppearance from './pages/ButtonAppearance.svelte';
 	import { saveMessages } from '@/utils/sync';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const wavingIcon = materialSymbols['waving-hand'];
 	const arrowIcon = materialSymbols['arrow-forward'];
 	const chatIcon = materialSymbols['chat-bubble'];

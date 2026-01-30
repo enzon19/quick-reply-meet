@@ -6,7 +6,7 @@
 	import { dragHandleZone, dragHandle } from 'svelte-dnd-action';
 	import { saveMessages } from '@/utils/sync';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const newIcon = materialSymbols['add'];
 	const dragIcon = materialSymbols['drag-handle'];
 

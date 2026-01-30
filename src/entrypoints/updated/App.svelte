@@ -2,7 +2,7 @@
 	import { Icon, Button } from 'm3-svelte';
 	import Features from '@/components/Features.svelte';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const updateIcon = materialSymbols['update'];
 	const heartIcon = materialSymbols['favorite'];
 	const starIcon = materialSymbols['star'];

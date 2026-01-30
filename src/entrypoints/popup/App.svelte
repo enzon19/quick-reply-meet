@@ -7,7 +7,7 @@
 	import ManageMessage from './pages/ManageMessage.svelte';
 	import Settings from './pages/Settings.svelte';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const settingsIcon = materialSymbols['settings'];
 	const messagesIcon = materialSymbols['android-messages'];
 	const settingsIconOutline = materialSymbols['settings-outline'];

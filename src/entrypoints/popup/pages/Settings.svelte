@@ -14,7 +14,7 @@
 	import { requestChangesOnPage, saveMessages } from '@/utils/sync';
 	import { onMount } from 'svelte';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const roundnessIcon = materialSymbols['rounded-corner'];
 	const positionIcon = materialSymbols['position-bottom-left'];
 	const swapIcon = materialSymbols['swap-vert'];

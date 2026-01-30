@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	import { Icon } from 'm3-svelte';
 	const arrowBackIcon = materialSymbols['arrow-back'];
 

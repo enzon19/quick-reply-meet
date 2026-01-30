@@ -6,7 +6,7 @@
 	import AppBar from '@/components/AppBar.svelte';
 	import TextFieldOutlinedSecretMultiline from '@/components/TextFieldOutlinedSecretMultiline.svelte';
 
-	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
+	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const deleteIcon = materialSymbols['delete-forever'];
 	const checkIcon = materialSymbols['check'];
 
