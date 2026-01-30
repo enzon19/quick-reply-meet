@@ -143,6 +143,10 @@
 		"message": "Doar",
 		"description": ""
 	},
+	"reviewButton": {
+		"message": "Avaliar na loja",
+		"description": ""
+	},
 
 	"featureShortcuts": {
 		"message": "Crie e salve mensagens prontas para enviar no chat com apenas um clique",
@@ -241,6 +245,15 @@
 	},
 	"welcomeSettingsButton": {
 		"message": "Concluir",
+		"description": ""
+	},
+
+	"updateTitle": {
+		"message": "Extensão atualizada para a versão 2.0.0!",
+		"description": ""
+	},
+	"updateDescription": {
+		"message": "Configure a aparência e a posição dos botões de resposta rápida. Você pode alterar essas configurações a qualquer momento no popup da extensão.",
 		"description": ""
 	}
 }
