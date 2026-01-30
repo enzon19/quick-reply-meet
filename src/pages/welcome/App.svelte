@@ -1,25 +1,39 @@
-<script>
-	import { pathVerySunny, pathSoftBurst, pathTwelveSidedCookie, Icon, Button } from 'm3-svelte';
-	import { TinySlider } from 'svelte-tiny-slider';
+<script lang="ts">
+	import { Icon, Button } from 'm3-svelte';
+	import Features from '../components/Features.svelte';
+	import SetMessages from '../components/SetMessages.svelte';
+	import ButtonAppearance from '../components/ButtonAppearance.svelte';
 
 	import { icons as materialSymbols } from '@iconify-json/material-symbols/icons.json';
 	const wavingIcon = materialSymbols['waving-hand'];
 	const arrowIcon = materialSymbols['arrow-forward'];
+	const chatIcon = materialSymbols['chat-bubble'];
+	const brushIcon = materialSymbols['brush'];
+	const checkIcon = materialSymbols['check'];
 
-	const features = [
-		{
-			shape: pathVerySunny,
-			description: 'Crie e salve mensagens prontas para enviar no chat com apenas um clique'
-		},
-		{
-			shape: pathSoftBurst,
-			description: 'Configure atalhos de teclado para enviar suas mensagens'
-		},
-		{
-			shape: pathTwelveSidedCookie,
-			description: 'Defina gatilhos automáticos para responder mensagens específicas do chat'
-		}
+	let currentPage: 0 | 1 | 2 = $state(0);
+	const pages = [
+		{ icon: wavingIcon, name: 'welcome' },
+		{ icon: chatIcon, name: 'welcomeDefaultMessages' },
+		{ icon: brushIcon, name: 'welcomeSettings' }
 	];
+	let newMessages: any = $state(['hello']);
+
+	function nextPage() {
+		if (currentPage < 2) {
+			if (currentPage == 1) {
+				// add new messages
+			}
+			currentPage++;
+		} else {
+			document.location.href = 'https://meet.google.com';
+		}
+	}
+
+	function onSelectedMessagesChanged(messages: any) {
+		const selectedMessages = Object.entries(messages).filter(([n, v]) => v);
+		newMessages = selectedMessages.map(([n, v]) => n);
+	}
 </script>
 
 <div class="title">
@@ -29,29 +43,21 @@
 
 <div class="container">
 	<div>
-		<Icon icon={wavingIcon} viewBox="0 0 24 24" size={56} />
-		<h2>Seja bem-vindo(a)!</h2>
-		<p>
-			Obrigado pelo download! Caso goste do trabalho, <a class="link" href="">faça uma doação</a> e
-			<a class="link" href="">avalie a extensão</a> na loja para apoiar o desenvolvimento.
-		</p>
-		<Button size="m" iconType="left" style="margin-top: 1rem">
-			Configurar extensão
-			<Icon icon={arrowIcon} viewBox="0 0 24 24" />
+		<Icon icon={pages[currentPage].icon} viewBox="0 0 24 24" size={56} />
+		<h2>{chrome.i18n.getMessage(`${pages[currentPage].name}Title`)}</h2>
+		<p>{@html chrome.i18n.getMessage(`${pages[currentPage].name}Description`)}</p>
+		<Button onclick={nextPage} size="m" iconType="left" style="margin-top: 1rem">
+			{chrome.i18n.getMessage(`${pages[currentPage].name}Button`)}
+			<Icon icon={currentPage == 2 ? checkIcon : arrowIcon} viewBox="0 0 24 24" />
 		</Button>
 	</div>
-	<div class="gallery">
-		<TinySlider>
-			{#each features as feature}
-				<div>
-					<svg width="22rem" height="22rem" style:margin="auto" viewBox="24 20 332 340">
-						<path class="shape" d={feature.shape} fill="var(--m3c-primary)" />
-					</svg>
-					<p style="text-align: center">{feature.description}</p>
-				</div>
-			{/each}
-		</TinySlider>
-	</div>
+	{#if currentPage == 0}
+		<Features />
+	{:else if currentPage == 1}
+		<SetMessages {onSelectedMessagesChanged} />
+	{:else if currentPage == 2}
+		<ButtonAppearance />
+	{/if}
 </div>
 
 <style>
@@ -61,14 +67,21 @@
 
 	:global(body) {
 		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100vh;
+		box-sizing: border-box;
 	}
 
 	.container {
 		max-width: 58rem;
 		margin: 0 auto;
+		min-height: calc(100vh - 17rem);
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
+		align-content: center;
 	}
 
 	@media (max-width: 768px) {
@@ -76,11 +89,6 @@
 			grid-template-columns: 1fr;
 			gap: 3rem;
 		}
-	}
-
-	.gallery {
-		max-width: 22rem;
-		margin: 0 auto;
 	}
 
 	.title {
@@ -104,6 +112,7 @@
 	h1 {
 		margin: 0px;
 		font-size: 2.5rem;
+		line-height: 1;
 	}
 
 	h2 {

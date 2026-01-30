@@ -142,5 +142,105 @@
 	"donateButton": {
 		"message": "Doar",
 		"description": ""
+	},
+
+	"featureShortcuts": {
+		"message": "Crie e salve mensagens prontas para enviar no chat com apenas um clique",
+		"description": ""
+	},
+	"featureKeyboard": {
+		"message": "Configure atalhos de teclado para enviar suas mensagens",
+		"description": ""
+	},
+	"featureTriggers": {
+		"message": "Defina gatilhos automáticos para responder mensagens específicas do chat",
+		"description": ""
+	},
+
+	"defaultMessage_hi": {
+		"message": "Oi!",
+		"description": ""
+	},
+	"defaultMessage_hello": {
+		"message": "Olá!",
+		"description": ""
+	},
+	"defaultMessage_ok": {
+		"message": "Ok",
+		"description": ""
+	},
+	"defaultMessage_yes": {
+		"message": "Sim",
+		"description": ""
+	},
+	"defaultMessage_no": {
+		"message": "Não",
+		"description": ""
+	},
+	"defaultMessage_thanks": {
+		"message": "Valeu!",
+		"description": ""
+	},
+	"defaultMessage_thankYou": {
+		"message": "Obrigado!",
+		"description": ""
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "De nada!",
+		"description": ""
+	},
+	"defaultMessage_bye": {
+		"message": "Tchau!",
+		"description": ""
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Pode repetir?",
+		"description": ""
+	},
+
+	"bottomButtonsPositionShort": {
+		"message": "Abaixo do campo",
+		"description": ""
+	},
+	"topButtonsPositionShort": {
+		"message": "Acima do campo",
+		"description": ""
+	},
+
+	"welcomeTitle": {
+		"message": "Seja bem-vindo(a)!",
+		"description": ""
+	},
+	"welcomeDescription": {
+		"message": "Obrigado pelo download! Caso goste do trabalho, <a class=\"link\" href=\"\">faça uma doação</a> e <a class=\"link\" href=\"\">avalie a extensão</a> na loja para apoiar o desenvolvimento.",
+		"description": ""
+	},
+	"welcomeButton": {
+		"message": "Configurar extensão",
+		"description": "To go to the next step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Escolha algumas mensagens",
+		"description": ""
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Para começar, você pode escolher algumas mensagens iniciais. Você poderá criar, editar e apagar mensagens a qualquer momento no popup da extensão, na sua barra de endereços.",
+		"description": ""
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Continuar",
+		"description": ""
+	},
+	"welcomeSettingsTitle": {
+		"message": "Personalize os botões",
+		"description": ""
+	},
+	"welcomeSettingsDescription": {
+		"message": "Configure a aparência e a posição dos botões de resposta rápida. Você pode alterar essas configurações a qualquer momento no popup da extensão.",
+		"description": ""
+	},
+	"welcomeSettingsButton": {
+		"message": "Concluir",
+		"description": ""
 	}
 }
