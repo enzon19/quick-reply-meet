@@ -55,6 +55,7 @@
 		padding: 0.75rem;
 		background-color: var(--m3c-surface-container-highest);
 		font-size: 0.8rem;
+		text-align: center;
 	}
 
 	.messageGrid {

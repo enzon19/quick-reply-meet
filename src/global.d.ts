@@ -16,5 +16,10 @@ declare global {
 			position: 'top' | 'bottom';
 		};
 	}
-	type SettingsSubpages = 'buttonsRoundness' | 'buttonsPosition' | 'exportAndImport' | 'about' | undefined;
+	type SettingsSubpages =
+		| 'buttonsRoundness'
+		| 'buttonsPosition'
+		| 'exportAndImport'
+		| 'about'
+		| undefined;
 }

@@ -84,13 +84,13 @@
 <label class="recorder-label">
 	<div class="recorder-label-label">
 		<div>
-			{chrome.i18n
+			{browser.i18n
 				.getMessage('keyboardShortcutLabel')
 				.replace(!shortcut || shortcut.length == 0 ? ':' : '', '')}
 		</div>
 		<div class="shortcut">
 			{#if capturing && shortcut && shortcut.length == 0}
-				<span class="hint">{chrome.i18n.getMessage('keyboardShortcutHint')}</span>
+				<span class="hint">{browser.i18n.getMessage('keyboardShortcutHint')}</span>
 			{:else if shortcut && shortcut.length > 0}
 				{#each sortShortcut(shortcut) as key}
 					<kbd>{key}</kbd>
@@ -99,7 +99,7 @@
 		</div>
 	</div>
 	<Button variant={capturing ? 'elevated' : 'filled'} onclick={() => (capturing = !capturing)}
-		>{chrome.i18n.getMessage(
+		>{browser.i18n.getMessage(
 			capturing ? 'keyboardShortcutRecording' : 'keyboardShortcutButton'
 		)}</Button>
 </label>

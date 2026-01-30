@@ -1,5 +1,6 @@
 {
 	"name": "quick-reply-meet",
+	"description": "Send messages in Google Meet chat without typing.",
 	"author": {
 		"name": "enzon19",
 		"email": "contato@enzon19.com",
@@ -9,27 +10,32 @@
 	"version": "2.0.0",
 	"private": true,
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build"
+		"dev": "wxt",
+		"dev:firefox": "wxt -b firefox",
+		"build": "wxt build",
+		"build:firefox": "wxt build -b firefox",
+		"zip": "wxt zip",
+		"zip:firefox": "wxt zip -b firefox",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"postinstall": "wxt prepare"
 	},
 	"dependencies": {
 		"m3-svelte": "^7.0.1",
-		"prettier": "^3.7.4",
-		"prettier-plugin-svelte": "^3.4.1",
-		"svelte": "^5.36.12",
 		"svelte-dnd-action": "^0.9.69",
 		"svelte-tiny-slider": "^2.4.1",
 		"vite-plugin-functions-mixins": "^0.4.1"
 	},
 	"devDependencies": {
-		"@crxjs/vite-plugin": "^2.0.3",
 		"@iconify-json/material-symbols": "^1.2.50",
-		"@sveltejs/vite-plugin-svelte": "^6.2.1",
-		"@tsconfig/svelte": "^5.0.4",
-		"@types/chrome": "^0.1.1",
-		"svooltip": "^0.9.0",
-		"typescript": "~5.8.3",
-		"vite": "^7.0.5",
-		"vite-plugin-zip-pack": "^1.2.4"
+		"@tsconfig/svelte": "^5.0.6",
+		"@wxt-dev/module-svelte": "^2.0.4",
+		"svelte": "^5.46.0",
+		"svelte-check": "^4.3.4",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.3",
+		"wxt": "^0.20.6",
+		"prettier": "^3.7.4",
+		"prettier-plugin-svelte": "^3.4.1",
+		"svooltip": "^0.9.0"
 	}
 }
