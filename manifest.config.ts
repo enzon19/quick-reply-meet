@@ -15,7 +15,7 @@ export default defineManifest({
 	version: pkg.version,
 	description: '__MSG_extensionDescription__',
 	icons,
-	default_locale: 'pt_BR',
+	default_locale: 'en',
 	homepage_url: 'https://quickreplymeet.enzon19.com',
 	options_page: 'src/options/index.html',
 	permissions: ['storage'],
