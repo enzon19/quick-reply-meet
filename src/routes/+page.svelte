@@ -1,8 +1,8 @@
 <script>
-	import { HoverTilt } from 'hover-tilt';
 	import { onMount } from 'svelte';
 	import { Button } from 'm3-svelte';
 	import { _ } from 'svelte-i18n';
+	import PreviewScreenshots from '$lib/components/ChatScreenshot.svelte';
 	import icon from '$lib/assets/icon-512.png';
 
 	function update() {
@@ -30,12 +30,7 @@
 		<Button id="headline-install-button">{$_('install')}</Button>
 	</div>
 	<div class="main-image">
-		<HoverTilt glareIntensity={0}>
-			<div class="stacked-3d-content">
-				<img src="mouse.png" alt="Spongebob SquarePants Logo" class="stacked-3d-logo" />
-				<img src="chat.png" alt="Chat Screenshot" class="stacked-3d-bg" />
-			</div>
-		</HoverTilt>
+		<PreviewScreenshots />
 	</div>
 </div>
 
