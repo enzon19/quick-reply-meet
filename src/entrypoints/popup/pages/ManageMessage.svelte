@@ -45,7 +45,10 @@
 	}
 </script>
 
-<Dialog bind:open={deleteDialogOpen} headline={browser.i18n.getMessage('deleteMessageDialogTitle')}>
+<Dialog
+	style="max-width: 95%"
+	bind:open={deleteDialogOpen}
+	headline={browser.i18n.getMessage('deleteMessageDialogTitle')}>
 	{browser.i18n.getMessage(
 		'deleteMessageDialogDescription',
 		message.content?.substring(0, 40) +
