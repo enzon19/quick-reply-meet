@@ -67,9 +67,15 @@
 
 body {
 	margin: 0px;
+	padding: 1rem;
 }
 
 .link {
 	color: var(--m3c-primary);
 	text-decoration: none;
+}
+
+.container {
+	max-width: 84rem;
+	margin: 0 auto;
 }
