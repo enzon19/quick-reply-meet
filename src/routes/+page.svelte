@@ -6,7 +6,7 @@
 	import icon from '$lib/assets/icon-512.png';
 
 	function update() {
-		const el = document.querySelector('#heading-install-button');
+		const el = document.querySelector('#headline-install-button');
 		if (!el) return;
 
 		const isSm = window.matchMedia('(min-width: 640px)').matches;
@@ -22,18 +22,18 @@
 </script>
 
 <div class="preview container">
-	<div class="heading">
+	<div class="headline">
 		<div>
 			<img class="logo" src={icon} alt="Quick Reply Meet Logo" />
-			<h2>{$_('heading')}</h2>
+			<h2>{$_('headline')}</h2>
 		</div>
-		<Button id="heading-install-button">{$_('install')}</Button>
+		<Button id="headline-install-button">{$_('install')}</Button>
 	</div>
 	<div class="main-image">
 		<HoverTilt glareIntensity={0}>
 			<div class="stacked-3d-content">
-				<img src="spongebob-logo.png" alt="Spongebob SquarePants Logo" class="stacked-3d-logo" />
-				<img src="/ChatScreenshot.png" alt="Chat Screenshot" class="stacked-3d-bg" />
+				<img src="mouse.png" alt="Spongebob SquarePants Logo" class="stacked-3d-logo" />
+				<img src="chat.png" alt="Chat Screenshot" class="stacked-3d-bg" />
 			</div>
 		</HoverTilt>
 	</div>
@@ -50,13 +50,13 @@
 		gap: 1.5rem;
 	}
 
-	.heading {
+	.headline {
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
 	}
 
-	.heading > div {
+	.headline > div {
 		text-align: center;
 	}
 
@@ -76,7 +76,7 @@
 		margin: 0 auto;
 	}
 
-	:global(#heading-install-button) {
+	:global(#headline-install-button) {
 		max-width: min-content;
 		margin: 0 auto;
 	}
@@ -86,18 +86,18 @@
 			grid-template-columns: 50% 50%;
 		}
 
-		.heading > div {
+		.headline > div {
 			text-align: left;
 		}
 
-		:global(#heading-install-button) {
+		:global(#headline-install-button) {
 			max-width: min-content;
 			margin: 0;
 		}
 	}
 
 	@media (min-width: 640px) {
-		.heading {
+		.headline {
 			gap: 3rem;
 		}
 
