@@ -26,5 +26,9 @@
 		"lint": "prettier --check .",
 		"format": "prettier --write ."
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"hover-tilt": "^1.0.0",
+		"svelte-i18n": "^4.0.1"
+	}
 }
