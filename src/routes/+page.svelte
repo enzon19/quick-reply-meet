@@ -1,5 +1,118 @@
 <script>
+	import { HoverTilt } from 'hover-tilt';
+	import { onMount } from 'svelte';
 	import { Button } from 'm3-svelte';
+	import { _ } from 'svelte-i18n';
+	import icon from '$lib/assets/icon-512.png';
+
+	function update() {
+		const el = document.querySelector('#heading-install-button');
+		if (!el) return;
+
+		const isSm = window.matchMedia('(min-width: 640px)').matches;
+		el.classList.toggle('l', isSm);
+		el.classList.toggle('m', !isSm);
+	}
+
+	onMount(() => {
+		update();
+		window.addEventListener('resize', update);
+		return () => window.removeEventListener('resize', update);
+	});
 </script>
 
-<Button onclick={() => alert('Hello world')}>Click me</Button>
+<div class="preview container">
+	<div class="heading">
+		<div>
+			<img class="logo" src={icon} alt="Quick Reply Meet Logo" />
+			<h2>{$_('heading')}</h2>
+		</div>
+		<Button id="heading-install-button">{$_('install')}</Button>
+	</div>
+	<div class="main-image">
+		<HoverTilt glareIntensity={0}>
+			<div class="stacked-3d-content">
+				<img src="spongebob-logo.png" alt="Spongebob SquarePants Logo" class="stacked-3d-logo" />
+				<img src="/ChatScreenshot.png" alt="Chat Screenshot" class="stacked-3d-bg" />
+			</div>
+		</HoverTilt>
+	</div>
+</div>
+
+<!-- <Button onclick={() => alert('Hello world')}>Click me</Button> -->
+
+<style>
+	.preview {
+		padding: 1.5rem;
+		display: grid;
+		grid-template-columns: auto;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.heading {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.heading > div {
+		text-align: center;
+	}
+
+	.logo {
+		height: 4rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+		line-height: 3.25rem;
+		font-weight: 600;
+		margin: 0;
+	}
+
+	.main-image {
+		max-width: fit-content;
+		margin: 0 auto;
+	}
+
+	:global(#heading-install-button) {
+		max-width: min-content;
+		margin: 0 auto;
+	}
+
+	@media (min-width: 880px) {
+		.preview {
+			grid-template-columns: 50% 50%;
+		}
+
+		.heading > div {
+			text-align: left;
+		}
+
+		:global(#heading-install-button) {
+			max-width: min-content;
+			margin: 0;
+		}
+	}
+
+	@media (min-width: 640px) {
+		.heading {
+			gap: 3rem;
+		}
+
+		.preview {
+			padding: 3rem;
+			gap: 3rem;
+		}
+
+		.logo {
+			height: 6rem;
+		}
+
+		h2 {
+			font-size: 3.25rem;
+			line-height: 4.5rem;
+		}
+	}
+</style>
