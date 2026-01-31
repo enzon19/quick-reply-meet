@@ -77,7 +77,7 @@
 		<label class="switch-label">
 			<div>
 				<div>{browser.i18n.getMessage('sendRightAwayToggleLabel')}</div>
-				<p style="font-size: 8pt; margin: 4px 0px 0px; color: var(--m3c-on-surface-variant)">
+				<p style="font-size: 9.5pt; margin: 4px 0px 0px; color: var(--m3c-on-surface-variant)">
 					{browser.i18n.getMessage('sendRightAwayToggleDescription')}
 				</p>
 			</div>
@@ -110,7 +110,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 8px;
+		gap: 16px;
 	}
 
 	label {

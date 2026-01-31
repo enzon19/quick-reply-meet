@@ -119,7 +119,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 8px;
+		gap: 16px;
 	}
 
 	.recorder-label-label {
@@ -127,11 +127,12 @@
 		flex-direction: column;
 		justify-content: center;
 		min-height: 55px;
+		gap: 4px;
 	}
 
 	.hint {
 		opacity: 0.8;
-		font-size: 0.85rem;
+		font-size: 9.5pt;
 		font-weight: 200;
 	}
 
