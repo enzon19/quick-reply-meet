@@ -2,6 +2,9 @@
 	import { pathVerySunny, pathSoftBurst, pathTwelveSidedCookie } from 'm3-svelte';
 	import { TinySlider } from 'svelte-tiny-slider';
 	import { onMount } from 'svelte';
+	import Buttons from './svg/Buttons.svelte';
+	import Keyboard from './svg/Keyboard.svelte';
+	import AutoReply from './svg/AutoReply.svelte';
 
 	let {
 		type = 'gallery',
@@ -31,21 +34,40 @@
 	const features = [
 		{
 			shape: pathTwelveSidedCookie,
-			description: browser.i18n.getMessage('featureShortcuts')
+			description: browser.i18n.getMessage('featureShortcuts'),
+			illustration: {
+				component: Buttons,
+				scale: 0.8,
+				width: 551.56,
+				height: 199.7
+			}
 		},
 		{
 			shape: pathSoftBurst,
-			description: browser.i18n.getMessage('featureKeyboard')
+			description: browser.i18n.getMessage('featureKeyboard'),
+			illustration: {
+				component: Keyboard,
+				scale: 0.55,
+				width: 810,
+				height: 510.14
+			}
 		},
 		{
 			shape: pathVerySunny,
-			description: browser.i18n.getMessage('featureTriggers')
+			description: browser.i18n.getMessage('featureTriggers'),
+			illustration: {
+				component: AutoReply,
+				scale: 0.5,
+				width: 508.96,
+				height: 362.7
+			}
 		}
 	];
 </script>
 
 {#snippet gallery()}
 	{#each features as feature, index}
+		{@const Illustration = feature.illustration.component}
 		<div class="feature">
 			<svg width="{size}rem" height="{size}rem" viewBox="24 20 332 340">
 				<defs>
@@ -53,15 +75,28 @@
 						<path d={feature.shape} />
 					</clipPath>
 				</defs>
-				<path class="shape" d={feature.shape} fill="var(--m3c-primary)" />
-				<image
-					href={'/features/' + index + '.png'}
-					x="24"
-					y="20"
-					width="332"
-					height="340"
-					preserveAspectRatio="xMidYMid slice"
-					clip-path="url(#clip-{index})" />
+				<path class="shape" d={feature.shape} fill="var(--m3c-surface-container-highest)" />
+				<Illustration
+					primaryColor="var(--m3c-primary)"
+					secondaryColor="var(--m3c-on-primary)"
+					width={Math.min(332 / feature.illustration.width, 340 / feature.illustration.height) *
+						feature.illustration.width *
+						feature.illustration.scale}
+					height={Math.min(332 / feature.illustration.width, 340 / feature.illustration.height) *
+						feature.illustration.height *
+						feature.illustration.scale}
+					x={24 +
+						(332 -
+							feature.illustration.width *
+								Math.min(332 / feature.illustration.width, 340 / feature.illustration.height) *
+								feature.illustration.scale) /
+							2}
+					y={20 +
+						(340 -
+							feature.illustration.height *
+								Math.min(332 / feature.illustration.width, 340 / feature.illustration.height) *
+								feature.illustration.scale) /
+							2} />
 			</svg>
 			<p style="text-align: center">{feature.description}</p>
 		</div>
