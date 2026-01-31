@@ -1,4 +1,19 @@
 {
-  "install": "Instalar",
-  "headline": "Envie mensagens no chat do Google Meet™ sem precisar digitar."
+	"install": "Instalar",
+	"headline": "Envie mensagens no chat do Google Meet™ sem precisar digitar.",
+	"features": {
+		"title": "Funcionalidades",
+		"click": {
+			"description": "Crie e salve mensagens prontas para enviar no chat com apenas um clique",
+			"title": "Botões no Chat"
+		},
+		"keyboard": {
+			"description": "Configure atalhos de teclado para enviar suas mensagens prontas",
+			"title": "Atalhos de Teclado"
+		},
+		"autoReply": {
+			"description": "Defina gatilhos automáticos para responder mensagens específicas do chat",
+			"title": "Responder Automaticamente"
+		}
+	}
 }
