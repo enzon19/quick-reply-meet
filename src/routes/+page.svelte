@@ -6,6 +6,7 @@
 	import InstallButton from '$lib/components/InstallButton.svelte';
 	import PreviewScreenshots from '$lib/components/ChatScreenshot.svelte';
 	import Feature from '$lib/components/Feature.svelte';
+	import { storeURLS } from '$lib/utils';
 
 	import icon from '$lib/assets/icon-512.png';
 	import Buttons from '$lib/components/svg/Buttons.svelte';
@@ -100,25 +101,21 @@
 		description={$_('installSection.firefox.description')}
 		title={$_('installSection.firefox.title')}
 	>
-		{@render storeButton('https://addons.mozilla.org/firefox/addon/quick-reply-meet/')}
+		{@render storeButton(storeURLS.firefox)}
 		<Icon viewBox="0 0 512 512" icon={icons['firefox']} size={72} />
 	</Feature>
 	<Feature
 		description={$_('installSection.chrome.description')}
 		title={$_('installSection.chrome.title')}
 	>
-		{@render storeButton(
-			'https://chromewebstore.google.com/detail/quick-reply-meet/dodpcgfhomjldnenagdibjcoofheocfc'
-		)}
+		{@render storeButton(storeURLS.chrome)}
 		<Icon viewBox="0 0 512 512" icon={icons['chrome']} size={72} />
 	</Feature>
 	<Feature
 		description={$_('installSection.edge.description')}
 		title={$_('installSection.edge.title')}
 	>
-		{@render storeButton(
-			'https://microsoftedge.microsoft.com/addons/detail/quick-reply-meet/lonfbmmkmojfammfcljbnelobfnhpigk'
-		)}
+		{@render storeButton(storeURLS.edge)}
 		<Icon viewBox="0 0 512 512" icon={icons['edge']} size={72} />
 	</Feature>
 </div>
