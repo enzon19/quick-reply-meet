@@ -1,17 +1,32 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
+	import { Tween } from 'svelte/motion';
+	import { quadOut  } from 'svelte/easing';
 	import { TinySlider } from 'svelte-tiny-slider';
+	import { LinearProgress } from 'm3-svelte';
 
 	let slider: any = $state();
 	let currentSlide = $state(0);
-
 	let isPaused = $state(false);
+
+	const progress = new Tween(0, {
+		duration: 3000,
+		easing: quadOut
+	});
+
 	onMount(() => {
+		progress.target = 100;
+
 		const interval = setInterval(() => {
 			if (!isPaused) {
 				currentSlide = (currentSlide + 1) % 4;
 				slider.setIndex(currentSlide);
+
+				progress.set(0, { duration: 0 });
+				requestAnimationFrame(() => {
+					progress.target = 100;
+				});
 			}
 		}, 3000);
 
@@ -45,6 +60,10 @@
 			<img src="popup/light/3.png" alt="Popup extension settings" class="slide" />
 		</picture>
 	</TinySlider>
+
+	<div class="progress-container">
+		<LinearProgress percent={progress.current} />
+	</div>
 </div>
 
 <style>
@@ -67,6 +86,11 @@
 
 	:global(.gallery > div) {
 		border-radius: 0.75rem;
+	}
+
+	.progress-container {
+		margin-top: 1rem;
+		width: 100%;
 	}
 
 	@media (min-width: 600px) {
