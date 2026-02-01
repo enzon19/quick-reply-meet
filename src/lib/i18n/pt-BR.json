@@ -1,5 +1,5 @@
 {
-	"install": "Instalar",
+	"install": "Adicionar{browser, select, chrome { no Chrome} firefox { no Firefox} edge { no Edge} other {}}",
 	"headline": "Envie mensagens no chat do Google Meet™ sem precisar digitar.",
 	"features": {
 		"title": "Funcionalidades",
@@ -21,7 +21,7 @@
 		}
 	},
 	"installSection": {
-		"title": "Instale Gratuitamente",
+		"title": "Adicione no Seu Navegador",
 		"installButton": "Ver na loja",
 		"firefox": {
 			"title": "Firefox",
