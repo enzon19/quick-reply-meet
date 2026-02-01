@@ -28,7 +28,7 @@
 			"description": "Mozilla Add-ons"
 		},
 		"chrome": {
-			"title": "Chrome (e derivados)",
+			"title": "Baseados no Chrome",
 			"description": "Chrome Web Store"
 		},
 		"edge": {
