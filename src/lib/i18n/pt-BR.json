@@ -14,6 +14,25 @@
 		"autoReply": {
 			"description": "Defina gatilhos automáticos para responder mensagens específicas do chat",
 			"title": "Responder Automaticamente"
+		},
+		"settings": {
+			"description": "Gerencie suas mensagens prontas e ajuste suas preferências pelo ícone na barra de endereços",
+			"title": "Controle Completo"
+		}
+	},
+	"benefits": {
+		"title": "Benefícios",
+		"time": {
+			"description": "Não digite mais sempre a mesma mensagem",
+			"title": "Economize Tempo"
+		},
+		"automate": {
+			"description": "Configure respostas automáticas, similar a bots",
+			"title": "Automatize"
+		},
+		"productivity": {
+			"description": "Tenha qualquer mensagem (longa ou não) pronta para envio",
+			"title": "Produtividade"
 		}
 	}
 }
