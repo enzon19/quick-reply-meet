@@ -81,11 +81,11 @@
 		description={$_('features.settings.description')}
 		big
 	>
-		<PopupScreenshots/>
+		<PopupScreenshots />
 	</Feature>
 </div>
 
-<h3>{$_('installSection.title')}</h3>
+<h3 id="install">{$_('installSection.title')}</h3>
 
 {#snippet storeButton(url: string)}
 	<Button

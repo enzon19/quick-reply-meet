@@ -14,7 +14,7 @@
 <Button
 	{...restProps}
 	iconType="left"
-	href={browserName ? storeURLS[browserName] : storeURLS.chrome}
+	href={browserName ? storeURLS[browserName] : '#install'}
 	target="_blank"
 >
 	<Icon viewBox="0 0 24 24" icon={icons['add']} />
