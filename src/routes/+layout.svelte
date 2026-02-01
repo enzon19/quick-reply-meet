@@ -28,11 +28,14 @@
 <style>
 	header {
 		background-color: var(--m3c-surface-container);
-		margin: -1rem -1rem 0 -1rem;
 		padding: 0.8rem;
-		position: fixed;
-		width: 100%;
+		position: sticky;
+		top: 0;
 		z-index: 5;
+	}
+
+	main.container {
+		padding: 1rem;
 	}
 
 	header > div {
