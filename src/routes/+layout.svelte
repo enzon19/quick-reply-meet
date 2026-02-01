@@ -75,6 +75,13 @@
 
 	.logo > img {
 		height: 3.25rem;
+		filter: invert(0.15);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		.logo > img {
+			filter: invert(0);
+		}
 	}
 
 	.logo > h1 {
