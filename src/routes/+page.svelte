@@ -3,7 +3,7 @@
 	import { Button, Icon, pathPill } from 'm3-svelte';
 	import { icons } from '$lib/assets/iconify.json';
 	import { _ } from 'svelte-i18n';
-	import { getBrowserName } from '$lib/utils';
+	import InstallButton from '$lib/components/InstallButton.svelte';
 	import PreviewScreenshots from '$lib/components/ChatScreenshot.svelte';
 	import Feature from '$lib/components/Feature.svelte';
 
@@ -21,12 +21,9 @@
 		el.classList.toggle('m', !isSm);
 	}
 
-	let userAgent: string | undefined = $state();
-
 	onMount(() => {
 		update();
 		window.addEventListener('resize', update);
-		userAgent = window.navigator.userAgent;
 		return () => window.removeEventListener('resize', update);
 	});
 </script>
@@ -37,10 +34,7 @@
 			<img class="logo" src={icon} alt="Quick Reply Meet Logo" />
 			<h2>{$_('headline')}</h2>
 		</div>
-		<Button id="headline-install-button" size="l" iconType="left">
-			<Icon viewBox="0 0 24 24" icon={icons['add']} />
-			{$_('install', { values: { browser: getBrowserName(userAgent) } })}
-		</Button>
+		<InstallButton id="headline-install-button" size="l" />
 	</div>
 	<div class="main-image">
 		<PreviewScreenshots />
