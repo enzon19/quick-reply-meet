@@ -49,9 +49,11 @@
 
 <style>
 	.slide {
-		width: 100%;
-		height: 100%;
-		aspect-ratio: 724 / 745;
+		width: 16rem;
+		height: 16.45rem;
+		display: block;
+		object-fit: cover;
+		object-position: top;
 	}
 
 	#popup-screenshots {
@@ -60,21 +62,32 @@
 
 	.gallery {
 		margin: 0 auto;
+		max-width: 16rem;
 	}
 
 	:global(.gallery > div) {
-		border-radius: 0.5rem;
+		border-radius: 0.75rem;
 	}
 
-	:global(.slider) {
-		width: 100%;
-		max-width: 25rem;
-		aspect-ratio: 724 / 745;
+	@media (min-width: 600px) {
+		.slide {
+			width: 20rem;
+			height: 20.55rem;
+		}
+
+		.gallery {
+			max-width: 20rem;
+		}
 	}
 
-	@media (prefers-color-scheme: dark) {
-		#popup-screenshots {
-			--color-scheme: dark;
+	@media (min-width: 840px) {
+		.slide {
+			width: 25rem;
+			height: 25.7rem;
+		}
+
+		.gallery {
+			max-width: 25rem;
 		}
 	}
 </style>
