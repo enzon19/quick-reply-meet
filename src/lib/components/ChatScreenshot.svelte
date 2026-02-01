@@ -11,7 +11,7 @@
 	tiltSpringOptions={{ stiffness: 0.1, damping: 0.2 }}
 >
 	<div class="stacked-3d-content">
-		<img src="mouse.png" alt="Spongebob SquarePants Logo" class="stacked-3d-over" />
+		<img src="mouse.png" alt="Mouse" class="stacked-3d-over" />
 		<img src="chat.png" alt="Chat Screenshot" class="stacked-3d-main" />
 	</div>
 </HoverTilt>
@@ -45,6 +45,8 @@
 		/* this is essential for the 3d effect to work */
 		position: relative;
 		transform-style: preserve-3d;
+		max-width: 100%;
+		overflow: visible;
 	}
 
 	.stacked-3d-over {
@@ -62,14 +64,32 @@
 		opacity: calc(var(--hover-tilt-opacity, 0) * 1.2 - 0.1);
 
 		position: absolute;
-		top: 20.5rem;
-		left: 5.5rem;
-		max-height: 2.5rem;
+		top: 72%;
+		left: 22%;
+		width: 7.5%;
+		height: auto;
+		max-width: 2.5rem;
 	}
 
 	.stacked-3d-main {
+		width: 100%;
+		height: auto;
 		max-height: 28rem;
 		display: block;
 		transform: translateZ(var(--layer-z));
+	}
+
+	@media (max-width: 639px) {
+		.stacked-3d-content {
+			--depth: 20px;
+		}
+
+		.stacked-3d-main {
+			max-height: 20rem;
+		}
+
+		.stacked-3d-over {
+			max-width: 1.8rem;
+		}
 	}
 </style>

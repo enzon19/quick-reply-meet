@@ -1,15 +1,20 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 
-	let { title, description, children }: { title?: string; description: string; children?: Snippet } =
-		$props();
+	let {
+		title,
+		description,
+		children
+	}: { title?: string; description: string; children?: Snippet } = $props();
 </script>
 
 <div class="feature">
-	{#if title}
-		<p>{title}</p>
-	{/if}
-	<h4>{description}</h4>
+	<div class="text-block">
+		{#if title}
+			<p>{title}</p>
+		{/if}
+		<h4>{description}</h4>
+	</div>
 	{#if children}
 		{@render children()}
 	{/if}
@@ -21,6 +26,9 @@
 		border-radius: 2rem;
 		padding: 3.5rem 2.5rem;
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		gap: 2.75rem;
 	}
 
 	h4 {
@@ -37,5 +45,9 @@
 		margin: 0;
 		margin-bottom: 0.5rem;
 		color: var(--m3c-on-surface-variant);
+	}
+
+	.text-block {
+		flex: 1;
 	}
 </style>
