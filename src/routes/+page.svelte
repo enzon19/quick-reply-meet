@@ -4,7 +4,11 @@
 	import { _ } from 'svelte-i18n';
 	import PreviewScreenshots from '$lib/components/ChatScreenshot.svelte';
 	import Feature from '$lib/components/Feature.svelte';
+
 	import icon from '$lib/assets/icon-512.png';
+	import Buttons from '$lib/components/svg/Buttons.svelte';
+	import Keyboard from '$lib/components/svg/Keyboard.svelte';
+	import AutoReply from '$lib/components/svg/AutoReply.svelte';
 
 	function update() {
 		const el = document.querySelector('#headline-install-button');
@@ -42,16 +46,28 @@
 
 <div class="feature-gallery container">
 	<Feature title={$_('features.click.title')} description={$_('features.click.description')}>
-		<img class="feature-image" src="features/0.png" alt="Feature" />
+		<Buttons
+			preserveAspectRatio="xMidYMid meet"
+			primaryColor="var(--m3c-primary)"
+			secondaryColor="var(--m3c-on-primary)"
+		/>
 	</Feature>
 	<Feature title={$_('features.keyboard.title')} description={$_('features.keyboard.description')}>
-		<img class="feature-image" src="features/1.png" alt="Feature" />
+		<Keyboard
+			preserveAspectRatio="xMidYMid meet"
+			primaryColor="var(--m3c-primary)"
+			secondaryColor="var(--m3c-on-primary)"
+		/>
 	</Feature>
 	<Feature
 		title={$_('features.autoReply.title')}
 		description={$_('features.autoReply.description')}
 	>
-		<img class="feature-image" src="features/2.png" alt="Feature" />
+		<AutoReply
+			preserveAspectRatio="xMidYMid meet"
+			primaryColor="var(--m3c-primary)"
+			secondaryColor="var(--m3c-on-primary)"
+		/>
 	</Feature>
 </div>
 
@@ -59,11 +75,11 @@
 
 <style>
 	.preview {
-		padding: 1.5rem;
+		padding-top: 1.5rem;
 		display: grid;
 		grid-template-columns: auto;
 		align-items: center;
-		gap: 2.5rem;
+		gap: 1.5rem;
 	}
 
 	.headline {
@@ -82,7 +98,7 @@
 
 	h2 {
 		font-size: 2rem;
-		line-height: 3.25rem;
+		line-height: 2.75rem;
 		font-weight: 600;
 		margin: 0;
 	}
@@ -121,12 +137,19 @@
 
 	.feature-gallery {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 2rem;
+		gap: 1rem;
 	}
 
-	.feature-image {
+	:global(.feature svg) {
 		width: 100%;
+		height: 10rem;
+		margin: 0 auto;
+	}
+
+	@media (min-width: 1040px) {
+		.feature-gallery {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
 	}
 
 	@media (min-width: 880px) {
@@ -168,7 +191,7 @@
 		}
 
 		.feature-gallery {
-			flex-direction: row;
+			gap: 2rem;
 		}
 	}
 </style>
