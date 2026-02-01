@@ -37,6 +37,10 @@
 		flex-direction: column-reverse;
 	}
 
+	.text-block {
+		flex: 1;
+	}
+
 	@media (min-width: 640px) {
 		.big-feature {
 			flex-direction: row;
@@ -58,9 +62,5 @@
 		margin: 0;
 		margin-bottom: 0.5rem;
 		color: var(--m3c-on-surface-variant);
-	}
-
-	.text-block {
-		flex: 1;
 	}
 </style>
