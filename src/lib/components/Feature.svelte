@@ -59,4 +59,8 @@
 		margin-bottom: 0.5rem;
 		color: var(--m3c-on-surface-variant);
 	}
+
+	.text-block {
+		flex: 1;
+	}
 </style>
