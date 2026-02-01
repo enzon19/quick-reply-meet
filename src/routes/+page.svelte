@@ -54,6 +54,7 @@
 			preserveAspectRatio="xMidYMid meet"
 			primaryColor="var(--m3c-primary)"
 			secondaryColor="var(--m3c-on-primary)"
+			class="features-illustration"
 		/>
 	</Feature>
 	<Feature title={$_('features.keyboard.title')} description={$_('features.keyboard.description')}>
@@ -61,6 +62,7 @@
 			preserveAspectRatio="xMidYMid meet"
 			primaryColor="var(--m3c-primary)"
 			secondaryColor="var(--m3c-on-primary)"
+			class="features-illustration"
 		/>
 	</Feature>
 	<Feature
@@ -71,6 +73,7 @@
 			preserveAspectRatio="xMidYMid meet"
 			primaryColor="var(--m3c-primary)"
 			secondaryColor="var(--m3c-on-primary)"
+			class="features-illustration"
 		/>
 	</Feature>
 </div>
@@ -103,21 +106,21 @@
 		title={$_('installSection.firefox.title')}
 	>
 		{@render storeButton(storeURLS.firefox)}
-		<Icon viewBox="0 0 512 512" icon={icons['firefox']} size={72} />
+		<Icon viewBox="0 0 512 512" icon={icons['firefox']} size={72} class="features-illustration" />
 	</Feature>
 	<Feature
 		description={$_('installSection.chrome.description')}
 		title={$_('installSection.chrome.title')}
 	>
 		{@render storeButton(storeURLS.chrome)}
-		<Icon viewBox="0 0 512 512" icon={icons['chrome']} size={72} />
+		<Icon viewBox="0 0 512 512" icon={icons['chrome']} size={72} class="features-illustration" />
 	</Feature>
 	<Feature
 		description={$_('installSection.edge.description')}
 		title={$_('installSection.edge.title')}
 	>
 		{@render storeButton(storeURLS.edge)}
-		<Icon viewBox="0 0 512 512" icon={icons['edge']} size={72} />
+		<Icon viewBox="0 0 512 512" icon={icons['edge']} size={72} class="features-illustration" />
 	</Feature>
 </div>
 
@@ -197,12 +200,12 @@
 		grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
 	}
 
-	:global(.feature-gallery .feature svg) {
+	:global(.features-illustration) {
 		width: 100%;
 		margin: 0 auto;
 	}
 
-	:global(.feature-gallery.features .feature svg) {
+	:global(.feature-gallery.features .feature .features-illustration) {
 		height: 10rem;
 	}
 
