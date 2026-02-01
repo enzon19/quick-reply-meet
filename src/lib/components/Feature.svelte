@@ -53,6 +53,7 @@
 		font-size: 1.25rem;
 		font-weight: 700;
 		line-height: 1.75rem;
+		max-width: 35rem;
 	}
 
 	p {
