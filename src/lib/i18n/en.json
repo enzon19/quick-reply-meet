@@ -1,34 +1,34 @@
 {
-	"install": "Adicionar{browser, select, chrome { no Chrome} firefox { no Firefox} edge { no Edge} other {}}",
-	"headline": "Envie mensagens no chat do Google Meet™ sem precisar digitar.",
+	"install": "Add{browser, select, chrome { to Chrome} firefox { to Firefox} edge { to Edge} other {}}",
+	"headline": "Send messages in Google Meet™ chat without typing.",
 	"features": {
-		"title": "Funcionalidades",
+		"title": "Features",
 		"click": {
-			"description": "Crie e salve mensagens prontas para enviar no chat com apenas um clique",
-			"title": "Botões no Chat"
+			"description": "Create and save ready-to-send messages to chat with just one click",
+			"title": "Chat Buttons"
 		},
 		"keyboard": {
-			"description": "Configure atalhos de teclado para enviar suas mensagens prontas",
-			"title": "Atalhos de Teclado"
+			"description": "Set up keyboard shortcuts to send your ready-to-send messages",
+			"title": "Keyboard Shortcuts"
 		},
 		"autoReply": {
-			"description": "Defina gatilhos automáticos para responder mensagens específicas do chat",
-			"title": "Responder Automaticamente"
+			"description": "Set automatic triggers to respond to specific chat messages",
+			"title": "Auto Reply"
 		},
 		"settings": {
-			"description": "Gerencie suas mensagens prontas e ajuste suas preferências pelo popup na barra de endereços",
-			"title": "Controle Completo"
+			"description": "Manage your ready-to-send messages and adjust your preferences through the popup in the address bar",
+			"title": "Complete Control"
 		}
 	},
 	"installSection": {
-		"title": "Adicione no Seu Navegador",
-		"installButton": "Ver na loja",
+		"title": "Add to Your Browser",
+		"installButton": "View in store",
 		"firefox": {
 			"title": "Firefox",
 			"description": "Mozilla Add-ons"
 		},
 		"chrome": {
-			"title": "Chrome (e derivados)",
+			"title": "Chrome-based",
 			"description": "Chrome Web Store"
 		},
 		"edge": {
@@ -37,13 +37,13 @@
 		}
 	},
 	"footer": {
-		"credits": "Desenvolvido por <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
-		"sourceCode": "Código-fonte",
-		"donate": "Doar"
+		"credits": "Developed by <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Source code",
+		"donate": "Donate"
 	},
 	"uninstalled": {
-		"title": "Poxa, extensão desinstalada...",
-		"description": "Se puder, responda o formulário para nos ajudar a entender o que deu errado"
+		"title": "Oh no, extension uninstalled...",
+		"description": "If you can, please fill out the form to help us understand what went wrong"
 	},
-	"redirect": "Redirecionando... <a id=\"redirect\" class=\"link\">Não foi redirecionado?</a>"
+	"redirect": "Redirecting... <a id=\"redirect\" class=\"link\">Didn't redirect?</a>"
 }
