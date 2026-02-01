@@ -8,7 +8,7 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-			base: 'https://enzon19.github.io/quick-reply-meet'
+			base: '/quick-reply-meet'
 		}
 	}
 };
