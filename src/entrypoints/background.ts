@@ -18,7 +18,7 @@ export default defineBackground(() => {
 			browser.tabs.create({
 				url: 'welcome.html'
 			});
-			browser.runtime.setUninstallURL('https://quickreplymeet.enzon19.com/uninstall');
+			browser.runtime.setUninstallURL('https://quickreplymeet.enzon19.com/uninstalled');
 		} else if (details.reason == 'update') {
 			try {
 				await migrateOldData();
@@ -29,6 +29,7 @@ export default defineBackground(() => {
 			browser.tabs.create({
 				url: 'updated.html'
 			});
+			browser.runtime.setUninstallURL('https://quickreplymeet.enzon19.com/uninstalled');
 		}
 	});
 });
