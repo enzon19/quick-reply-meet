@@ -19,5 +19,21 @@
 			"description": "Gerencie suas mensagens prontas e ajuste suas preferências pelo ícone na barra de endereços",
 			"title": "Controle Completo"
 		}
+	},
+	"installSection": {
+		"title": "Instale Gratuitamente",
+		"installButton": "Ver na loja",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome (e derivados)",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
 	}
 }

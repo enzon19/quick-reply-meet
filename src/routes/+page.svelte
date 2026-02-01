@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
-	import { Button, pathPill } from 'm3-svelte';
+	import { Button, Icon, pathPill } from 'm3-svelte';
+	import { icons } from '$lib/assets/iconify.json';
 	import { _ } from 'svelte-i18n';
 	import PreviewScreenshots from '$lib/components/ChatScreenshot.svelte';
 	import Feature from '$lib/components/Feature.svelte';
@@ -81,6 +82,46 @@
 	</Feature>
 </div>
 
+<h3>{$_('installSection.title')}</h3>
+
+{#snippet storeButton(url: string)}
+	<Button
+		style="max-width: fit-content; margin: 0 auto;"
+		variant="outlined"
+		href={url}
+		iconType="left"
+		>{$_('installSection.installButton')} <Icon viewBox="0 0 24 24" icon={icons['arrow-forward']} />
+	</Button>
+{/snippet}
+
+<div class="feature-gallery install">
+	<Feature
+		description={$_('installSection.firefox.description')}
+		title={$_('installSection.firefox.title')}
+	>
+		{@render storeButton('https://addons.mozilla.org/firefox/addon/quick-reply-meet/')}
+		<Icon viewBox="0 0 512 512" icon={icons['firefox']} size={72} />
+	</Feature>
+	<Feature
+		description={$_('installSection.chrome.description')}
+		title={$_('installSection.chrome.title')}
+	>
+		{@render storeButton(
+			'https://chromewebstore.google.com/detail/quick-reply-meet/dodpcgfhomjldnenagdibjcoofheocfc'
+		)}
+		<Icon viewBox="0 0 512 512" icon={icons['chrome']} size={72} />
+	</Feature>
+	<Feature
+		description={$_('installSection.edge.description')}
+		title={$_('installSection.edge.title')}
+	>
+		{@render storeButton(
+			'https://microsoftedge.microsoft.com/addons/detail/quick-reply-meet/lonfbmmkmojfammfcljbnelobfnhpigk'
+		)}
+		<Icon viewBox="0 0 512 512" icon={icons['edge']} size={72} />
+	</Feature>
+</div>
+
 <style>
 	.preview {
 		padding-top: 1.5rem;
@@ -149,10 +190,13 @@
 		gap: 1rem;
 	}
 
-	:global(.feature svg) {
+	:global(.feature-gallery .feature svg) {
 		width: 100%;
-		height: 10rem;
 		margin: 0 auto;
+	}
+
+	:global(.feature-gallery:not(.install) .feature svg) {
+		height: 10rem;
 	}
 
 	.big-feature-wrapper {
