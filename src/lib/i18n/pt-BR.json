@@ -44,5 +44,6 @@
 	"uninstalled": {
 		"title": "Poxa, extensão desinstalada...",
 		"description": "Se puder, responda o formulário para nos ajudar a entender o que deu errado"
-	}
+	},
+	"redirect": "Redirecionando... <a id=\"redirect\" class=\"link\">Não foi redirecionado?</a>"
 }
