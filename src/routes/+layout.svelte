@@ -27,7 +27,7 @@
 
 <style>
 	header {
-		background-color: var(--m3c-surface-container-highest);
+		background-color: var(--m3c-surface-container);
 		margin: -1rem -1rem 0 -1rem;
 		padding: 0.8rem;
 		position: fixed;

@@ -37,7 +37,7 @@
 	<div class="main-image">
 		<PreviewScreenshots />
 		<svg width="24rem" height="24rem" style:margin="auto" viewBox="0 0 380 380">
-			<path class="shape" d={pathPill} fill="var(--m3c-surface-container)" />
+			<path class="shape" d={pathPill} fill="var(--m3c-surface-container-low)" />
 		</svg>
 	</div>
 </div>
@@ -102,6 +102,7 @@
 
 	.logo {
 		height: 4rem;
+		filter: drop-shadow(0 0 0.75rem #00000060);
 	}
 
 	h2 {
