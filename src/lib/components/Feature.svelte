@@ -4,12 +4,13 @@
 	let {
 		title,
 		description,
+		big = false,
 		children
-	}: { title?: string; description: string; children?: Snippet } = $props();
+	}: { title?: string; description: string; big?: boolean; children?: Snippet } = $props();
 </script>
 
-<div class="feature">
-	<div class="text-block">
+<div class="feature" class:big-feature={big}>
+	<div class:text-block={!big}>
 		{#if title}
 			<p>{title}</p>
 		{/if}
@@ -31,6 +32,18 @@
 		gap: 2.75rem;
 	}
 
+	.big-feature {
+		text-align: left;
+		flex-direction: column-reverse;
+	}
+
+	@media (min-width: 640px) {
+		.big-feature {
+			flex-direction: row;
+			align-items: center;
+		}
+	}
+
 	h4 {
 		margin: 0;
 		font-size: 1.25rem;
@@ -45,9 +58,5 @@
 		margin: 0;
 		margin-bottom: 0.5rem;
 		color: var(--m3c-on-surface-variant);
-	}
-
-	.text-block {
-		flex: 1;
 	}
 </style>
