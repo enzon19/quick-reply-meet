@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { resolve } from '$app/paths';
 	import { getBrowserName, storeURLS } from '$lib/utils';
 	import { Button, Icon } from 'm3-svelte';
 	import { _ } from 'svelte-i18n';
@@ -14,7 +15,7 @@
 <Button
 	{...restProps}
 	iconType="left"
-	href={browserName ? storeURLS[browserName] : '#install'}
+	href={browserName ? storeURLS[browserName] : (resolve('/') + "#install")}
 	target="_blank"
 >
 	<Icon viewBox="0 0 24 24" icon={icons['add']} />

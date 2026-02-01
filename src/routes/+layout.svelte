@@ -2,6 +2,7 @@
 	import '../app.css';
 	import '$lib/i18n/index';
 	import { _ } from 'svelte-i18n';
+	import { resolve } from '$app/paths';
 	import { Button, Icon } from 'm3-svelte';
 	import InstallButton from '$lib/components/InstallButton.svelte';
 	import { icons } from '$lib/assets/iconify.json';
@@ -17,7 +18,7 @@
 
 <header>
 	<div class="container">
-		<a href="/" class="logo">
+		<a href={resolve('/')} class="logo">
 			<img src={icon} alt="Quick Reply Meet Logo" />
 			<h1>Quick Reply Meet</h1>
 		</a>
@@ -72,7 +73,7 @@
 		align-items: center;
 		gap: 1rem;
 		text-decoration: none;
-		color: var(--m3c-on-surface)
+		color: var(--m3c-on-surface);
 	}
 
 	.logo > img {
