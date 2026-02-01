@@ -73,19 +73,13 @@
 
 <div class="big-feature-wrapper">
 	<Feature
-		title={$_('features.autoReply.title')}
-		description={$_('features.autoReply.description')}
+		title={$_('features.settings.title')}
+		description={$_('features.settings.description')}
 		big
 	>
-		<AutoReply
-			preserveAspectRatio="xMidYMid meet"
-			primaryColor="var(--m3c-primary)"
-			secondaryColor="var(--m3c-on-primary)"
-		/>
+		POPUP
 	</Feature>
 </div>
-
-<!-- <Button onclick={() => alert('Hello world')}>Click me</Button> -->
 
 <style>
 	.preview {
