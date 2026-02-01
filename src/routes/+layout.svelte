@@ -17,10 +17,10 @@
 
 <header>
 	<div class="container">
-		<div class="logo">
+		<a href="/" class="logo">
 			<img src={icon} alt="Quick Reply Meet Logo" />
 			<h1>Quick Reply Meet</h1>
-		</div>
+		</a>
 		<InstallButton />
 	</div>
 </header>
@@ -71,6 +71,8 @@
 		display: flex;
 		align-items: center;
 		gap: 1rem;
+		text-decoration: none;
+		color: var(--m3c-on-surface)
 	}
 
 	.logo > img {
