@@ -1,7 +1,9 @@
 <script lang="ts">
-	import { pathVerySunny, pathSoftBurst, pathTwelveSidedCookie } from 'm3-svelte';
+	import { pathVerySunny, pathSoftBurst, pathTwelveSidedCookie, LinearProgress } from 'm3-svelte';
 	import { TinySlider } from 'svelte-tiny-slider';
 	import { onMount } from 'svelte';
+	import { Tween } from 'svelte/motion';
+	import { quadOut } from 'svelte/easing';
 	import Buttons from './svg/Buttons.svelte';
 	import Keyboard from './svg/Keyboard.svelte';
 	import AutoReply from './svg/AutoReply.svelte';
@@ -16,14 +18,26 @@
 
 	let slider: any = $state();
 	let currentSlide = $state(0);
-
 	let isPaused = $state(false);
+
+	const progress = new Tween(0, {
+		duration: 3000,
+		easing: quadOut
+	});
+
 	onMount(() => {
 		if (type == 'gallery') {
+			progress.target = 100;
+
 			const interval = setInterval(() => {
 				if (!isPaused) {
-					currentSlide = (currentSlide + 1) % features.length;
+					currentSlide = (currentSlide + 1) % 3;
 					slider.setIndex(currentSlide);
+
+					progress.set(0, { duration: 0 });
+					requestAnimationFrame(() => {
+						progress.target = 100;
+					});
 				}
 			}, 3000);
 
@@ -114,6 +128,9 @@
 		<TinySlider bind:this={slider}>
 			{@render gallery()}
 		</TinySlider>
+		<div class="progress-container">
+			<LinearProgress percent={progress.current} />
+		</div>
 	</div>
 {:else}
 	<div class="list">
@@ -145,5 +162,10 @@
 	p {
 		margin: 0px;
 		font-size: 1.1rem;
+	}
+
+	.progress-container {
+		padding: 1rem 0;
+		width: 100%;
 	}
 </style>
