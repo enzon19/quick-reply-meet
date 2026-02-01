@@ -47,7 +47,7 @@
 
 <h3>{$_('features.title')}</h3>
 
-<div class="feature-gallery">
+<div class="feature-gallery features">
 	<Feature title={$_('features.click.title')} description={$_('features.click.description')}>
 		<Buttons
 			preserveAspectRatio="xMidYMid meet"
@@ -188,23 +188,25 @@
 		gap: 1rem;
 	}
 
+	.feature-gallery.features {
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	}
+
+	.feature-gallery.install {
+		grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+	}
+
 	:global(.feature-gallery .feature svg) {
 		width: 100%;
 		margin: 0 auto;
 	}
 
-	:global(.feature-gallery:not(.install) .feature svg) {
+	:global(.feature-gallery.features .feature svg) {
 		height: 10rem;
 	}
 
 	.big-feature-wrapper {
 		margin: 1rem auto;
-	}
-
-	@media (min-width: 1040px) {
-		.feature-gallery {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
 	}
 
 	@media (min-width: 880px) {
