@@ -4,7 +4,6 @@
 	import 'svooltip/styles.css';
 	import { flip } from 'svelte/animate';
 	import { dragHandleZone, dragHandle } from 'svelte-dnd-action';
-	import { saveMessages } from '@/utils/sync';
 
 	import { icons as materialSymbols } from '@/assets/material-symbols-subset.json';
 	const newIcon = materialSymbols['add'];
@@ -13,17 +12,19 @@
 	let {
 		messages,
 		currentMessage = $bindable(),
-		page = $bindable()
+		page = $bindable(),
+		onreorder
 	}: {
 		messages: Message[];
 		currentMessage: Partial<Message> | undefined;
 		page: MessagesSubpages;
+		onreorder: (e: Message[]) => void;
 	} = $props();
 
 	const flipDurationMs = 200;
 	async function handleSort(e: any) {
 		messages = e.detail.items;
-		saveMessages(messages);
+		onreorder(messages);
 	}
 </script>
 

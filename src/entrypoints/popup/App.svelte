@@ -28,6 +28,11 @@
 
 	let currentMessage: Message | undefined = $state();
 
+	async function onReorder(updatedMessages: Message[]) {
+		messages = updatedMessages;
+		await saveMessages(messages);
+	}
+
 	async function onMessageUpdate(updatedMessage: Partial<Message>) {
 		if (updatedMessage) {
 			if (!updatedMessage.id) {
@@ -58,7 +63,11 @@
 					<LoadingIndicator />
 				</div>
 			{:else}
-				<MessagesList {messages} bind:currentMessage bind:page={messagesSubpage} />
+				<MessagesList
+					{messages}
+					onreorder={onReorder}
+					bind:currentMessage
+					bind:page={messagesSubpage} />
 			{/if}
 		{:else if (messagesSubpage === 'new' || messagesSubpage === 'edit') && currentMessage}
 			<ManageMessage
