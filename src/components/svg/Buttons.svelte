@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   let { primaryColor = 'red', secondaryColor = 'blue', ...restProps } = $props();
 </script>
 
