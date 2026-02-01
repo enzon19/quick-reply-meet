@@ -12,6 +12,7 @@
 	import Buttons from '$lib/components/svg/Buttons.svelte';
 	import Keyboard from '$lib/components/svg/Keyboard.svelte';
 	import AutoReply from '$lib/components/svg/AutoReply.svelte';
+	import PopupScreenshots from '$lib/components/PopupScreenshots.svelte';
 
 	function update() {
 		const el = document.querySelector('#headline-install-button');
@@ -80,7 +81,7 @@
 		description={$_('features.settings.description')}
 		big
 	>
-		POPUP
+		<PopupScreenshots/>
 	</Feature>
 </div>
 
