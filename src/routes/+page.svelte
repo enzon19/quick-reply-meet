@@ -81,6 +81,11 @@
 	</Feature>
 </div>
 
+<<<<<<< HEAD
+=======
+<h3>{$_('benefits.title')}</h3>
+
+>>>>>>> 20ecf9d456220443bdde3f87ab093e0af495751d
 <style>
 	.preview {
 		padding-top: 1.5rem;
