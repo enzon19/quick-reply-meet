@@ -14,7 +14,7 @@
 </svelte:head>
 
 <header>
-	<div class="container header">
+	<div class="container">
 		<div class="logo">
 			<img src={icon} alt="Quick Reply Meet Logo" />
 			<h1>Quick Reply Meet</h1>
@@ -23,16 +23,19 @@
 	</div>
 </header>
 
-{@render children()}
+<main class="container">{@render children()}</main>
 
 <style>
 	header {
 		background-color: var(--m3c-surface-container-highest);
 		margin: -1rem -1rem 0 -1rem;
 		padding: 0.8rem;
+		position: fixed;
+		width: 100%;
+		z-index: 5;
 	}
 
-	.header {
+	header > div {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -55,7 +58,6 @@
 		font-size: 1.5rem;
 	}
 
-	
 	@media (min-width: 480px) {
 		.logo > h1 {
 			display: block;

@@ -26,7 +26,7 @@
 	});
 </script>
 
-<div class="preview container">
+<div class="preview">
 	<div class="headline">
 		<div>
 			<img class="logo" src={icon} alt="Quick Reply Meet Logo" />
@@ -44,7 +44,7 @@
 
 <h3>{$_('features.title')}</h3>
 
-<div class="feature-gallery container">
+<div class="feature-gallery">
 	<Feature title={$_('features.click.title')} description={$_('features.click.description')}>
 		<Buttons
 			preserveAspectRatio="xMidYMid meet"
@@ -71,7 +71,7 @@
 	</Feature>
 </div>
 
-<div class="big-feature-wrapper container">
+<div class="big-feature-wrapper">
 	<Feature
 		title={$_('features.autoReply.title')}
 		description={$_('features.autoReply.description')}
