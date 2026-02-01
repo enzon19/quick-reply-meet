@@ -40,5 +40,9 @@
 		"credits": "Desenvolvido por <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
 		"sourceCode": "Código-fonte",
 		"donate": "Doar"
+	},
+	"uninstalled": {
+		"title": "Poxa, extensão desinstalada...",
+		"description": "Se puder, responda o formulário para nos ajudar a entender o que deu errado"
 	}
 }
