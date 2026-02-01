@@ -71,6 +71,20 @@
 	</Feature>
 </div>
 
+<div class="big-feature-wrapper container">
+	<Feature
+		title={$_('features.autoReply.title')}
+		description={$_('features.autoReply.description')}
+		big
+	>
+		<AutoReply
+			preserveAspectRatio="xMidYMid meet"
+			primaryColor="var(--m3c-primary)"
+			secondaryColor="var(--m3c-on-primary)"
+		/>
+	</Feature>
+</div>
+
 <!-- <Button onclick={() => alert('Hello world')}>Click me</Button> -->
 
 <style>
@@ -146,6 +160,10 @@
 		margin: 0 auto;
 	}
 
+	.big-feature-wrapper {
+		margin: 1rem auto;
+	}
+
 	@media (min-width: 1040px) {
 		.feature-gallery {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -192,6 +210,10 @@
 
 		.feature-gallery {
 			gap: 2rem;
+		}
+
+		.big-feature-wrapper {
+			margin: 2rem 0;
 		}
 	}
 </style>
