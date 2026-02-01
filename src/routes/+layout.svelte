@@ -36,6 +36,27 @@
 
 <main class="container">{@render children()}</main>
 
+<footer>
+	<div class="container">
+		<span>{@html $_('footer.credits')}</span>
+		<div class="buttons">
+			<Button href="https://enzon19.com/donate" target="_blank" variant="text" iconType="left">
+				<Icon viewBox="0 0 24 24" icon={icons['favorite']} />
+				{$_('footer.donate')}
+			</Button>
+			<Button
+				href="https://github.com/enzon19/quick-reply-meet"
+				target="_blank"
+				variant="text"
+				iconType="left"
+			>
+				<Icon viewBox="0 0 512 512" icon={icons['github']} />
+				{$_('footer.sourceCode')}
+			</Button>
+		</div>
+	</div>
+</footer>
+
 <style>
 	header {
 		background-color: var(--m3c-surface-container);
@@ -72,9 +93,31 @@
 		font-size: 1.5rem;
 	}
 
+	footer {
+		background-color: var(--m3c-surface-container);
+		padding: 1.5rem 0.8rem;
+	}
+
+	footer > div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-direction: column-reverse;
+		gap: 1.5rem;
+	}
+
+	.buttons {
+		display: flex;
+		gap: 0.5rem;
+	}
+
 	@media (min-width: 560px) {
 		.logo > h1 {
 			display: block;
+		}
+
+		footer > div {
+			flex-direction: row;
 		}
 	}
 </style>

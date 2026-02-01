@@ -16,7 +16,7 @@
 			"title": "Responder Automaticamente"
 		},
 		"settings": {
-			"description": "Gerencie suas mensagens prontas e ajuste suas preferências pelo ícone na barra de endereços",
+			"description": "Gerencie suas mensagens prontas e ajuste suas preferências pelo popup na barra de endereços",
 			"title": "Controle Completo"
 		}
 	},
@@ -35,5 +35,10 @@
 			"title": "Edge",
 			"description": "Edge Add-ons"
 		}
+	},
+	"footer": {
+		"credits": "Desenvolvido por <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Código-fonte",
+		"donate": "Doar"
 	}
 }
