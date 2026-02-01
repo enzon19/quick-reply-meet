@@ -17,16 +17,6 @@
 
 		return () => clearInterval(interval);
 	});
-
-	let popupScreenshotsElement = $derived(
-		browser ? document.querySelector('#popup-screenshots') : undefined
-	);
-	let colorScheme = $derived(
-		browser && popupScreenshotsElement
-			? window.getComputedStyle(popupScreenshotsElement).getPropertyValue('--color-scheme') ||
-					'light'
-			: 'light'
-	);
 </script>
 
 <div
@@ -38,10 +28,22 @@
 	onmouseleave={() => (isPaused = false)}
 >
 	<TinySlider bind:this={slider}>
-		<img src="popup/{colorScheme}/0.png" alt="Popup message list" class="slide" />
-		<img src="popup/{colorScheme}/1.png" alt="Popup edit message details" class="slide" />
-		<img src="popup/{colorScheme}/2.png" alt="Popup edit message triggers" class="slide" />
-		<img src="popup/{colorScheme}/3.png" alt="Popup extension settings" class="slide" />
+		<picture>
+			<source srcset="popup/dark/0.png" media="(prefers-color-scheme: dark)" />
+			<img src="popup/light/0.png" alt="Popup message list" class="slide" />
+		</picture>
+		<picture>
+			<source srcset="popup/dark/1.png" media="(prefers-color-scheme: dark)" />
+			<img src="popup/light/1.png" alt="Popup edit message details" class="slide" />
+		</picture>
+		<picture>
+			<source srcset="popup/dark/2.png" media="(prefers-color-scheme: dark)" />
+			<img src="popup/light/2.png" alt="Popup edit message triggers" class="slide" />
+		</picture>
+		<picture>
+			<source srcset="popup/dark/3.png" media="(prefers-color-scheme: dark)" />
+			<img src="popup/light/3.png" alt="Popup extension settings" class="slide" />
+		</picture>
 	</TinySlider>
 </div>
 
