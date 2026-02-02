@@ -8,7 +8,6 @@
 	import Feature from '$lib/components/Feature.svelte';
 	import { storeURLS } from '$lib/utils';
 
-	import icon from '$lib/assets/icon-512.png';
 	import Buttons from '$lib/components/svg/Buttons.svelte';
 	import Keyboard from '$lib/components/svg/Keyboard.svelte';
 	import AutoReply from '$lib/components/svg/AutoReply.svelte';
@@ -33,7 +32,7 @@
 <div class="preview">
 	<div class="headline">
 		<div>
-			<img class="logo" src={icon} alt="Quick Reply Meet Logo" />
+			<img class="logo" src="icon-512.png" alt="Quick Reply Meet Logo" />
 			<h2>{$_('headline')}</h2>
 		</div>
 		<InstallButton id="headline-install-button" size="l" />

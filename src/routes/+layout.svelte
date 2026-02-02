@@ -6,20 +6,17 @@
 	import { Button, Icon } from 'm3-svelte';
 	import InstallButton from '$lib/components/InstallButton.svelte';
 	import { icons } from '$lib/assets/iconify.json';
-	import favicon from '$lib/assets/favicon.ico';
-	import icon from '$lib/assets/icon-512.png';
 
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <header>
 	<div class="container">
 		<a href={resolve('/')} class="logo">
-			<img src={icon} alt="Quick Reply Meet Logo" />
+			<img src="icon-512.png" alt="Quick Reply Meet Logo" />
 			<h1>Quick Reply Meet</h1>
 		</a>
 		<InstallButton />
