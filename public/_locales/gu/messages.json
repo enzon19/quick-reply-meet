@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "gu",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "ટાઇપ કર્યા વિના Google Meet™ ચેટમાં સંદેશા મોકલો.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "સંદેશા",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "સેટિંગ્સ",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "તમારી પાસે હજી કોઈ સંદેશા નથી.<br>+ પર ક્લિક કરીને એક બનાવો",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "નવો સંદેશ",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "સંદેશમાં ફેરફાર કરો",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "નવો સંદેશ",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "સંદેશની સામગ્રી",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "ચેટમાં તરત જ સંદેશ મોકલો",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "જો બંધ હોય, તો સંદેશ પહેલા સંદેશના ફીલ્ડમાં ઉમેરાશે અને તમારે મોકલો બટન પર ક્લિક કરવું પડશે.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "આપમેળે જવાબ (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "કીબોર્ડ શૉર્ટકટ:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "શૉર્ટકટ રેકોર્ડ કરો",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "રેકોર્ડ થઈ રહ્યું છે...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "કીઓ દબાવો...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "કાઢી નાખો",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "સાચવો",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "રદ કરો",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "સંદેશ કાઢી નાખવો છે?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" તમારા બ્રાઉઝરમાંથી કાયમ માટે દૂર કરવામાં આવશે.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "વિગતો",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "ટ્રિગર્સ",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "બટનોની ગોળાઈ",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "બટનોનું સ્થાન",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "સંદેશના ફીલ્ડની નીચે બટનો",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "સંદેશના ફીલ્ડની ઉપર બટનો",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "ફીલ્ડની નીચે",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "ફીલ્ડની ઉપર",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Quick Reply Meet વિશે",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "સંદેશા આયાત અને નિકાસ કરો",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "સંદેશા નિકાસ કરો",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "સંદેશા આયાત કરો",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "સંદેશા સફળતાપૂર્વક નિકાસ થયા.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "$1 સંદેશા આયાત થયા.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "કોઈ સંદેશા આયાત થયા નથી.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "<a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a> દ્વારા વિકસિત",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "દાન કરો",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "સ્ટોર પર સમીક્ષા લખો",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "સ્વાગત છે!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "ડાઉનલોડ કરવા બદલ આભાર! જો તમને આ કામ ગમ્યું હોય, તો વિકાસને ટેકો આપવા <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">દાન કરો</a> અને સ્ટોર પર <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">એક્સ્ટેન્શનની સમીક્ષા લખો</a>.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "એક્સ્ટેન્શન સેટ અપ કરો",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "કેટલાક સંદેશા પસંદ કરો",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "શરૂ કરવા માટે તમે કેટલાક પ્રારંભિક સંદેશા પસંદ કરી શકો છો. તમે તમારા ઍડ્રેસ બારમાં એક્સ્ટેન્શનના પોપઅપમાંથી કોઈપણ સમયે સંદેશા બનાવી શકો છો, તેમાં ફેરફાર કરી શકો છો અને કાઢી નાખી શકો છો.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "ચાલુ રાખો",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "બટનો કસ્ટમાઇઝ કરો",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "ઝડપી જવાબના બટનોનો દેખાવ અને સ્થાન ગોઠવો. તમે એક્સ્ટેન્શનના પોપઅપમાં કોઈપણ સમયે આ સેટિંગ્સ બદલી શકો છો.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "પૂર્ણ કરો",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "એક્સ્ટેન્શન આવૃત્તિ 2.0.0 પર અપડેટ થયું!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "વધુ સ્થિરતા, કામગીરી અને આધુનિકતા માટે Quick Reply Meet સંપૂર્ણપણે નવેસરથી બનાવવામાં આવ્યું છે. આ મેં બનાવેલું પ્રથમ એક્સ્ટેન્શન હતું. હવે, 4 વર્ષ પછી, મેં આ સમય દરમિયાન મેળવેલા તમામ જ્ઞાનનો ઉપયોગ કરીને Google ના Material Design 3 Expressive ને અનુરૂપ નવો અનુભવ અને કેટલીક નવી સુવિધાઓ આપી છે. આશા છે કે તમને તે ગમશે!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "ચેટમાં ફક્ત એક ક્લિકથી મોકલવા માટે તૈયાર સંદેશા બનાવો અને સાચવો",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "તમારા સંદેશા મોકલવા માટે કીબોર્ડ શૉર્ટકટ સેટ કરો",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "ચેટના ચોક્કસ સંદેશાનો જવાબ આપવા માટે આપમેળે ચાલતા ટ્રિગર્સ સેટ કરો",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "હાય!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "નમસ્તે!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "ઠીક છે",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "હા",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "ના",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "આભાર!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "ખૂબ આભાર!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "કોઈ વાત નહીં!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "આવજો!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "શું તમે ફરી કહી શકો?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

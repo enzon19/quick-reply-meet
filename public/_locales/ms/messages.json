@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "ms",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Hantar mesej dalam sembang Google Meet™ tanpa menaip.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Mesej",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Tetapan",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "Anda belum mempunyai sebarang mesej.<br>Cipta satu dengan mengklik +",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Mesej baharu",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Edit mesej",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Mesej baharu",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Kandungan mesej",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Hantar mesej dalam sembang serta-merta",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Jika dinyahaktifkan, mesej akan dimasukkan ke dalam medan mesej terlebih dahulu dan anda perlu mengklik butang hantar.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Balasan automatik (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Pintasan papan kekunci:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Rakam pintasan",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "Merakam...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Tekan kekunci...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Padam",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Simpan",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Batal",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Padam mesej?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" akan dialih keluar secara kekal daripada pelayar anda.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Butiran",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Pencetus",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Kebulatan butang",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Kedudukan butang",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Butang di bawah medan mesej",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Butang di atas medan mesej",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "Di bawah medan",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "Di atas medan",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Perihal Quick Reply Meet",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Import dan eksport mesej",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Eksport mesej",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Import mesej",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Mesej berjaya dieksport.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "$1 mesej diimport.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Tiada mesej diimport.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Dibangunkan oleh <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Derma",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Beri ulasan di gedung",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Selamat datang!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Terima kasih kerana memuat turun! Jika anda menyukai hasil kerja ini, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">berikan sumbangan</a> dan <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">ulas sambungan ini</a> di gedung untuk menyokong pembangunan.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Sediakan sambungan",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Pilih beberapa mesej",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Untuk bermula, anda boleh memilih beberapa mesej awal. Anda boleh mencipta, mengedit dan memadam mesej pada bila-bila masa dalam tetingkap timbul sambungan di bar alamat anda.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Teruskan",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Sesuaikan butang",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Tetapkan rupa dan kedudukan butang balasan pantas. Anda boleh mengubah tetapan ini pada bila-bila masa dalam tetingkap timbul sambungan.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Selesai",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "Sambungan dikemas kini kepada versi 2.0.0!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "Quick Reply Meet telah dibina semula sepenuhnya dari awal untuk memberikan lebih kestabilan, prestasi dan kemodenan. Ini ialah sambungan pertama yang pernah saya cipta. Kini, 4 tahun kemudian, saya telah menggunakan segala pengetahuan yang diperoleh sepanjang tempoh itu untuk memberikan pengalaman baharu, selaras dengan Material Design 3 Expressive Google dan beberapa ciri baharu. Saya harap anda menyukainya!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Cipta dan simpan mesej yang sedia dihantar ke sembang dengan hanya satu klik",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Sediakan pintasan papan kekunci untuk menghantar mesej anda",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Tetapkan pencetus automatik untuk membalas mesej sembang tertentu",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Hai!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Helo!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "Okey",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Ya",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Tidak",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Terima kasih!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Terima kasih banyak!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "Sama-sama!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Selamat tinggal!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Boleh ulang?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

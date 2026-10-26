@@ -1,0 +1,254 @@
+{
+  "@@locale": {
+    "message": "zh_CN",
+    "description": "Language code of this file"
+  },
+  "extensionDescription": {
+    "message": "无需打字，即可在 Google Meet™ 聊天中发送消息。",
+    "description": "Extension description"
+  },
+  "messages": {
+    "message": "消息",
+    "description": "Messages tab"
+  },
+  "settings": {
+    "message": "设置",
+    "description": "Settings tab"
+  },
+  "noMessagesFallback": {
+    "message": "您还没有任何消息。<br>点击 + 创建一条消息",
+    "description": "Fallback for no messages in messages list in Messages tab"
+  },
+  "newMessageButton": {
+    "message": "新建消息",
+    "description": "New message FAB tooltip"
+  },
+  "editMessageTitle": {
+    "message": "编辑消息",
+    "description": "Title for manage message page, edit view"
+  },
+  "newMessageTitle": {
+    "message": "新建消息",
+    "description": "Title for manage message page, new view"
+  },
+  "messageContentField": {
+    "message": "消息内容",
+    "description": "Label for message content"
+  },
+  "sendRightAwayToggleLabel": {
+    "message": "立即在聊天中发送消息",
+    "description": "Label for toggle send right away"
+  },
+  "sendRightAwayToggleDescription": {
+    "message": "禁用后，消息会先添加到消息输入框中，您需要点击发送按钮。",
+    "description": "Details for toggle send right away"
+  },
+  "chatRegexField": {
+    "message": "自动回复（Regex）",
+    "description": "Label for message auto send"
+  },
+  "keyboardShortcutLabel": {
+    "message": "键盘快捷键：",
+    "description": "Label for keyboard shortcut"
+  },
+  "keyboardShortcutButton": {
+    "message": "录制快捷键",
+    "description": "Button to start recording keyboard shortcut"
+  },
+  "keyboardShortcutRecording": {
+    "message": "正在录制...",
+    "description": "Button when currently recording keyboard shortcut"
+  },
+  "keyboardShortcutHint": {
+    "message": "请按下按键...",
+    "description": "Hint below label to tell that's waiting for keyboard press"
+  },
+  "deleteMessageButton": {
+    "message": "删除",
+    "description": "Delete message button in manage message page"
+  },
+  "saveMessageButton": {
+    "message": "保存",
+    "description": "Save message button in manage message page"
+  },
+  "cancelButton": {
+    "message": "取消",
+    "description": "General cancel button"
+  },
+  "deleteMessageDialogTitle": {
+    "message": "删除消息？",
+    "description": "Modal title to confirm message deletion"
+  },
+  "deleteMessageDialogDescription": {
+    "message": "“$1”将从您的浏览器中永久删除。",
+    "description": "Modal description to confirm message deletion"
+  },
+  "detailsTab": {
+    "message": "详细信息",
+    "description": "Main tab for manage message page"
+  },
+  "triggersTab": {
+    "message": "触发条件",
+    "description": "Triggers tab for manage message page"
+  },
+  "settingsButtonsRoundness": {
+    "message": "按钮圆角",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsButtonsPosition": {
+    "message": "按钮位置",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "bottomButtonsPosition": {
+    "message": "按钮位于消息输入框下方",
+    "description": "Long description to set buttons position to the bottom"
+  },
+  "topButtonsPosition": {
+    "message": "按钮位于消息输入框上方",
+    "description": "Long description to set buttons position to the top"
+  },
+  "bottomButtonsPositionShort": {
+    "message": "输入框下方",
+    "description": "Short description to set buttons position to the bottom"
+  },
+  "topButtonsPositionShort": {
+    "message": "输入框上方",
+    "description": "Short description to set buttons position to the top"
+  },
+  "settingsAbout": {
+    "message": "关于 Quick Reply Meet",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsExportAndImport": {
+    "message": "导入和导出消息",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "exportButton": {
+    "message": "导出消息",
+    "description": "Button to export message in settings"
+  },
+  "importButton": {
+    "message": "导入消息",
+    "description": "Button to import message in settings"
+  },
+  "successExport": {
+    "message": "消息已成功导出。",
+    "description": "Toast to inform that the messages were exported"
+  },
+  "successImport": {
+    "message": "已导入 $1 条消息。",
+    "description": "Toast to inform that the messages were imported"
+  },
+  "noImports": {
+    "message": "未导入任何消息。",
+    "description": "Toast to inform that no messages were imported"
+  },
+  "credits": {
+    "message": "开发者：<a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+    "description": "Extension development credits"
+  },
+  "donateButton": {
+    "message": "捐赠",
+    "description": "General donate button"
+  },
+  "reviewButton": {
+    "message": "在商店中评价",
+    "description": "General review button"
+  },
+  "welcomeTitle": {
+    "message": "欢迎！",
+    "description": "Welcome page 0 title, welcome"
+  },
+  "welcomeDescription": {
+    "message": "感谢下载！如果您喜欢这项工作，请<a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">捐赠</a>并在商店中<a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">评价扩展程序</a>，以支持开发。",
+    "description": "Welcome page 0 paragraph, thanking the download"
+  },
+  "welcomeButton": {
+    "message": "设置扩展程序",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeDefaultMessagesTitle": {
+    "message": "选择一些消息",
+    "description": "Welcome page 1 title, choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesDescription": {
+    "message": "您可以先选择一些初始消息。您随时可以在地址栏中的扩展程序弹出窗口中创建、编辑和删除消息。",
+    "description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesButton": {
+    "message": "继续",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeSettingsTitle": {
+    "message": "自定义按钮",
+    "description": "Welcome page 2 title, personalize buttons appearance"
+  },
+  "welcomeSettingsDescription": {
+    "message": "设置快捷回复按钮的外观和位置。您随时可以在扩展程序弹出窗口中更改这些设置。",
+    "description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+  },
+  "welcomeSettingsButton": {
+    "message": "完成",
+    "description": "Button that ends onboarding"
+  },
+  "updateTitle": {
+    "message": "扩展程序已更新至 2.0.0 版本！",
+    "description": "Successfully updated page title"
+  },
+  "updateDescription": {
+    "message": "Quick Reply Meet 已从头彻底重建，带来更高的稳定性、性能和现代化体验。这是我创建的第一个扩展程序。如今，4 年过去了，我将这段时间学到的所有知识运用其中，带来符合 Google Material Design 3 Expressive 的全新体验，并增加了一些新功能。希望您喜欢！",
+    "description": "Successfully updated page paragraph"
+  },
+  "featureShortcuts": {
+    "message": "创建并保存预设消息，只需点击一下即可发送到聊天中",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureKeyboard": {
+    "message": "设置键盘快捷键来发送消息",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureTriggers": {
+    "message": "设置自动触发条件，回复特定的聊天消息",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "defaultMessage_hi": {
+    "message": "嗨！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_hello": {
+    "message": "你好！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_ok": {
+    "message": "好的",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_yes": {
+    "message": "是",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_no": {
+    "message": "否",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thanks": {
+    "message": "谢谢！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thankYou": {
+    "message": "非常感谢！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_youReWelcome": {
+    "message": "不客气！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_bye": {
+    "message": "再见！",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_canYouRepeat": {
+    "message": "可以再说一遍吗？",
+    "description": "Pre-made message, suggestion to user"
+  }
+}

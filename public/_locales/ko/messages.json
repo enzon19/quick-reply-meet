@@ -1,0 +1,254 @@
+{
+  "@@locale": {
+    "message": "ko",
+    "description": "Language code of this file"
+  },
+  "extensionDescription": {
+    "message": "입력하지 않고 Google Meet™ 채팅에 메시지를 보내세요.",
+    "description": "Extension description"
+  },
+  "messages": {
+    "message": "메시지",
+    "description": "Messages tab"
+  },
+  "settings": {
+    "message": "설정",
+    "description": "Settings tab"
+  },
+  "noMessagesFallback": {
+    "message": "메시지가 없습니다.<br>+를 클릭하여 만들어 보세요",
+    "description": "Fallback for no messages in messages list in Messages tab"
+  },
+  "newMessageButton": {
+    "message": "새 메시지",
+    "description": "New message FAB tooltip"
+  },
+  "editMessageTitle": {
+    "message": "메시지 수정",
+    "description": "Title for manage message page, edit view"
+  },
+  "newMessageTitle": {
+    "message": "새 메시지",
+    "description": "Title for manage message page, new view"
+  },
+  "messageContentField": {
+    "message": "메시지 내용",
+    "description": "Label for message content"
+  },
+  "sendRightAwayToggleLabel": {
+    "message": "채팅에 메시지 즉시 보내기",
+    "description": "Label for toggle send right away"
+  },
+  "sendRightAwayToggleDescription": {
+    "message": "사용하지 않으면 메시지가 먼저 입력란에 추가되며, 보내기 버튼을 클릭해야 합니다.",
+    "description": "Details for toggle send right away"
+  },
+  "chatRegexField": {
+    "message": "자동 응답 (Regex)",
+    "description": "Label for message auto send"
+  },
+  "keyboardShortcutLabel": {
+    "message": "키보드 단축키:",
+    "description": "Label for keyboard shortcut"
+  },
+  "keyboardShortcutButton": {
+    "message": "단축키 기록",
+    "description": "Button to start recording keyboard shortcut"
+  },
+  "keyboardShortcutRecording": {
+    "message": "기록 중...",
+    "description": "Button when currently recording keyboard shortcut"
+  },
+  "keyboardShortcutHint": {
+    "message": "키를 누르세요...",
+    "description": "Hint below label to tell that's waiting for keyboard press"
+  },
+  "deleteMessageButton": {
+    "message": "삭제",
+    "description": "Delete message button in manage message page"
+  },
+  "saveMessageButton": {
+    "message": "저장",
+    "description": "Save message button in manage message page"
+  },
+  "cancelButton": {
+    "message": "취소",
+    "description": "General cancel button"
+  },
+  "deleteMessageDialogTitle": {
+    "message": "메시지를 삭제할까요?",
+    "description": "Modal title to confirm message deletion"
+  },
+  "deleteMessageDialogDescription": {
+    "message": "\"$1\"이(가) 브라우저에서 영구적으로 삭제됩니다.",
+    "description": "Modal description to confirm message deletion"
+  },
+  "detailsTab": {
+    "message": "세부정보",
+    "description": "Main tab for manage message page"
+  },
+  "triggersTab": {
+    "message": "트리거",
+    "description": "Triggers tab for manage message page"
+  },
+  "settingsButtonsRoundness": {
+    "message": "버튼 모서리 둥글기",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsButtonsPosition": {
+    "message": "버튼 위치",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "bottomButtonsPosition": {
+    "message": "메시지 입력란 아래에 버튼 표시",
+    "description": "Long description to set buttons position to the bottom"
+  },
+  "topButtonsPosition": {
+    "message": "메시지 입력란 위에 버튼 표시",
+    "description": "Long description to set buttons position to the top"
+  },
+  "bottomButtonsPositionShort": {
+    "message": "입력란 아래",
+    "description": "Short description to set buttons position to the bottom"
+  },
+  "topButtonsPositionShort": {
+    "message": "입력란 위",
+    "description": "Short description to set buttons position to the top"
+  },
+  "settingsAbout": {
+    "message": "Quick Reply Meet 정보",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsExportAndImport": {
+    "message": "메시지 가져오기 및 내보내기",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "exportButton": {
+    "message": "메시지 내보내기",
+    "description": "Button to export message in settings"
+  },
+  "importButton": {
+    "message": "메시지 가져오기",
+    "description": "Button to import message in settings"
+  },
+  "successExport": {
+    "message": "메시지를 내보냈습니다.",
+    "description": "Toast to inform that the messages were exported"
+  },
+  "successImport": {
+    "message": "메시지 $1개를 가져왔습니다.",
+    "description": "Toast to inform that the messages were imported"
+  },
+  "noImports": {
+    "message": "가져온 메시지가 없습니다.",
+    "description": "Toast to inform that no messages were imported"
+  },
+  "credits": {
+    "message": "개발: <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+    "description": "Extension development credits"
+  },
+  "donateButton": {
+    "message": "기부",
+    "description": "General donate button"
+  },
+  "reviewButton": {
+    "message": "스토어에서 평가하기",
+    "description": "General review button"
+  },
+  "welcomeTitle": {
+    "message": "환영합니다!",
+    "description": "Welcome page 0 title, welcome"
+  },
+  "welcomeDescription": {
+    "message": "다운로드해 주셔서 감사합니다! 마음에 드신다면 <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">기부</a>를 하거나 스토어에서 <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">확장 프로그램을 평가</a>하여 개발을 지원해 주세요.",
+    "description": "Welcome page 0 paragraph, thanking the download"
+  },
+  "welcomeButton": {
+    "message": "확장 프로그램 설정",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeDefaultMessagesTitle": {
+    "message": "메시지를 선택하세요",
+    "description": "Welcome page 1 title, choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesDescription": {
+    "message": "시작하려면 기본 메시지를 선택할 수 있습니다. 주소 표시줄의 확장 프로그램 팝업에서 언제든지 메시지를 만들고 수정하고 삭제할 수 있습니다.",
+    "description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesButton": {
+    "message": "계속",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeSettingsTitle": {
+    "message": "버튼 맞춤설정",
+    "description": "Welcome page 2 title, personalize buttons appearance"
+  },
+  "welcomeSettingsDescription": {
+    "message": "빠른 응답 버튼의 모양과 위치를 설정하세요. 확장 프로그램 팝업에서 언제든지 이 설정을 변경할 수 있습니다.",
+    "description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+  },
+  "welcomeSettingsButton": {
+    "message": "완료",
+    "description": "Button that ends onboarding"
+  },
+  "updateTitle": {
+    "message": "확장 프로그램이 버전 2.0.0으로 업데이트되었습니다!",
+    "description": "Successfully updated page title"
+  },
+  "updateDescription": {
+    "message": "Quick Reply Meet는 안정성과 성능을 높이고 더욱 현대적인 경험을 제공하기 위해 처음부터 완전히 새로 개발되었습니다. 이 확장 프로그램은 제가 처음 만든 확장 프로그램입니다. 4년이 지난 지금, 그동안 쌓은 지식을 모두 활용하여 Google의 Material Design 3 Expressive에 맞춘 새로운 경험과 몇 가지 새로운 기능을 제공합니다. 마음에 드시길 바랍니다!",
+    "description": "Successfully updated page paragraph"
+  },
+  "featureShortcuts": {
+    "message": "클릭 한 번으로 채팅에 보낼 수 있는 메시지를 만들고 저장하세요",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureKeyboard": {
+    "message": "메시지를 보낼 키보드 단축키를 설정하세요",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureTriggers": {
+    "message": "특정 채팅 메시지에 응답할 자동 트리거를 설정하세요",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "defaultMessage_hi": {
+    "message": "안녕!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_hello": {
+    "message": "안녕하세요!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_ok": {
+    "message": "알겠어요",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_yes": {
+    "message": "네",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_no": {
+    "message": "아니요",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thanks": {
+    "message": "고마워요!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thankYou": {
+    "message": "감사합니다!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_youReWelcome": {
+    "message": "천만에요!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_bye": {
+    "message": "안녕히 가세요!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_canYouRepeat": {
+    "message": "다시 말씀해 주시겠어요?",
+    "description": "Pre-made message, suggestion to user"
+  }
+}

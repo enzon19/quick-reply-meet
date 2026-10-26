@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "hu",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Küldj üzeneteket a Google Meet™ csevegésében gépelés nélkül.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Üzenetek",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Beállítások",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "Még nincsenek üzeneteid.<br>A + gombra kattintva létrehozhatsz egyet",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Új üzenet",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Üzenet szerkesztése",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Új üzenet",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Üzenet tartalma",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Üzenet azonnali elküldése a csevegésben",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Ha ki van kapcsolva, az üzenet először az üzenetmezőbe kerül, és az elküldéshez a küldés gombra kell kattintanod.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Automatikus válasz (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Billentyűparancs:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Billentyűparancs rögzítése",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "Rögzítés...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Nyomd meg a billentyűket...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Törlés",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Mentés",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Mégse",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Törlöd az üzenetet?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "A(z) „$1” véglegesen törlődik a böngésződből.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Részletek",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Aktiválók",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Gombok lekerekítése",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Gombok helyzete",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Gombok az üzenetmező alatt",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Gombok az üzenetmező felett",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "A mező alatt",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "A mező felett",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "A Quick Reply Meet névjegye",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Üzenetek importálása és exportálása",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Üzenetek exportálása",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Üzenetek importálása",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Az üzenetek exportálása sikerült.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "$1 üzenet importálva.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Nem történt üzenetimportálás.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Fejlesztette: <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Adományozás",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Értékelés az áruházban",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Üdvözlünk!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Köszönjük a letöltést! Ha tetszik a munkánk, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">adományozz</a>, és <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">értékeld a bővítményt</a> az áruházban, hogy támogasd a fejlesztést.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Bővítmény beállítása",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Válassz néhány üzenetet",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Kezdésként választhatsz néhány előre megírt üzenetet. Az üzeneteket bármikor létrehozhatod, szerkesztheted és törölheted a bővítmény felugró ablakában, a címsávban.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Folytatás",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Gombok testreszabása",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Állítsd be a gyorsválaszgombok megjelenését és helyzetét. Ezeket a beállításokat bármikor módosíthatod a bővítmény felugró ablakában.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Befejezés",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "A bővítmény a 2.0.0-s verzióra frissült!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "A Quick Reply Meet teljesen újjáépült az alapoktól a nagyobb stabilitás, teljesítmény és korszerűség érdekében. Ez volt az első bővítmény, amelyet valaha készítettem. Most, 4 évvel később, az ez idő alatt megszerzett összes tudásomat felhasználtam, hogy megújult élményt nyújtsak, a Google Material Design 3 Expressive stílusához igazodva, néhány új funkcióval. Remélem, tetszeni fog!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Hozz létre és ments el kész üzeneteket, amelyeket egyetlen kattintással elküldhetsz a csevegésbe",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Állíts be billentyűparancsokat az üzeneteid elküldéséhez",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Állíts be automatikus aktiválókat adott csevegőüzenetek megválaszolásához",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Szia!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Helló!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "Rendben",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Igen",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Nem",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Köszi!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Köszönöm!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "Szívesen!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Viszlát!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Megismételnéd?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

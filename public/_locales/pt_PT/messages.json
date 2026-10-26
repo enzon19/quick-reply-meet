@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "pt_PT",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Envie mensagens no chat do Google Meet™ sem precisar de escrever.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Mensagens",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Definições",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "Ainda não tem mensagens.<br>Crie uma clicando no +",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Nova mensagem",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Editar mensagem",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Nova mensagem",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Conteúdo da mensagem",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Enviar a mensagem no chat imediatamente",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Se esta opção estiver desativada, a mensagem será primeiro adicionada ao campo de mensagem, sendo necessário clicar no botão de envio.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Resposta automática (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Atalho de teclado:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Registar atalho",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "A registar...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Prima as teclas...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Eliminar",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Guardar",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Cancelar",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Eliminar mensagem?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" será removida permanentemente do seu navegador.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Detalhes",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Acionadores",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Arredondamento dos botões",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Posição dos botões",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Botões abaixo do campo de mensagem",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Botões acima do campo de mensagem",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "Abaixo do campo",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "Acima do campo",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Sobre o Quick Reply Meet",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Importar e exportar mensagens",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Exportar mensagens",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Importar mensagens",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Mensagens exportadas com sucesso.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "$1 mensagem(ns) importada(s).",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Não foram importadas mensagens.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Desenvolvido por <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Doar",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Avaliar na loja",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Bem-vindo!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Obrigado por descarregar! Se gostar do trabalho, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">faça um donativo</a> e <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">avalie a extensão</a> na loja para apoiar o desenvolvimento.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Configurar extensão",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Escolha algumas mensagens",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Para começar, pode escolher algumas mensagens iniciais. Pode criar, editar e eliminar mensagens a qualquer momento na janela da extensão, na barra de endereços.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Continuar",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Personalize os botões",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Configure o aspeto e a posição dos botões de resposta rápida. Pode alterar estas definições a qualquer momento na janela da extensão.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Concluir",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "Extensão atualizada para a versão 2.0.0!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "O Quick Reply Meet foi totalmente reconstruído de raiz para oferecer mais estabilidade, desempenho e modernidade. Esta foi a primeira extensão que criei. Agora, 4 anos depois, apliquei todos os conhecimentos adquiridos ao longo deste tempo para proporcionar uma experiência renovada, alinhada com o Material Design 3 Expressive da Google e com algumas funcionalidades novas. Espero que goste!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Crie e guarde mensagens prontas a enviar no chat com apenas um clique",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Configure atalhos de teclado para enviar as suas mensagens",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Defina acionadores automáticos para responder a mensagens específicas do chat",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Olá!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Boas!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "OK",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Sim",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Não",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Obrigado!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Muito obrigado!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "De nada!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Adeus!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Pode repetir?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

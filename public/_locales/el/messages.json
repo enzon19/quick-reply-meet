@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "el",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Στείλτε μηνύματα στη συζήτηση του Google Meet™ χωρίς πληκτρολόγηση.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Μηνύματα",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Ρυθμίσεις",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "Δεν έχετε μηνύματα.<br>Δημιουργήστε ένα κάνοντας κλικ στο +",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Νέο μήνυμα",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Επεξεργασία μηνύματος",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Νέο μήνυμα",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Περιεχόμενο μηνύματος",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Άμεση αποστολή μηνύματος στη συζήτηση",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Αν απενεργοποιηθεί, το μήνυμα θα προστεθεί πρώτα στο πεδίο μηνύματος και θα πρέπει να κάνετε κλικ στο κουμπί αποστολής.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Αυτόματη απάντηση (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Συντόμευση πληκτρολογίου:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Καταγραφή συντόμευσης",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "Καταγραφή...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Πατήστε τα πλήκτρα...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Διαγραφή",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Αποθήκευση",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Ακύρωση",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Διαγραφή μηνύματος;",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "Το \"$1\" θα αφαιρεθεί οριστικά από το πρόγραμμα περιήγησής σας.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Λεπτομέρειες",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Εναύσματα",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Στρογγυλότητα κουμπιών",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Θέση κουμπιών",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Κουμπιά κάτω από το πεδίο μηνύματος",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Κουμπιά πάνω από το πεδίο μηνύματος",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "Κάτω από το πεδίο",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "Πάνω από το πεδίο",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Σχετικά με το Quick Reply Meet",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Εισαγωγή και εξαγωγή μηνυμάτων",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Εξαγωγή μηνυμάτων",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Εισαγωγή μηνυμάτων",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Τα μηνύματα εξήχθησαν επιτυχώς.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "Έγινε εισαγωγή $1 μηνυμάτων.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Δεν έγινε εισαγωγή μηνυμάτων.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Αναπτύχθηκε από τον <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Δωρεά",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Αξιολόγηση στο κατάστημα",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Καλώς ήρθατε!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Ευχαριστούμε για τη λήψη! Αν σας αρέσει η δουλειά μας, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">κάντε μια δωρεά</a> και <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">αξιολογήστε την επέκταση</a> στο κατάστημα για να στηρίξετε την ανάπτυξη.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Ρύθμιση επέκτασης",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Επιλέξτε μερικά μηνύματα",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Για να ξεκινήσετε, μπορείτε να επιλέξετε μερικά αρχικά μηνύματα. Μπορείτε να δημιουργείτε, να επεξεργάζεστε και να διαγράφετε μηνύματα ανά πάσα στιγμή στο αναδυόμενο παράθυρο της επέκτασης στη γραμμή διευθύνσεων.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Συνέχεια",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Προσαρμόστε τα κουμπιά",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Ρυθμίστε την εμφάνιση και τη θέση των κουμπιών γρήγορης απάντησης. Μπορείτε να αλλάξετε αυτές τις ρυθμίσεις ανά πάσα στιγμή στο αναδυόμενο παράθυρο της επέκτασης.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Τέλος",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "Η επέκταση ενημερώθηκε στην έκδοση 2.0.0!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "Το Quick Reply Meet ανακατασκευάστηκε πλήρως από την αρχή για περισσότερη σταθερότητα, απόδοση και σύγχρονη εμφάνιση. Ήταν η πρώτη επέκταση που δημιούργησα ποτέ. Τώρα, 4 χρόνια αργότερα, εφάρμοσα όλες τις γνώσεις που απέκτησα αυτό το διάστημα για να προσφέρω μια ανανεωμένη εμπειρία, ευθυγραμμισμένη με το Material Design 3 Expressive της Google και με ορισμένες νέες δυνατότητες. Ελπίζω να σας αρέσει!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Δημιουργήστε και αποθηκεύστε έτοιμα μηνύματα για αποστολή στη συζήτηση με ένα μόνο κλικ",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Ορίστε συντομεύσεις πληκτρολογίου για την αποστολή των μηνυμάτων σας",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Ορίστε αυτόματα εναύσματα για απαντήσεις σε συγκεκριμένα μηνύματα της συζήτησης",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Γεια!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Γεια σας!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "Εντάξει",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Ναι",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Όχι",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Ευχαριστώ!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Σας ευχαριστώ!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "Παρακαλώ!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Αντίο!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Μπορείτε να επαναλάβετε;",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

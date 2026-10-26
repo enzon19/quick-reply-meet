@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "te",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "టైప్ చేయకుండానే Google Meet™ చాట్‌లో సందేశాలను పంపండి.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "సందేశాలు",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "సెట్టింగ్‌లు",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "మీ వద్ద సందేశాలు ఏవీ లేవు.<br>+ పై క్లిక్ చేసి ఒక సందేశాన్ని సృష్టించండి",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "కొత్త సందేశం",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "సందేశాన్ని సవరించు",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "కొత్త సందేశం",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "సందేశంలోని విషయం",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "చాట్‌లో సందేశాన్ని వెంటనే పంపు",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "దీన్ని ఆఫ్ చేస్తే, సందేశం ముందుగా సందేశ ఫీల్డ్‌లో చేరుతుంది. ఆ తర్వాత మీరు పంపు బటన్‌ను క్లిక్ చేయాలి.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "ఆటోమేటిక్ ప్రత్యుత్తరం (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "కీబోర్డ్ షార్ట్‌కట్:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "షార్ట్‌కట్‌ను రికార్డ్ చేయి",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "రికార్డ్ అవుతోంది...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "కీలను నొక్కండి...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "తొలగించు",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "సేవ్ చేయి",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "రద్దు చేయి",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "సందేశాన్ని తొలగించాలా?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" మీ బ్రౌజర్ నుండి శాశ్వతంగా తీసివేయబడుతుంది.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "వివరాలు",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "ట్రిగ్గర్‌లు",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "బటన్‌ల గుండ్రదనం",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "బటన్‌ల స్థానం",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "సందేశ ఫీల్డ్ కింద బటన్‌లు",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "సందేశ ఫీల్డ్ పైన బటన్‌లు",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "ఫీల్డ్ కింద",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "ఫీల్డ్ పైన",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Quick Reply Meet గురించి",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "సందేశాలను దిగుమతి మరియు ఎగుమతి చేయి",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "సందేశాలను ఎగుమతి చేయి",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "సందేశాలను దిగుమతి చేయి",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "సందేశాలు విజయవంతంగా ఎగుమతి అయ్యాయి.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "దిగుమతి అయిన సందేశాల సంఖ్య: $1.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "సందేశాలు ఏవీ దిగుమతి కాలేదు.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "రూపొందించినవారు: <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "విరాళం ఇవ్వండి",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "స్టోర్‌లో రేటింగ్ ఇవ్వండి",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "స్వాగతం!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "డౌన్‌లోడ్ చేసినందుకు ధన్యవాదాలు! ఈ పని మీకు నచ్చితే, అభివృద్ధికి మద్దతు ఇవ్వడానికి <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">విరాళం ఇవ్వండి</a> మరియు స్టోర్‌లో <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">ఎక్స్‌టెన్షన్‌కు రేటింగ్ ఇవ్వండి</a>.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "ఎక్స్‌టెన్షన్‌ను సెటప్ చేయి",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "కొన్ని సందేశాలను ఎంచుకోండి",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "ప్రారంభించడానికి, మీరు కొన్ని ముందే సిద్ధం చేసిన సందేశాలను ఎంచుకోవచ్చు. మీ అడ్రస్ బార్‌లోని ఎక్స్‌టెన్షన్ పాపప్‌లో ఎప్పుడైనా సందేశాలను సృష్టించవచ్చు, సవరించవచ్చు, తొలగించవచ్చు.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "కొనసాగించు",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "బటన్‌లను అనుకూలీకరించండి",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "త్వరిత ప్రత్యుత్తర బటన్‌ల రూపాన్ని మరియు స్థానాన్ని సెట్ చేయండి. ఎక్స్‌టెన్షన్ పాపప్‌లో ఎప్పుడైనా ఈ సెట్టింగ్‌లను మార్చవచ్చు.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "ముగించు",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "ఎక్స్‌టెన్షన్ వెర్షన్ 2.0.0కు అప్‌డేట్ అయింది!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "మరింత స్థిరత్వం, పనితీరు మరియు ఆధునికతను అందించడానికి Quick Reply Meet పూర్తిగా మొదటి నుండి మళ్లీ రూపొందించబడింది. నేను సృష్టించిన మొట్టమొదటి ఎక్స్‌టెన్షన్ ఇదే. ఇప్పుడు, 4 సంవత్సరాల తర్వాత, ఆ సమయంలో నేర్చుకున్న జ్ఞానాన్నంతా ఉపయోగించి, Google యొక్క Material Design 3 Expressiveకు అనుగుణంగా, కొన్ని కొత్త ఫీచర్‌లతో పునరుద్ధరించిన అనుభవాన్ని అందించాను. మీకు నచ్చుతుందని ఆశిస్తున్నాను!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "ఒక్క క్లిక్‌తో చాట్‌లో పంపడానికి సిద్ధంగా ఉన్న సందేశాలను సృష్టించి సేవ్ చేయండి",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "మీ సందేశాలను పంపడానికి కీబోర్డ్ షార్ట్‌కట్‌లను సెట్ చేయండి",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "నిర్దిష్ట చాట్ సందేశాలకు ప్రతిస్పందించడానికి ఆటోమేటిక్ ట్రిగ్గర్‌లను సెట్ చేయండి",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "హాయ్!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "నమస్కారం!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "సరే",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "అవును",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "కాదు",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "థాంక్స్!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "ధన్యవాదాలు!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "పర్వాలేదు!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "వీడ్కోలు!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "మళ్లీ చెప్పగలరా?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

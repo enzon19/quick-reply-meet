@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "uk",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Надсилайте повідомлення в чаті Google Meet™ без введення тексту.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Повідомлення",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Налаштування",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "У вас ще немає повідомлень.<br>Створіть повідомлення, натиснувши +",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Нове повідомлення",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Редагувати повідомлення",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Нове повідомлення",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Текст повідомлення",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Негайно надсилати повідомлення в чат",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Якщо вимкнено, повідомлення спочатку буде додано до поля введення, після чого потрібно натиснути кнопку надсилання.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Автовідповідь (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Комбінація клавіш:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Записати комбінацію",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "Записування...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Натисніть клавіші...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Видалити",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Зберегти",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Скасувати",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Видалити повідомлення?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "«$1» буде назавжди видалено з вашого браузера.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Подробиці",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Тригери",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Заокруглення кнопок",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Розташування кнопок",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Кнопки під полем повідомлення",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Кнопки над полем повідомлення",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "Під полем",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "Над полем",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Про Quick Reply Meet",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Імпорт і експорт повідомлень",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Експортувати повідомлення",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Імпортувати повідомлення",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Повідомлення успішно експортовано.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "Імпортовано повідомлень: $1.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Жодного повідомлення не імпортовано.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Розробник: <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Підтримати",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Оцінити в магазині",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Ласкаво просимо!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Дякую за завантаження! Якщо вам подобається моя робота, <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">зробіть пожертву</a> та <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">оцініть розширення</a> в магазині, щоб підтримати розробку.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Налаштувати розширення",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Виберіть кілька повідомлень",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Для початку ви можете вибрати кілька готових повідомлень. Ви можете створювати, редагувати та видаляти повідомлення будь-коли у спливному вікні розширення на панелі адреси.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Продовжити",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Налаштуйте кнопки",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Налаштуйте вигляд і розташування кнопок швидких відповідей. Ці налаштування можна змінити будь-коли у спливному вікні розширення.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Завершити",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "Розширення оновлено до версії 2.0.0!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "Quick Reply Meet було повністю перебудовано з нуля, щоб забезпечити більшу стабільність, продуктивність і сучасність. Це було перше розширення, яке я створив. Тепер, через 4 роки, я застосував усі знання, здобуті за цей час, щоб запропонувати оновлений інтерфейс у стилі Material Design 3 Expressive від Google і кілька нових функцій. Сподіваюся, вам сподобається!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Створюйте та зберігайте готові повідомлення для надсилання в чат одним натисканням",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Налаштуйте комбінації клавіш для надсилання повідомлень",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Налаштуйте автоматичні тригери для відповіді на певні повідомлення в чаті",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Привіт!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Вітаю!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "Гаразд",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Так",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Ні",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Дякую!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Щиро дякую!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "Нема за що!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Бувай!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Можете повторити?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}

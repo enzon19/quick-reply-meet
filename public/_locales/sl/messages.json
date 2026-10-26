@@ -1,0 +1,254 @@
+{
+  "@@locale": {
+    "message": "sl",
+    "description": "Language code of this file"
+  },
+  "extensionDescription": {
+    "message": "Pošiljajte sporočila v klepetu Google Meet™ brez tipkanja.",
+    "description": "Extension description"
+  },
+  "messages": {
+    "message": "Sporočila",
+    "description": "Messages tab"
+  },
+  "settings": {
+    "message": "Nastavitve",
+    "description": "Settings tab"
+  },
+  "noMessagesFallback": {
+    "message": "Nimate še nobenega sporočila.<br>Ustvarite ga s klikom na +",
+    "description": "Fallback for no messages in messages list in Messages tab"
+  },
+  "newMessageButton": {
+    "message": "Novo sporočilo",
+    "description": "New message FAB tooltip"
+  },
+  "editMessageTitle": {
+    "message": "Uredi sporočilo",
+    "description": "Title for manage message page, edit view"
+  },
+  "newMessageTitle": {
+    "message": "Novo sporočilo",
+    "description": "Title for manage message page, new view"
+  },
+  "messageContentField": {
+    "message": "Vsebina sporočila",
+    "description": "Label for message content"
+  },
+  "sendRightAwayToggleLabel": {
+    "message": "Takoj pošlji sporočilo v klepet",
+    "description": "Label for toggle send right away"
+  },
+  "sendRightAwayToggleDescription": {
+    "message": "Če je možnost izklopljena, bo sporočilo najprej dodano v polje za sporočilo, nato pa boste morali klikniti gumb za pošiljanje.",
+    "description": "Details for toggle send right away"
+  },
+  "chatRegexField": {
+    "message": "Samodejni odgovor (Regex)",
+    "description": "Label for message auto send"
+  },
+  "keyboardShortcutLabel": {
+    "message": "Bližnjica na tipkovnici:",
+    "description": "Label for keyboard shortcut"
+  },
+  "keyboardShortcutButton": {
+    "message": "Posnemi bližnjico",
+    "description": "Button to start recording keyboard shortcut"
+  },
+  "keyboardShortcutRecording": {
+    "message": "Snemanje...",
+    "description": "Button when currently recording keyboard shortcut"
+  },
+  "keyboardShortcutHint": {
+    "message": "Pritisnite tipke...",
+    "description": "Hint below label to tell that's waiting for keyboard press"
+  },
+  "deleteMessageButton": {
+    "message": "Izbriši",
+    "description": "Delete message button in manage message page"
+  },
+  "saveMessageButton": {
+    "message": "Shrani",
+    "description": "Save message button in manage message page"
+  },
+  "cancelButton": {
+    "message": "Prekliči",
+    "description": "General cancel button"
+  },
+  "deleteMessageDialogTitle": {
+    "message": "Izbrišem sporočilo?",
+    "description": "Modal title to confirm message deletion"
+  },
+  "deleteMessageDialogDescription": {
+    "message": "»$1« bo trajno odstranjeno iz vašega brskalnika.",
+    "description": "Modal description to confirm message deletion"
+  },
+  "detailsTab": {
+    "message": "Podrobnosti",
+    "description": "Main tab for manage message page"
+  },
+  "triggersTab": {
+    "message": "Sprožilci",
+    "description": "Triggers tab for manage message page"
+  },
+  "settingsButtonsRoundness": {
+    "message": "Zaobljenost gumbov",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsButtonsPosition": {
+    "message": "Položaj gumbov",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "bottomButtonsPosition": {
+    "message": "Gumbi pod poljem za sporočilo",
+    "description": "Long description to set buttons position to the bottom"
+  },
+  "topButtonsPosition": {
+    "message": "Gumbi nad poljem za sporočilo",
+    "description": "Long description to set buttons position to the top"
+  },
+  "bottomButtonsPositionShort": {
+    "message": "Pod poljem",
+    "description": "Short description to set buttons position to the bottom"
+  },
+  "topButtonsPositionShort": {
+    "message": "Nad poljem",
+    "description": "Short description to set buttons position to the top"
+  },
+  "settingsAbout": {
+    "message": "O razširitvi Quick Reply Meet",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "settingsExportAndImport": {
+    "message": "Uvoz in izvoz sporočil",
+    "description": "ListItem's text that leads to this setting page and its title"
+  },
+  "exportButton": {
+    "message": "Izvozi sporočila",
+    "description": "Button to export message in settings"
+  },
+  "importButton": {
+    "message": "Uvozi sporočila",
+    "description": "Button to import message in settings"
+  },
+  "successExport": {
+    "message": "Sporočila so bila uspešno izvožena.",
+    "description": "Toast to inform that the messages were exported"
+  },
+  "successImport": {
+    "message": "Število uvoženih sporočil: $1.",
+    "description": "Toast to inform that the messages were imported"
+  },
+  "noImports": {
+    "message": "Uvoženo ni bilo nobeno sporočilo.",
+    "description": "Toast to inform that no messages were imported"
+  },
+  "credits": {
+    "message": "Razvil <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+    "description": "Extension development credits"
+  },
+  "donateButton": {
+    "message": "Doniraj",
+    "description": "General donate button"
+  },
+  "reviewButton": {
+    "message": "Oceni v trgovini",
+    "description": "General review button"
+  },
+  "welcomeTitle": {
+    "message": "Dobrodošli!",
+    "description": "Welcome page 0 title, welcome"
+  },
+  "welcomeDescription": {
+    "message": "Hvala za prenos! Če vam je delo všeč, lahko <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">donirate</a> in <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">ocenite razširitev</a> v trgovini ter tako podprete razvoj.",
+    "description": "Welcome page 0 paragraph, thanking the download"
+  },
+  "welcomeButton": {
+    "message": "Nastavi razširitev",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeDefaultMessagesTitle": {
+    "message": "Izberite nekaj sporočil",
+    "description": "Welcome page 1 title, choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesDescription": {
+    "message": "Za začetek lahko izberete nekaj začetnih sporočil. Sporočila lahko kadar koli ustvarjate, urejate in brišete v pojavnem oknu razširitve v naslovni vrstici.",
+    "description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+  },
+  "welcomeDefaultMessagesButton": {
+    "message": "Nadaljuj",
+    "description": "Button that leads to the next page/step"
+  },
+  "welcomeSettingsTitle": {
+    "message": "Prilagodite gumbe",
+    "description": "Welcome page 2 title, personalize buttons appearance"
+  },
+  "welcomeSettingsDescription": {
+    "message": "Nastavite videz in položaj gumbov za hitre odgovore. Te nastavitve lahko kadar koli spremenite v pojavnem oknu razširitve.",
+    "description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+  },
+  "welcomeSettingsButton": {
+    "message": "Končaj",
+    "description": "Button that ends onboarding"
+  },
+  "updateTitle": {
+    "message": "Razširitev je posodobljena na različico 2.0.0!",
+    "description": "Successfully updated page title"
+  },
+  "updateDescription": {
+    "message": "Quick Reply Meet je bil v celoti znova zgrajen od začetka, da prinese več stabilnosti, zmogljivosti in sodobnosti. To je bila prva razširitev, ki sem jo ustvaril. Zdaj, 4 leta pozneje, sem uporabil vse znanje, pridobljeno v tem času, da ponudim prenovljeno izkušnjo, usklajeno z Googlovim Material Design 3 Expressive in z nekaj novimi funkcijami. Upam, da vam bo všeč!",
+    "description": "Successfully updated page paragraph"
+  },
+  "featureShortcuts": {
+    "message": "Ustvarite in shranite pripravljena sporočila za pošiljanje v klepet z enim klikom",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureKeyboard": {
+    "message": "Nastavite bližnjice na tipkovnici za pošiljanje sporočil",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "featureTriggers": {
+    "message": "Nastavite samodejne sprožilce za odgovarjanje na določena sporočila v klepetu",
+    "description": "Feature description to show in welcome and updated pages"
+  },
+  "defaultMessage_hi": {
+    "message": "Živjo!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_hello": {
+    "message": "Pozdravljeni!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_ok": {
+    "message": "V redu",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_yes": {
+    "message": "Da",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_no": {
+    "message": "Ne",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thanks": {
+    "message": "Hvala!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_thankYou": {
+    "message": "Najlepša hvala!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_youReWelcome": {
+    "message": "Ni za kaj!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_bye": {
+    "message": "Nasvidenje!",
+    "description": "Pre-made message, suggestion to user"
+  },
+  "defaultMessage_canYouRepeat": {
+    "message": "Lahko ponovite?",
+    "description": "Pre-made message, suggestion to user"
+  }
+}

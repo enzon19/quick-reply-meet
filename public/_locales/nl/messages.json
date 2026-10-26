@@ -1,0 +1,254 @@
+{
+	"@@locale": {
+		"message": "nl",
+		"description": "Language code of this file"
+	},
+	"extensionDescription": {
+		"message": "Verstuur berichten in de Google Meet™-chat zonder te typen.",
+		"description": "Extension description"
+	},
+	"messages": {
+		"message": "Berichten",
+		"description": "Messages tab"
+	},
+	"settings": {
+		"message": "Instellingen",
+		"description": "Settings tab"
+	},
+	"noMessagesFallback": {
+		"message": "Je hebt nog geen berichten.<br>Maak er een door op + te klikken",
+		"description": "Fallback for no messages in messages list in Messages tab"
+	},
+	"newMessageButton": {
+		"message": "Nieuw bericht",
+		"description": "New message FAB tooltip"
+	},
+	"editMessageTitle": {
+		"message": "Bericht bewerken",
+		"description": "Title for manage message page, edit view"
+	},
+	"newMessageTitle": {
+		"message": "Nieuw bericht",
+		"description": "Title for manage message page, new view"
+	},
+	"messageContentField": {
+		"message": "Berichtinhoud",
+		"description": "Label for message content"
+	},
+	"sendRightAwayToggleLabel": {
+		"message": "Bericht direct in de chat versturen",
+		"description": "Label for toggle send right away"
+	},
+	"sendRightAwayToggleDescription": {
+		"message": "Als dit is uitgeschakeld, wordt het bericht eerst in het berichtveld geplaatst en moet je op de verzendknop klikken.",
+		"description": "Details for toggle send right away"
+	},
+	"chatRegexField": {
+		"message": "Automatisch antwoorden (Regex)",
+		"description": "Label for message auto send"
+	},
+	"keyboardShortcutLabel": {
+		"message": "Sneltoets:",
+		"description": "Label for keyboard shortcut"
+	},
+	"keyboardShortcutButton": {
+		"message": "Sneltoets opnemen",
+		"description": "Button to start recording keyboard shortcut"
+	},
+	"keyboardShortcutRecording": {
+		"message": "Opnemen...",
+		"description": "Button when currently recording keyboard shortcut"
+	},
+	"keyboardShortcutHint": {
+		"message": "Druk op de toetsen...",
+		"description": "Hint below label to tell that's waiting for keyboard press"
+	},
+	"deleteMessageButton": {
+		"message": "Verwijderen",
+		"description": "Delete message button in manage message page"
+	},
+	"saveMessageButton": {
+		"message": "Opslaan",
+		"description": "Save message button in manage message page"
+	},
+	"cancelButton": {
+		"message": "Annuleren",
+		"description": "General cancel button"
+	},
+	"deleteMessageDialogTitle": {
+		"message": "Bericht verwijderen?",
+		"description": "Modal title to confirm message deletion"
+	},
+	"deleteMessageDialogDescription": {
+		"message": "\"$1\" wordt permanent uit je browser verwijderd.",
+		"description": "Modal description to confirm message deletion"
+	},
+	"detailsTab": {
+		"message": "Details",
+		"description": "Main tab for manage message page"
+	},
+	"triggersTab": {
+		"message": "Triggers",
+		"description": "Triggers tab for manage message page"
+	},
+	"settingsButtonsRoundness": {
+		"message": "Afronding van knoppen",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsButtonsPosition": {
+		"message": "Positie van knoppen",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"bottomButtonsPosition": {
+		"message": "Knoppen onder het berichtveld",
+		"description": "Long description to set buttons position to the bottom"
+	},
+	"topButtonsPosition": {
+		"message": "Knoppen boven het berichtveld",
+		"description": "Long description to set buttons position to the top"
+	},
+	"bottomButtonsPositionShort": {
+		"message": "Onder het veld",
+		"description": "Short description to set buttons position to the bottom"
+	},
+	"topButtonsPositionShort": {
+		"message": "Boven het veld",
+		"description": "Short description to set buttons position to the top"
+	},
+	"settingsAbout": {
+		"message": "Over Quick Reply Meet",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"settingsExportAndImport": {
+		"message": "Berichten importeren en exporteren",
+		"description": "ListItem's text that leads to this setting page and its title"
+	},
+	"exportButton": {
+		"message": "Berichten exporteren",
+		"description": "Button to export message in settings"
+	},
+	"importButton": {
+		"message": "Berichten importeren",
+		"description": "Button to import message in settings"
+	},
+	"successExport": {
+		"message": "Berichten succesvol geëxporteerd.",
+		"description": "Toast to inform that the messages were exported"
+	},
+	"successImport": {
+		"message": "$1 bericht(en) geïmporteerd.",
+		"description": "Toast to inform that the messages were imported"
+	},
+	"noImports": {
+		"message": "Er zijn geen berichten geïmporteerd.",
+		"description": "Toast to inform that no messages were imported"
+	},
+	"credits": {
+		"message": "Ontwikkeld door <a class=\"link\" href=\"https://enzon19.com\" target=\"_blank\">Enzo (enzon19)</a>",
+		"description": "Extension development credits"
+	},
+	"donateButton": {
+		"message": "Doneren",
+		"description": "General donate button"
+	},
+	"reviewButton": {
+		"message": "Beoordelen in de winkel",
+		"description": "General review button"
+	},
+	"welcomeTitle": {
+		"message": "Welkom!",
+		"description": "Welcome page 0 title, welcome"
+	},
+	"welcomeDescription": {
+		"message": "Bedankt voor het downloaden! Als je het werk waardeert, kun je <a class=\"link\" href=\"https://enzon19.com/donate\" target=\"_blank\">een donatie doen</a> en <a class=\"link\" href=\"https://quickreplymeet.enzon19.com/review\" target=\"_blank\">de extensie beoordelen</a> in de winkel om de ontwikkeling te steunen.",
+		"description": "Welcome page 0 paragraph, thanking the download"
+	},
+	"welcomeButton": {
+		"message": "Extensie instellen",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeDefaultMessagesTitle": {
+		"message": "Kies een paar berichten",
+		"description": "Welcome page 1 title, choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesDescription": {
+		"message": "Om te beginnen kun je een paar standaardberichten kiezen. Je kunt op elk moment berichten maken, bewerken en verwijderen in het pop-upvenster van de extensie in je adresbalk.",
+		"description": "Welcome page 1 paragraph, explaining choose some pre-made messages"
+	},
+	"welcomeDefaultMessagesButton": {
+		"message": "Doorgaan",
+		"description": "Button that leads to the next page/step"
+	},
+	"welcomeSettingsTitle": {
+		"message": "Pas de knoppen aan",
+		"description": "Welcome page 2 title, personalize buttons appearance"
+	},
+	"welcomeSettingsDescription": {
+		"message": "Stel het uiterlijk en de positie van de snelle antwoordknoppen in. Je kunt deze instellingen op elk moment wijzigen in het pop-upvenster van de extensie.",
+		"description": "Welcome page 2 paragraph, explaining personalize buttons appearance"
+	},
+	"welcomeSettingsButton": {
+		"message": "Voltooien",
+		"description": "Button that ends onboarding"
+	},
+	"updateTitle": {
+		"message": "Extensie bijgewerkt naar versie 2.0.0!",
+		"description": "Successfully updated page title"
+	},
+	"updateDescription": {
+		"message": "Quick Reply Meet is helemaal opnieuw opgebouwd voor meer stabiliteit, betere prestaties en een modernere uitstraling. Dit was de allereerste extensie die ik maakte. Nu, 4 jaar later, heb ik alle kennis die ik in die tijd heb opgedaan toegepast om een vernieuwde ervaring te bieden, afgestemd op Google's Material Design 3 Expressive en met enkele nieuwe functies. Ik hoop dat je het leuk vindt!",
+		"description": "Successfully updated page paragraph"
+	},
+	"featureShortcuts": {
+		"message": "Maak en bewaar kant-en-klare berichten om ze met één klik in de chat te versturen",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureKeyboard": {
+		"message": "Stel sneltoetsen in om je berichten te versturen",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"featureTriggers": {
+		"message": "Stel automatische triggers in om op specifieke chatberichten te reageren",
+		"description": "Feature description to show in welcome and updated pages"
+	},
+	"defaultMessage_hi": {
+		"message": "Hoi!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_hello": {
+		"message": "Hallo!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_ok": {
+		"message": "Oké",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_yes": {
+		"message": "Ja",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_no": {
+		"message": "Nee",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thanks": {
+		"message": "Bedankt!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_thankYou": {
+		"message": "Dank je wel!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_youReWelcome": {
+		"message": "Graag gedaan!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_bye": {
+		"message": "Doei!",
+		"description": "Pre-made message, suggestion to user"
+	},
+	"defaultMessage_canYouRepeat": {
+		"message": "Kun je dat herhalen?",
+		"description": "Pre-made message, suggestion to user"
+	}
+}
