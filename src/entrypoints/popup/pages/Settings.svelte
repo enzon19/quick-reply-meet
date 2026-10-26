@@ -221,7 +221,7 @@
 	<div class="about">
 		<img src="/icon/512.png" class="logo" alt="Quick Reply Meet Logo" />
 		<h1>Quick Reply Meet</h1>
-		<p>2026 • v2.0.0</p>
+		<p>2026 • v2.1.0</p>
 		<p>{@html browser.i18n.getMessage('credits')}</p>
 		<div class="flex">
 			<Button iconType="left" href="https://enzon19.com/donate" target="_blank">
