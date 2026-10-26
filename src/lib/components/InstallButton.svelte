@@ -7,7 +7,12 @@
 	import { icons } from '$lib/assets/iconify.json';
 	import type { ComponentProps } from 'svelte';
 
-	let { ...restProps }: Omit<ComponentProps<typeof Button>, 'children'> = $props();
+	type InstallButtonProps = Omit<
+		Extract<ComponentProps<typeof Button>, { href: string }>,
+		'children' | 'href' | 'target' | 'iconType'
+	>;
+
+	let { ...restProps }: InstallButtonProps = $props();
 
 	let browserName = $derived(browser ? getBrowserName(window.navigator.userAgent) : undefined);
 </script>
@@ -15,7 +20,7 @@
 <Button
 	{...restProps}
 	iconType="left"
-	href={browserName ? storeURLS[browserName] : (resolve('/') + "#install")}
+	href={browserName ? storeURLS[browserName] : resolve('/') + '#install'}
 	target="_blank"
 >
 	<Icon viewBox="0 0 24 24" icon={icons['add']} />
