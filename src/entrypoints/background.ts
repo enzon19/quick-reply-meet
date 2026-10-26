@@ -26,9 +26,9 @@ export default defineBackground(() => {
 				console.error(e);
 			}
 
-			browser.tabs.create({
-				url: 'updated.html'
-			});
+			// browser.tabs.create({
+			// 	url: 'updated.html'
+			// });
 			browser.runtime.setUninstallURL('https://quickreplymeet.enzon19.com/uninstalled');
 		}
 	});
