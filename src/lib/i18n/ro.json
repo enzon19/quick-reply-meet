@@ -1,0 +1,49 @@
+{
+	"install": "Adaugă{browser, select, chrome { în Chrome} firefox { în Firefox} edge { în Edge} other {}}",
+	"headline": "Trimite mesaje în chatul Google Meet™ fără să tastezi.",
+	"features": {
+		"title": "Funcții",
+		"click": {
+			"description": "Creează și salvează mesaje gata de trimis în chat cu un singur clic",
+			"title": "Butoane în chat"
+		},
+		"keyboard": {
+			"description": "Configurează comenzi rapide de la tastatură pentru a trimite mesaje pregătite",
+			"title": "Comenzi rapide de la tastatură"
+		},
+		"autoReply": {
+			"description": "Setează declanșatoare automate pentru a răspunde anumitor mesaje din chat",
+			"title": "Răspuns automat"
+		},
+		"settings": {
+			"description": "Gestionează mesajele pregătite și ajustează preferințele din fereastra extensiei, în bara de adrese",
+			"title": "Control complet"
+		}
+	},
+	"installSection": {
+		"title": "Adaugă în browserul tău",
+		"installButton": "Vezi în magazin",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Bazate pe Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Dezvoltat de <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Cod sursă",
+		"donate": "Donează"
+	},
+	"uninstalled": {
+		"title": "O, nu, extensia a fost dezinstalată...",
+		"description": "Dacă poți, completează formularul pentru a ne ajuta să înțelegem ce nu a mers bine"
+	},
+	"redirect": "Se redirecționează... <a id=\"redirect\" class=\"link\">Redirecționarea nu a funcționat?</a>"
+}

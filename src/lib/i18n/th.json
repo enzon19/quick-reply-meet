@@ -1,0 +1,49 @@
+{
+	"install": "เพิ่ม{browser, select, chrome {ใน Chrome} firefox {ใน Firefox} edge {ใน Edge} other {}}",
+	"headline": "ส่งข้อความในแชท Google Meet™ โดยไม่ต้องพิมพ์",
+	"features": {
+		"title": "คุณสมบัติ",
+		"click": {
+			"description": "สร้างและบันทึกข้อความสำเร็จรูปเพื่อส่งในแชทด้วยการคลิกเพียงครั้งเดียว",
+			"title": "ปุ่มในแชท"
+		},
+		"keyboard": {
+			"description": "ตั้งค่าแป้นพิมพ์ลัดเพื่อส่งข้อความสำเร็จรูปของคุณ",
+			"title": "แป้นพิมพ์ลัด"
+		},
+		"autoReply": {
+			"description": "ตั้งค่าทริกเกอร์อัตโนมัติเพื่อตอบกลับข้อความที่กำหนดในแชท",
+			"title": "ตอบกลับอัตโนมัติ"
+		},
+		"settings": {
+			"description": "จัดการข้อความสำเร็จรูปและปรับค่ากำหนดของคุณผ่านหน้าต่างป๊อปอัปบนแถบที่อยู่",
+			"title": "ควบคุมได้อย่างครบครัน"
+		}
+	},
+	"installSection": {
+		"title": "เพิ่มในเบราว์เซอร์ของคุณ",
+		"installButton": "ดูในสโตร์",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "เบราว์เซอร์ที่ใช้ Chrome เป็นพื้นฐาน",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "พัฒนาโดย <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "ซอร์สโค้ด",
+		"donate": "บริจาค"
+	},
+	"uninstalled": {
+		"title": "โอ้ ไม่นะ ถอนการติดตั้งส่วนขยายแล้ว...",
+		"description": "หากสะดวก โปรดกรอกแบบฟอร์มเพื่อช่วยให้เราเข้าใจว่าเกิดปัญหาอะไรขึ้น"
+	},
+	"redirect": "กำลังเปลี่ยนเส้นทาง... <a id=\"redirect\" class=\"link\">ยังไม่ได้เปลี่ยนเส้นทางใช่ไหม?</a>"
+}

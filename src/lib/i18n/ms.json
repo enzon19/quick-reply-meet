@@ -1,0 +1,49 @@
+{
+	"install": "Tambah{browser, select, chrome { pada Chrome} firefox { pada Firefox} edge { pada Edge} other {}}",
+	"headline": "Hantar mesej dalam sembang Google Meet™ tanpa menaip.",
+	"features": {
+		"title": "Ciri-ciri",
+		"click": {
+			"description": "Cipta dan simpan mesej yang sedia dihantar ke sembang dengan hanya satu klik",
+			"title": "Butang Sembang"
+		},
+		"keyboard": {
+			"description": "Sediakan pintasan papan kekunci untuk menghantar mesej sedia hantar anda",
+			"title": "Pintasan Papan Kekunci"
+		},
+		"autoReply": {
+			"description": "Tetapkan pencetus automatik untuk membalas mesej sembang tertentu",
+			"title": "Balasan Automatik"
+		},
+		"settings": {
+			"description": "Urus mesej sedia hantar anda dan laraskan pilihan melalui tetingkap timbul di bar alamat",
+			"title": "Kawalan Penuh"
+		}
+	},
+	"installSection": {
+		"title": "Tambah pada Pelayar Anda",
+		"installButton": "Lihat di gedung",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Berasaskan Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Dibangunkan oleh <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kod sumber",
+		"donate": "Derma"
+	},
+	"uninstalled": {
+		"title": "Alamak, sambungan telah dinyahpasang...",
+		"description": "Jika boleh, isi borang untuk membantu kami memahami perkara yang tidak kena"
+	},
+	"redirect": "Mengubah hala... <a id=\"redirect\" class=\"link\">Tidak diubah hala?</a>"
+}

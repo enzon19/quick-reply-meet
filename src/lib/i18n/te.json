@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chromeకి జోడించు} firefox {Firefoxకి జోడించు} edge {Edgeకి జోడించు} other {జోడించు}}",
+	"headline": "టైప్ చేయకుండానే Google Meet™ చాట్‌లో సందేశాలను పంపండి.",
+	"features": {
+		"title": "ఫీచర్‌లు",
+		"click": {
+			"description": "ఒక్క క్లిక్‌తో చాట్‌లో పంపడానికి సిద్ధంగా ఉన్న సందేశాలను సృష్టించి సేవ్ చేయండి",
+			"title": "చాట్ బటన్‌లు"
+		},
+		"keyboard": {
+			"description": "మీ సిద్ధంగా ఉన్న సందేశాలను పంపడానికి కీబోర్డ్ షార్ట్‌కట్‌లను సెట్ చేయండి",
+			"title": "కీబోర్డ్ షార్ట్‌కట్‌లు"
+		},
+		"autoReply": {
+			"description": "నిర్దిష్ట చాట్ సందేశాలకు ప్రతిస్పందించడానికి ఆటోమేటిక్ ట్రిగ్గర్‌లను సెట్ చేయండి",
+			"title": "ఆటోమేటిక్ ప్రత్యుత్తరం"
+		},
+		"settings": {
+			"description": "అడ్రస్ బార్‌లోని పాపప్ ద్వారా మీ సిద్ధంగా ఉన్న సందేశాలను నిర్వహించండి మరియు మీ ప్రాధాన్యతలను సర్దుబాటు చేయండి",
+			"title": "పూర్తి నియంత్రణ"
+		}
+	},
+	"installSection": {
+		"title": "మీ బ్రౌజర్‌కు జోడించండి",
+		"installButton": "స్టోర్‌లో చూడండి",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome ఆధారిత బ్రౌజర్‌లు",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "రూపొందించినవారు: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "సోర్స్ కోడ్",
+		"donate": "విరాళం ఇవ్వండి"
+	},
+	"uninstalled": {
+		"title": "అయ్యో, ఎక్స్‌టెన్షన్ అన్‌ఇన్‌స్టాల్ అయింది...",
+		"description": "వీలైతే, ఏమి తప్పు జరిగిందో అర్థం చేసుకోవడంలో మాకు సహాయపడటానికి ఫారమ్‌ను పూరించండి"
+	},
+	"redirect": "దారిమళ్లిస్తోంది... <a id=\"redirect\" class=\"link\">దారిమళ్లింపు జరగలేదా?</a>"
+}

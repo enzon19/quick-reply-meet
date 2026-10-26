@@ -1,0 +1,49 @@
+{
+	"install": "Dodaj{browser, select, chrome { do Chrome} firefox { do Firefoksa} edge { do Edge} other {}}",
+	"headline": "Wysyłaj wiadomości na czacie Google Meet™ bez pisania.",
+	"features": {
+		"title": "Funkcje",
+		"click": {
+			"description": "Twórz i zapisuj gotowe wiadomości, aby wysyłać je na czacie jednym kliknięciem",
+			"title": "Przyciski na czacie"
+		},
+		"keyboard": {
+			"description": "Skonfiguruj skróty klawiszowe do wysyłania gotowych wiadomości",
+			"title": "Skróty klawiszowe"
+		},
+		"autoReply": {
+			"description": "Ustaw automatyczne wyzwalacze odpowiedzi na określone wiadomości na czacie",
+			"title": "Automatyczne odpowiedzi"
+		},
+		"settings": {
+			"description": "Zarządzaj gotowymi wiadomościami i dostosuj preferencje w oknie rozszerzenia na pasku adresu",
+			"title": "Pełna kontrola"
+		}
+	},
+	"installSection": {
+		"title": "Dodaj do swojej przeglądarki",
+		"installButton": "Zobacz w sklepie",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Przeglądarki oparte na Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Autor: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kod źródłowy",
+		"donate": "Wesprzyj"
+	},
+	"uninstalled": {
+		"title": "O nie, rozszerzenie zostało odinstalowane...",
+		"description": "Jeśli możesz, wypełnij formularz, aby pomóc nam zrozumieć, co poszło nie tak"
+	},
+	"redirect": "Przekierowywanie... <a id=\"redirect\" class=\"link\">Przekierowanie nie zadziałało?</a>"
+}

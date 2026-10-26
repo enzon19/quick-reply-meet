@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {新增至 Chrome} firefox {新增至 Firefox} edge {新增至 Edge} other {新增}}",
+	"headline": "無需打字，即可在 Google Meet™ 聊天室傳送訊息。",
+	"features": {
+		"title": "功能",
+		"click": {
+			"description": "建立並儲存預設訊息，只需點選一下即可傳送到聊天室",
+			"title": "聊天按鈕"
+		},
+		"keyboard": {
+			"description": "設定鍵盤快速鍵來傳送預設訊息",
+			"title": "鍵盤快速鍵"
+		},
+		"autoReply": {
+			"description": "設定自動觸發條件，回覆特定的聊天訊息",
+			"title": "自動回覆"
+		},
+		"settings": {
+			"description": "透過網址列中的彈出視窗管理預設訊息並調整偏好設定",
+			"title": "完整掌控"
+		}
+	},
+	"installSection": {
+		"title": "新增至您的瀏覽器",
+		"installButton": "在商店中查看",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "以 Chrome 為基礎的瀏覽器",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "開發者：<a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "原始碼",
+		"donate": "捐款"
+	},
+	"uninstalled": {
+		"title": "糟糕，擴充功能已解除安裝……",
+		"description": "如果可以，請填寫表單，協助我們了解出了什麼問題"
+	},
+	"redirect": "正在重新導向…… <a id=\"redirect\" class=\"link\">沒有重新導向？</a>"
+}

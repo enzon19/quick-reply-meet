@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome tarayıcısına ekle} firefox {Firefox tarayıcısına ekle} edge {Edge tarayıcısına ekle} other {Ekle}}",
+	"headline": "Google Meet™ sohbetinde yazmadan mesaj gönderin.",
+	"features": {
+		"title": "Özellikler",
+		"click": {
+			"description": "Tek tıklamayla sohbete gönderilmeye hazır mesajlar oluşturun ve kaydedin",
+			"title": "Sohbet düğmeleri"
+		},
+		"keyboard": {
+			"description": "Hazır mesajlarınızı göndermek için klavye kısayolları ayarlayın",
+			"title": "Klavye kısayolları"
+		},
+		"autoReply": {
+			"description": "Belirli sohbet mesajlarına yanıt vermek için otomatik tetikleyiciler ayarlayın",
+			"title": "Otomatik yanıt"
+		},
+		"settings": {
+			"description": "Adres çubuğundaki açılır pencere üzerinden hazır mesajlarınızı yönetin ve tercihlerinizi ayarlayın",
+			"title": "Tam kontrol"
+		}
+	},
+	"installSection": {
+		"title": "Tarayıcınıza ekleyin",
+		"installButton": "Mağazada görüntüle",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome tabanlı",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Geliştiren: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kaynak kodu",
+		"donate": "Bağış yap"
+	},
+	"uninstalled": {
+		"title": "Eyvah, uzantı kaldırıldı...",
+		"description": "Mümkünse neyin yanlış gittiğini anlamamıza yardımcı olmak için formu doldurun"
+	},
+	"redirect": "Yönlendiriliyor... <a id=\"redirect\" class=\"link\">Yönlendirilmediniz mi?</a>"
+}

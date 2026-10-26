@@ -1,0 +1,49 @@
+{
+	"install": "Ongeza{browser, select, chrome { kwenye Chrome} firefox { kwenye Firefox} edge { kwenye Edge} other {}}",
+	"headline": "Tuma ujumbe kwenye gumzo la Google Meet™ bila kuandika.",
+	"features": {
+		"title": "Vipengele",
+		"click": {
+			"description": "Unda na uhifadhi ujumbe ulio tayari kutumwa kwenye gumzo kwa mbofyo mmoja tu",
+			"title": "Vitufe vya gumzo"
+		},
+		"keyboard": {
+			"description": "Sanidi njia za mkato za kibodi ili kutuma ujumbe wako ulio tayari",
+			"title": "Njia za mkato za kibodi"
+		},
+		"autoReply": {
+			"description": "Weka vichochezi vya kiotomatiki ili kujibu ujumbe mahususi kwenye gumzo",
+			"title": "Jibu la kiotomatiki"
+		},
+		"settings": {
+			"description": "Dhibiti ujumbe wako ulio tayari na urekebishe mapendeleo yako kupitia dirisha ibukizi kwenye upau wa anwani",
+			"title": "Udhibiti kamili"
+		}
+	},
+	"installSection": {
+		"title": "Ongeza kwenye kivinjari chako",
+		"installButton": "Tazama dukani",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Vivinjari vinavyotumia msingi wa Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Imetengenezwa na <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Msimbo chanzo",
+		"donate": "Changia"
+	},
+	"uninstalled": {
+		"title": "Lo, kiendelezi kimeondolewa...",
+		"description": "Ukiweza, tafadhali jaza fomu ili kutusaidia kuelewa kilichoharibika"
+	},
+	"redirect": "Inaelekeza upya... <a id=\"redirect\" class=\"link\">Haikukuelekeza upya?</a>"
+}

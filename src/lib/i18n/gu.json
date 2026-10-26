@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome માં ઉમેરો} firefox {Firefox માં ઉમેરો} edge {Edge માં ઉમેરો} other {ઉમેરો}}",
+	"headline": "ટાઇપ કર્યા વિના Google Meet™ ચેટમાં સંદેશા મોકલો.",
+	"features": {
+		"title": "સુવિધાઓ",
+		"click": {
+			"description": "ચેટમાં ફક્ત એક ક્લિકથી મોકલવા માટે તૈયાર સંદેશા બનાવો અને સાચવો",
+			"title": "ચેટ બટનો"
+		},
+		"keyboard": {
+			"description": "તમારા તૈયાર સંદેશા મોકલવા માટે કીબોર્ડ શૉર્ટકટ સેટ કરો",
+			"title": "કીબોર્ડ શૉર્ટકટ"
+		},
+		"autoReply": {
+			"description": "ચેટના ચોક્કસ સંદેશાનો જવાબ આપવા માટે આપમેળે ચાલતા ટ્રિગર્સ સેટ કરો",
+			"title": "આપમેળે જવાબ"
+		},
+		"settings": {
+			"description": "ઍડ્રેસ બારમાં પોપઅપ દ્વારા તમારા તૈયાર સંદેશાનું સંચાલન કરો અને તમારી પસંદગીઓ ગોઠવો",
+			"title": "સંપૂર્ણ નિયંત્રણ"
+		}
+	},
+	"installSection": {
+		"title": "તમારા બ્રાઉઝરમાં ઉમેરો",
+		"installButton": "સ્ટોરમાં જુઓ",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome પર આધારિત",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "<a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a> દ્વારા વિકસિત",
+		"sourceCode": "સોર્સ કોડ",
+		"donate": "દાન કરો"
+	},
+	"uninstalled": {
+		"title": "અરે, એક્સ્ટેન્શન અનઇન્સ્ટોલ થયું...",
+		"description": "શક્ય હોય તો, શું ખોટું થયું તે સમજવામાં અમને મદદ કરવા કૃપા કરીને ફોર્મ ભરો"
+	},
+	"redirect": "રીડાયરેક્ટ થઈ રહ્યું છે... <a id=\"redirect\" class=\"link\">રીડાયરેક્ટ ન થયું?</a>"
+}

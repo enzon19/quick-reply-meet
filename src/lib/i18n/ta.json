@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome-இல் சேர்} firefox {Firefox-இல் சேர்} edge {Edge-இல் சேர்} other {சேர்}}",
+	"headline": "தட்டச்சு செய்யாமல் Google Meet™ அரட்டையில் செய்திகளை அனுப்புங்கள்.",
+	"features": {
+		"title": "அம்சங்கள்",
+		"click": {
+			"description": "ஒரே கிளிக்கில் அரட்டையில் அனுப்பத் தயாரான செய்திகளை உருவாக்கிச் சேமியுங்கள்",
+			"title": "அரட்டைப் பொத்தான்கள்"
+		},
+		"keyboard": {
+			"description": "தயாராக உள்ள செய்திகளை அனுப்ப விசைப்பலகைக் குறுக்குவழிகளை அமைக்கவும்",
+			"title": "விசைப்பலகைக் குறுக்குவழிகள்"
+		},
+		"autoReply": {
+			"description": "குறிப்பிட்ட அரட்டைச் செய்திகளுக்குப் பதிலளிக்கத் தானியங்கித் தூண்டிகளை அமைக்கவும்",
+			"title": "தானியங்கிப் பதில்"
+		},
+		"settings": {
+			"description": "முகவரிப் பட்டியில் உள்ள பாப்அப் வழியாகத் தயாராக உள்ள செய்திகளை நிர்வகித்து, உங்கள் விருப்பங்களை மாற்றவும்",
+			"title": "முழுக் கட்டுப்பாடு"
+		}
+	},
+	"installSection": {
+		"title": "உங்கள் உலாவியில் சேர்க்கவும்",
+		"installButton": "ஸ்டோரில் காண்க",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome அடிப்படையிலானவை",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "உருவாக்கியவர்: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "மூலக் குறியீடு",
+		"donate": "நன்கொடை அளி"
+	},
+	"uninstalled": {
+		"title": "அடடா, நீட்டிப்பு நிறுவல் நீக்கப்பட்டது...",
+		"description": "முடிந்தால், என்ன தவறு நடந்தது என்பதைப் புரிந்துகொள்ள உதவுவதற்குப் படிவத்தை நிரப்புங்கள்"
+	},
+	"redirect": "திருப்பிவிடப்படுகிறது... <a id=\"redirect\" class=\"link\">திருப்பிவிடப்படவில்லையா?</a>"
+}

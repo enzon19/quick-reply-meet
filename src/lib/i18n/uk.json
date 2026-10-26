@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Додати в Chrome} firefox {Додати у Firefox} edge {Додати в Edge} other {Додати}}",
+	"headline": "Надсилайте повідомлення в чаті Google Meet™ без введення тексту.",
+	"features": {
+		"title": "Можливості",
+		"click": {
+			"description": "Створюйте та зберігайте готові повідомлення для надсилання в чат одним натисканням",
+			"title": "Кнопки в чаті"
+		},
+		"keyboard": {
+			"description": "Налаштуйте комбінації клавіш для надсилання готових повідомлень",
+			"title": "Комбінації клавіш"
+		},
+		"autoReply": {
+			"description": "Налаштуйте автоматичні тригери для відповіді на певні повідомлення в чаті",
+			"title": "Автовідповідь"
+		},
+		"settings": {
+			"description": "Керуйте готовими повідомленнями та змінюйте налаштування у спливному вікні на панелі адреси",
+			"title": "Повний контроль"
+		}
+	},
+	"installSection": {
+		"title": "Додайте у свій браузер",
+		"installButton": "Переглянути в магазині",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "На основі Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Розробник: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Вихідний код",
+		"donate": "Підтримати"
+	},
+	"uninstalled": {
+		"title": "О ні, розширення видалено...",
+		"description": "Якщо можете, заповніть форму, щоб допомогти нам зрозуміти, що пішло не так"
+	},
+	"redirect": "Перенаправлення... <a id=\"redirect\" class=\"link\">Не вдалося перенаправити?</a>"
+}

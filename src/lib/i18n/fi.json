@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Lisää Chromeen} firefox {Lisää Firefoxiin} edge {Lisää Edgeen} other {Lisää}}",
+	"headline": "Lähetä viestejä Google Meet™ -chatissa kirjoittamatta.",
+	"features": {
+		"title": "Ominaisuudet",
+		"click": {
+			"description": "Luo ja tallenna valmiita viestejä lähetettäväksi chattiin yhdellä napsautuksella",
+			"title": "Chat-painikkeet"
+		},
+		"keyboard": {
+			"description": "Määritä pikanäppäimiä valmiiden viestien lähettämiseen",
+			"title": "Pikanäppäimet"
+		},
+		"autoReply": {
+			"description": "Määritä automaattisia laukaisimia vastaamaan tiettyihin chatviesteihin",
+			"title": "Automaattinen vastaus"
+		},
+		"settings": {
+			"description": "Hallinnoi valmiita viestejä ja säädä asetuksia osoitepalkin ponnahdusikkunassa",
+			"title": "Täysi hallinta"
+		}
+	},
+	"installSection": {
+		"title": "Lisää selaimeesi",
+		"installButton": "Näytä kaupassa",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-pohjaiset",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Kehittäjä: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Lähdekoodi",
+		"donate": "Lahjoita"
+	},
+	"uninstalled": {
+		"title": "Voi ei, laajennus on poistettu...",
+		"description": "Jos voit, täytä lomake, jotta ymmärrämme, mikä meni pieleen"
+	},
+	"redirect": "Uudelleenohjataan... <a id=\"redirect\" class=\"link\">Eikö uudelleenohjaus toiminut?</a>"
+}

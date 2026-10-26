@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome-ലേക്ക് ചേർക്കുക} firefox {Firefox-ലേക്ക് ചേർക്കുക} edge {Edge-ലേക്ക് ചേർക്കുക} other {ചേർക്കുക}}",
+	"headline": "ടൈപ്പ് ചെയ്യാതെ Google Meet™ ചാറ്റിൽ സന്ദേശങ്ങൾ അയയ്ക്കൂ.",
+	"features": {
+		"title": "സവിശേഷതകൾ",
+		"click": {
+			"description": "ഒറ്റ ക്ലിക്കിൽ ചാറ്റിലേക്ക് അയയ്ക്കാൻ തയ്യാറായ സന്ദേശങ്ങൾ സൃഷ്ടിച്ച് സംരക്ഷിക്കൂ",
+			"title": "ചാറ്റ് ബട്ടണുകൾ"
+		},
+		"keyboard": {
+			"description": "നിങ്ങളുടെ തയ്യാറായ സന്ദേശങ്ങൾ അയയ്ക്കാൻ കീബോർഡ് കുറുക്കുവഴികൾ സജ്ജീകരിക്കൂ",
+			"title": "കീബോർഡ് കുറുക്കുവഴികൾ"
+		},
+		"autoReply": {
+			"description": "നിർദിഷ്ട ചാറ്റ് സന്ദേശങ്ങൾക്ക് മറുപടി നൽകാൻ സ്വയമേവയുള്ള ട്രിഗറുകൾ സജ്ജീകരിക്കൂ",
+			"title": "സ്വയമേവ മറുപടി"
+		},
+		"settings": {
+			"description": "വിലാസ ബാറിലെ പോപ്പപ്പിലൂടെ നിങ്ങളുടെ തയ്യാറായ സന്ദേശങ്ങൾ നിയന്ത്രിക്കുകയും മുൻഗണനകൾ ക്രമീകരിക്കുകയും ചെയ്യൂ",
+			"title": "പൂർണ നിയന്ത്രണം"
+		}
+	},
+	"installSection": {
+		"title": "നിങ്ങളുടെ ബ്രൗസറിലേക്ക് ചേർക്കൂ",
+		"installButton": "സ്റ്റോറിൽ കാണുക",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome അടിസ്ഥാനമാക്കിയവ",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "വികസിപ്പിച്ചത് <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "സോഴ്സ് കോഡ്",
+		"donate": "സംഭാവന നൽകുക"
+	},
+	"uninstalled": {
+		"title": "അയ്യോ, വിപുലീകരണം അൺഇൻസ്റ്റാൾ ചെയ്തു...",
+		"description": "സാധ്യമെങ്കിൽ, എന്താണ് പ്രശ്നമായതെന്ന് മനസ്സിലാക്കാൻ ഞങ്ങളെ സഹായിക്കുന്നതിനായി ഫോം പൂരിപ്പിക്കൂ"
+	},
+	"redirect": "റീഡയറക്ട് ചെയ്യുന്നു... <a id=\"redirect\" class=\"link\">റീഡയറക്ട് ആയില്ലേ?</a>"
+}

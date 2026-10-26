@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Добавить в Chrome} firefox {Добавить в Firefox} edge {Добавить в Edge} other {Добавить}}",
+	"headline": "Отправляйте сообщения в чате Google Meet™ без набора текста.",
+	"features": {
+		"title": "Возможности",
+		"click": {
+			"description": "Создавайте и сохраняйте готовые сообщения для отправки в чат одним нажатием",
+			"title": "Кнопки в чате"
+		},
+		"keyboard": {
+			"description": "Настройте сочетания клавиш для отправки готовых сообщений",
+			"title": "Сочетания клавиш"
+		},
+		"autoReply": {
+			"description": "Настройте автоматические триггеры для ответа на определённые сообщения в чате",
+			"title": "Автоответ"
+		},
+		"settings": {
+			"description": "Управляйте готовыми сообщениями и настройками во всплывающем окне расширения на панели адреса",
+			"title": "Полный контроль"
+		}
+	},
+	"installSection": {
+		"title": "Добавьте в свой браузер",
+		"installButton": "Посмотреть в магазине",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "На основе Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Разработчик: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Исходный код",
+		"donate": "Пожертвовать"
+	},
+	"uninstalled": {
+		"title": "О нет, расширение удалено...",
+		"description": "Если можете, заполните форму, чтобы помочь нам понять, что пошло не так"
+	},
+	"redirect": "Перенаправление... <a id=\"redirect\" class=\"link\">Не удалось перенаправить?</a>"
+}

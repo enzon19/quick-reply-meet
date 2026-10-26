@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {إضافة إلى Chrome} firefox {إضافة إلى Firefox} edge {إضافة إلى Edge} other {إضافة}}",
+	"headline": "أرسل رسائل في دردشة Google Meet™ دون كتابة.",
+	"features": {
+		"title": "الميزات",
+		"click": {
+			"description": "أنشئ رسائل جاهزة للإرسال واحفظها لإرسالها إلى الدردشة بنقرة واحدة",
+			"title": "أزرار الدردشة"
+		},
+		"keyboard": {
+			"description": "اضبط اختصارات لوحة المفاتيح لإرسال رسائلك الجاهزة",
+			"title": "اختصارات لوحة المفاتيح"
+		},
+		"autoReply": {
+			"description": "اضبط محفزات تلقائية للرد على رسائل محددة في الدردشة",
+			"title": "الرد التلقائي"
+		},
+		"settings": {
+			"description": "أدِر رسائلك الجاهزة واضبط تفضيلاتك من النافذة المنبثقة في شريط العناوين",
+			"title": "تحكم كامل"
+		}
+	},
+	"installSection": {
+		"title": "أضِف إلى متصفحك",
+		"installButton": "عرض في المتجر",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "المتصفحات المستندة إلى Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "طوّره <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "الشيفرة المصدرية",
+		"donate": "تبرع"
+	},
+	"uninstalled": {
+		"title": "للأسف، أُزيلت الإضافة...",
+		"description": "إذا أمكن، يُرجى ملء النموذج لمساعدتنا على فهم ما حدث من خطأ"
+	},
+	"redirect": "جارٍ إعادة التوجيه... <a id=\"redirect\" class=\"link\">لم تتم إعادة توجيهك؟</a>"
+}

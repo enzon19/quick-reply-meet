@@ -1,0 +1,49 @@
+{
+	"install": "הוספה{browser, select, chrome { ל-Chrome} firefox { ל-Firefox} edge { ל-Edge} other {}}",
+	"headline": "שליחת הודעות בצ'אט של Google Meet™ בלי להקליד.",
+	"features": {
+		"title": "תכונות",
+		"click": {
+			"description": "יצירה ושמירה של הודעות מוכנות לשליחה בצ'אט בלחיצה אחת",
+			"title": "כפתורי צ'אט"
+		},
+		"keyboard": {
+			"description": "הגדרת קיצורי מקשים לשליחת ההודעות המוכנות שלך",
+			"title": "קיצורי מקשים"
+		},
+		"autoReply": {
+			"description": "הגדרת טריגרים אוטומטיים למענה על הודעות מסוימות בצ'אט",
+			"title": "מענה אוטומטי"
+		},
+		"settings": {
+			"description": "ניהול ההודעות המוכנות ושינוי ההעדפות דרך החלונית שבסרגל הכתובות",
+			"title": "שליטה מלאה"
+		}
+	},
+	"installSection": {
+		"title": "הוספה לדפדפן שלך",
+		"installButton": "הצגה בחנות",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "מבוססי Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "פותח על ידי <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "קוד מקור",
+		"donate": "תרומה"
+	},
+	"uninstalled": {
+		"title": "אוי לא, התוסף הוסר...",
+		"description": "אם אפשר, נשמח למילוי הטופס כדי לעזור לנו להבין מה השתבש"
+	},
+	"redirect": "מתבצעת הפניה... <a id=\"redirect\" class=\"link\">לא הופנית?</a>"
+}

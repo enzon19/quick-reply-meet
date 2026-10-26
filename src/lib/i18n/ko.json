@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome에 추가} firefox {Firefox에 추가} edge {Edge에 추가} other {추가}}",
+	"headline": "입력하지 않고 Google Meet™ 채팅에 메시지를 보내세요.",
+	"features": {
+		"title": "기능",
+		"click": {
+			"description": "클릭 한 번으로 채팅에 보낼 수 있는 메시지를 만들고 저장하세요",
+			"title": "채팅 버튼"
+		},
+		"keyboard": {
+			"description": "미리 작성한 메시지를 보낼 키보드 단축키를 설정하세요",
+			"title": "키보드 단축키"
+		},
+		"autoReply": {
+			"description": "특정 채팅 메시지에 응답할 자동 트리거를 설정하세요",
+			"title": "자동 응답"
+		},
+		"settings": {
+			"description": "주소 표시줄의 팝업에서 미리 작성한 메시지를 관리하고 환경설정을 조정하세요",
+			"title": "완벽한 제어"
+		}
+	},
+	"installSection": {
+		"title": "브라우저에 추가",
+		"installButton": "스토어에서 보기",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome 기반",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "개발: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "소스 코드",
+		"donate": "기부"
+	},
+	"uninstalled": {
+		"title": "이런, 확장 프로그램이 삭제되었네요...",
+		"description": "괜찮으시다면 양식을 작성하여 어떤 문제가 있었는지 알려 주세요"
+	},
+	"redirect": "리디렉션 중... <a id=\"redirect\" class=\"link\">리디렉션되지 않았나요?</a>"
+}

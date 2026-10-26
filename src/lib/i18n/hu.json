@@ -1,0 +1,49 @@
+{
+	"install": "Hozzáadás{browser, select, chrome { a Chrome-hoz} firefox { a Firefoxhoz} edge { az Edge-hez} other {}}",
+	"headline": "Küldj üzeneteket a Google Meet™ csevegésében gépelés nélkül.",
+	"features": {
+		"title": "Funkciók",
+		"click": {
+			"description": "Hozz létre és ments el kész üzeneteket, amelyeket egyetlen kattintással elküldhetsz a csevegésbe",
+			"title": "Csevegőgombok"
+		},
+		"keyboard": {
+			"description": "Állíts be billentyűparancsokat az előre megírt üzeneteid elküldéséhez",
+			"title": "Billentyűparancsok"
+		},
+		"autoReply": {
+			"description": "Állíts be automatikus aktiválókat adott csevegőüzenetek megválaszolásához",
+			"title": "Automatikus válasz"
+		},
+		"settings": {
+			"description": "Kezeld az előre megírt üzeneteidet és módosítsd a beállításaidat a címsáv felugró ablakában",
+			"title": "Teljes irányítás"
+		}
+	},
+	"installSection": {
+		"title": "Add hozzá a böngésződhöz",
+		"installButton": "Megtekintés az áruházban",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-alapú",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Fejlesztette: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Forráskód",
+		"donate": "Adományozás"
+	},
+	"uninstalled": {
+		"title": "Ó, ne, a bővítmény eltávolítva...",
+		"description": "Ha teheted, töltsd ki az űrlapot, hogy segíts megérteni, mi ment rosszul"
+	},
+	"redirect": "Átirányítás... <a id=\"redirect\" class=\"link\">Nem történt átirányítás?</a>"
+}

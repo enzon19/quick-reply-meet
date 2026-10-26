@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {افزودن به Chrome} firefox {افزودن به Firefox} edge {افزودن به Edge} other {افزودن}}",
+	"headline": "بدون تایپ کردن در گفت‌وگوی Google Meet™ پیام بفرستید.",
+	"features": {
+		"title": "قابلیت‌ها",
+		"click": {
+			"description": "پیام‌های آمادهٔ ارسال ایجاد و ذخیره کنید تا تنها با یک کلیک در گفت‌وگو بفرستید",
+			"title": "دکمه‌های گفت‌وگو"
+		},
+		"keyboard": {
+			"description": "برای ارسال پیام‌های آمادهٔ خود میان‌بر صفحه‌کلید تنظیم کنید",
+			"title": "میان‌برهای صفحه‌کلید"
+		},
+		"autoReply": {
+			"description": "برای پاسخ به پیام‌های مشخص در گفت‌وگو، محرک‌های خودکار تنظیم کنید",
+			"title": "پاسخ خودکار"
+		},
+		"settings": {
+			"description": "پیام‌های آمادهٔ خود را مدیریت کنید و تنظیمات دلخواه را از طریق پنجرهٔ بازشو در نوار نشانی تغییر دهید",
+			"title": "کنترل کامل"
+		}
+	},
+	"installSection": {
+		"title": "به مرورگر خود اضافه کنید",
+		"installButton": "مشاهده در فروشگاه",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "مبتنی بر Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "توسعه‌یافته توسط <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "کد منبع",
+		"donate": "کمک مالی"
+	},
+	"uninstalled": {
+		"title": "اوه نه، افزونه حذف شد...",
+		"description": "اگر می‌توانید، لطفاً فرم را پر کنید تا به ما در درک مشکل کمک کنید"
+	},
+	"redirect": "در حال هدایت... <a id=\"redirect\" class=\"link\">هدایت نشدید؟</a>"
+}

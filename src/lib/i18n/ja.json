@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Chrome に追加} firefox {Firefox に追加} edge {Edge に追加} other {追加}}",
+	"headline": "文字を入力せずに Google Meet™ のチャットでメッセージを送信できます。",
+	"features": {
+		"title": "機能",
+		"click": {
+			"description": "ワンクリックでチャットに送信できる定型メッセージを作成・保存",
+			"title": "チャットボタン"
+		},
+		"keyboard": {
+			"description": "定型メッセージを送信するキーボードショートカットを設定",
+			"title": "キーボードショートカット"
+		},
+		"autoReply": {
+			"description": "特定のチャットメッセージに返信する自動トリガーを設定",
+			"title": "自動返信"
+		},
+		"settings": {
+			"description": "アドレスバーのポップアップで定型メッセージを管理し、設定を調整",
+			"title": "自由に設定"
+		}
+	},
+	"installSection": {
+		"title": "お使いのブラウザに追加",
+		"installButton": "ストアで見る",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome ベース",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "開発者：<a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "ソースコード",
+		"donate": "寄付する"
+	},
+	"uninstalled": {
+		"title": "残念ながら、拡張機能がアンインストールされました...",
+		"description": "よろしければ、改善の参考にするためフォームへのご回答をお願いします"
+	},
+	"redirect": "リダイレクト中... <a id=\"redirect\" class=\"link\">移動しませんでしたか？</a>"
+}

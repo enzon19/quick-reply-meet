@@ -1,0 +1,49 @@
+{
+	"install": "Aggiungi{browser, select, chrome { a Chrome} firefox { a Firefox} edge { a Edge} other {}}",
+	"headline": "Invia messaggi nella chat di Google Meet™ senza digitare.",
+	"features": {
+		"title": "Funzionalità",
+		"click": {
+			"description": "Crea e salva messaggi pronti da inviare in chat con un solo clic",
+			"title": "Pulsanti nella chat"
+		},
+		"keyboard": {
+			"description": "Configura scorciatoie da tastiera per inviare i tuoi messaggi pronti",
+			"title": "Scorciatoie da tastiera"
+		},
+		"autoReply": {
+			"description": "Imposta attivatori automatici per rispondere a specifici messaggi della chat",
+			"title": "Risposta automatica"
+		},
+		"settings": {
+			"description": "Gestisci i tuoi messaggi pronti e modifica le preferenze dal popup nella barra degli indirizzi",
+			"title": "Controllo completo"
+		}
+	},
+	"installSection": {
+		"title": "Aggiungi al tuo browser",
+		"installButton": "Visualizza nello store",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Basati su Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Sviluppato da <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Codice sorgente",
+		"donate": "Fai una donazione"
+	},
+	"uninstalled": {
+		"title": "Oh no, estensione disinstallata...",
+		"description": "Se puoi, compila il modulo per aiutarci a capire cosa non ha funzionato"
+	},
+	"redirect": "Reindirizzamento... <a id=\"redirect\" class=\"link\">Non sei stato reindirizzato?</a>"
+}

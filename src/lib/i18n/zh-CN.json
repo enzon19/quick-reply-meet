@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {添加到 Chrome} firefox {添加到 Firefox} edge {添加到 Edge} other {添加}}",
+	"headline": "无需打字，即可在 Google Meet™ 聊天中发送消息。",
+	"features": {
+		"title": "功能",
+		"click": {
+			"description": "创建并保存预设消息，只需点击一下即可发送到聊天中",
+			"title": "聊天按钮"
+		},
+		"keyboard": {
+			"description": "设置键盘快捷键来发送预设消息",
+			"title": "键盘快捷键"
+		},
+		"autoReply": {
+			"description": "设置自动触发条件，回复特定的聊天消息",
+			"title": "自动回复"
+		},
+		"settings": {
+			"description": "通过地址栏中的弹出窗口管理预设消息并调整偏好设置",
+			"title": "全面掌控"
+		}
+	},
+	"installSection": {
+		"title": "添加到您的浏览器",
+		"installButton": "在商店中查看",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "基于 Chrome 的浏览器",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "开发者：<a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "源代码",
+		"donate": "捐赠"
+	},
+	"uninstalled": {
+		"title": "哎呀，扩展程序已卸载……",
+		"description": "如果可以，请填写表单，帮助我们了解出了什么问题"
+	},
+	"redirect": "正在跳转…… <a id=\"redirect\" class=\"link\">没有跳转？</a>"
+}

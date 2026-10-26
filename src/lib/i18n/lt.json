@@ -1,0 +1,49 @@
+{
+	"install": "Pridėti{browser, select, chrome { prie „Chrome“} firefox { prie „Firefox“} edge { prie „Edge“} other {}}",
+	"headline": "Siųskite žinutes „Google Meet™“ pokalbyje jų nerašydami.",
+	"features": {
+		"title": "Funkcijos",
+		"click": {
+			"description": "Kurkite ir išsaugokite paruoštas žinutes, kurias pokalbyje išsiųsite vienu spustelėjimu",
+			"title": "Pokalbio mygtukai"
+		},
+		"keyboard": {
+			"description": "Nustatykite sparčiuosius klavišus paruoštoms žinutėms siųsti",
+			"title": "Spartieji klavišai"
+		},
+		"autoReply": {
+			"description": "Nustatykite automatinius aktyviklius atsakymams į konkrečias pokalbio žinutes",
+			"title": "Automatinis atsakymas"
+		},
+		"settings": {
+			"description": "Tvarkykite paruoštas žinutes ir keiskite nuostatas iškylančiajame lange adreso juostoje",
+			"title": "Visiškas valdymas"
+		}
+	},
+	"installSection": {
+		"title": "Pridėkite prie savo naršyklės",
+		"installButton": "Peržiūrėti parduotuvėje",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "„Chrome“ pagrindu",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Sukūrė <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Pirminis kodas",
+		"donate": "Paaukoti"
+	},
+	"uninstalled": {
+		"title": "O ne, plėtinys pašalintas...",
+		"description": "Jei galite, užpildykite formą ir padėkite mums suprasti, kas nutiko"
+	},
+	"redirect": "Peradresuojama... <a id=\"redirect\" class=\"link\">Nebuvote peradresuoti?</a>"
+}

@@ -218,7 +218,7 @@
 		}
 
 		.headline > div {
-			text-align: left;
+			text-align: start;
 		}
 
 		:global(#headline-install-button) {

@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Zu Chrome hinzufügen} firefox {Zu Firefox hinzufügen} edge {Zu Edge hinzufügen} other {Hinzufügen}}",
+	"headline": "Sende Nachrichten im Google Meet™-Chat, ohne zu tippen.",
+	"features": {
+		"title": "Funktionen",
+		"click": {
+			"description": "Erstelle und speichere fertige Nachrichten, die du mit einem Klick im Chat senden kannst",
+			"title": "Chat-Schaltflächen"
+		},
+		"keyboard": {
+			"description": "Richte Tastenkombinationen zum Senden deiner vorbereiteten Nachrichten ein",
+			"title": "Tastenkombinationen"
+		},
+		"autoReply": {
+			"description": "Lege automatische Auslöser fest, um auf bestimmte Chatnachrichten zu antworten",
+			"title": "Automatische Antworten"
+		},
+		"settings": {
+			"description": "Verwalte deine vorbereiteten Nachrichten und passe deine Einstellungen über das Popup in der Adressleiste an",
+			"title": "Volle Kontrolle"
+		}
+	},
+	"installSection": {
+		"title": "Zu deinem Browser hinzufügen",
+		"installButton": "Im Store ansehen",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-basiert",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Entwickelt von <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Quellcode",
+		"donate": "Spenden"
+	},
+	"uninstalled": {
+		"title": "Oh nein, die Erweiterung wurde deinstalliert...",
+		"description": "Bitte fülle nach Möglichkeit das Formular aus, damit wir verstehen, was schiefgelaufen ist"
+	},
+	"redirect": "Weiterleitung... <a id=\"redirect\" class=\"link\">Keine Weiterleitung?</a>"
+}

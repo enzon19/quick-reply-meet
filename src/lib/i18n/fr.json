@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Ajouter à Chrome} firefox {Ajouter à Firefox} edge {Ajouter à Edge} other {Ajouter}}",
+	"headline": "Envoyez des messages dans le chat Google Meet™ sans taper.",
+	"features": {
+		"title": "Fonctionnalités",
+		"click": {
+			"description": "Créez et enregistrez des messages prêts à être envoyés dans le chat en un seul clic",
+			"title": "Boutons de chat"
+		},
+		"keyboard": {
+			"description": "Configurez des raccourcis clavier pour envoyer vos messages préparés",
+			"title": "Raccourcis clavier"
+		},
+		"autoReply": {
+			"description": "Définissez des déclencheurs automatiques pour répondre à des messages précis du chat",
+			"title": "Réponses automatiques"
+		},
+		"settings": {
+			"description": "Gérez vos messages préparés et réglez vos préférences depuis la fenêtre de l'extension dans la barre d'adresse",
+			"title": "Contrôle complet"
+		}
+	},
+	"installSection": {
+		"title": "Ajouter à votre navigateur",
+		"installButton": "Voir dans la boutique",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Basés sur Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Développé par <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Code source",
+		"donate": "Faire un don"
+	},
+	"uninstalled": {
+		"title": "Oh non, l'extension a été désinstallée...",
+		"description": "Si vous le pouvez, remplissez le formulaire pour nous aider à comprendre ce qui n'a pas fonctionné"
+	},
+	"redirect": "Redirection en cours... <a id=\"redirect\" class=\"link\">Vous n'avez pas été redirigé ?</a>"
+}

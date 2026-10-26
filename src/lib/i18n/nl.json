@@ -1,0 +1,49 @@
+{
+	"install": "Toevoegen{browser, select, chrome { aan Chrome} firefox { aan Firefox} edge { aan Edge} other {}}",
+	"headline": "Verstuur berichten in de Google Meet™-chat zonder te typen.",
+	"features": {
+		"title": "Functies",
+		"click": {
+			"description": "Maak en bewaar kant-en-klare berichten om ze met één klik in de chat te versturen",
+			"title": "Chatknoppen"
+		},
+		"keyboard": {
+			"description": "Stel sneltoetsen in om je kant-en-klare berichten te versturen",
+			"title": "Sneltoetsen"
+		},
+		"autoReply": {
+			"description": "Stel automatische triggers in om op specifieke chatberichten te reageren",
+			"title": "Automatisch antwoorden"
+		},
+		"settings": {
+			"description": "Beheer je kant-en-klare berichten en pas je voorkeuren aan via het pop-upvenster in de adresbalk",
+			"title": "Volledige controle"
+		}
+	},
+	"installSection": {
+		"title": "Voeg toe aan je browser",
+		"installButton": "Bekijken in de winkel",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Gebaseerd op Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Ontwikkeld door <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Broncode",
+		"donate": "Doneren"
+	},
+	"uninstalled": {
+		"title": "O nee, de extensie is verwijderd...",
+		"description": "Vul als je kunt het formulier in om ons te helpen begrijpen wat er misging"
+	},
+	"redirect": "Je wordt doorgestuurd... <a id=\"redirect\" class=\"link\">Niet doorgestuurd?</a>"
+}

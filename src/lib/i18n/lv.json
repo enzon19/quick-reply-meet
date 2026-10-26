@@ -1,0 +1,49 @@
+{
+	"install": "Pievienot{browser, select, chrome { pārlūkam Chrome} firefox { pārlūkam Firefox} edge { pārlūkam Edge} other {}}",
+	"headline": "Sūtiet ziņojumus Google Meet™ tērzēšanā bez rakstīšanas.",
+	"features": {
+		"title": "Funkcijas",
+		"click": {
+			"description": "Izveidojiet un saglabājiet gatavus ziņojumus nosūtīšanai tērzēšanā ar vienu klikšķi",
+			"title": "Tērzēšanas pogas"
+		},
+		"keyboard": {
+			"description": "Iestatiet tastatūras īsinājumtaustiņus gatavo ziņojumu sūtīšanai",
+			"title": "Tastatūras īsinājumtaustiņi"
+		},
+		"autoReply": {
+			"description": "Iestatiet automātiskus aktivizētājus, lai atbildētu uz konkrētiem tērzēšanas ziņojumiem",
+			"title": "Automātiskā atbilde"
+		},
+		"settings": {
+			"description": "Pārvaldiet gatavos ziņojumus un pielāgojiet preferences uznirstošajā logā adreses joslā",
+			"title": "Pilnīga kontrole"
+		}
+	},
+	"installSection": {
+		"title": "Pievienojiet savai pārlūkprogrammai",
+		"installButton": "Skatīt veikalā",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Uz Chrome bāzes",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Izstrādāja <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Pirmkods",
+		"donate": "Ziedot"
+	},
+	"uninstalled": {
+		"title": "Ak nē, paplašinājums ir atinstalēts...",
+		"description": "Ja iespējams, aizpildiet veidlapu, lai palīdzētu mums saprast, kas nogāja greizi"
+	},
+	"redirect": "Notiek novirzīšana... <a id=\"redirect\" class=\"link\">Netikāt novirzīts?</a>"
+}

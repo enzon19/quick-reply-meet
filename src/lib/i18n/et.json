@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Lisa Chrome'i} firefox {Lisa Firefoxi} edge {Lisa Edge'i} other {Lisa}}",
+	"headline": "Saada Google Meet™-i vestluses sõnumeid ilma tippimata.",
+	"features": {
+		"title": "Funktsioonid",
+		"click": {
+			"description": "Loo ja salvesta valmis sõnumeid, mida saab vestlusesse saata ühe klõpsuga",
+			"title": "Vestlusnupud"
+		},
+		"keyboard": {
+			"description": "Seadista valmis sõnumite saatmiseks kiirklahvid",
+			"title": "Kiirklahvid"
+		},
+		"autoReply": {
+			"description": "Määra automaatsed käivitajad kindlatele vestlussõnumitele vastamiseks",
+			"title": "Automaatvastus"
+		},
+		"settings": {
+			"description": "Halda valmis sõnumeid ja kohanda eelistusi aadressiribal asuva hüpikakna kaudu",
+			"title": "Täielik kontroll"
+		}
+	},
+	"installSection": {
+		"title": "Lisa oma brauserisse",
+		"installButton": "Vaata poes",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome'il põhinevad",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Arendaja: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Lähtekood",
+		"donate": "Anneta"
+	},
+	"uninstalled": {
+		"title": "Oh ei, laiendus on eemaldatud...",
+		"description": "Võimaluse korral täida vorm, et aidata meil mõista, mis valesti läks"
+	},
+	"redirect": "Ümbersuunamine... <a id=\"redirect\" class=\"link\">Ümbersuunamist ei toimunud?</a>"
+}

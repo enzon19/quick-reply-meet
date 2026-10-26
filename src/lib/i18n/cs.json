@@ -1,0 +1,49 @@
+{
+	"install": "Přidat{browser, select, chrome { do Chromu} firefox { do Firefoxu} edge { do Edge} other {}}",
+	"headline": "Posílejte zprávy v chatu Google Meet™ bez psaní.",
+	"features": {
+		"title": "Funkce",
+		"click": {
+			"description": "Vytvářejte a ukládejte připravené zprávy k odeslání do chatu jediným kliknutím",
+			"title": "Tlačítka v chatu"
+		},
+		"keyboard": {
+			"description": "Nastavte klávesové zkratky pro odesílání připravených zpráv",
+			"title": "Klávesové zkratky"
+		},
+		"autoReply": {
+			"description": "Nastavte automatické spouštěče odpovědí na konkrétní zprávy v chatu",
+			"title": "Automatické odpovědi"
+		},
+		"settings": {
+			"description": "Spravujte připravené zprávy a upravujte předvolby ve vyskakovacím okně v adresním řádku",
+			"title": "Plná kontrola"
+		}
+	},
+	"installSection": {
+		"title": "Přidejte do svého prohlížeče",
+		"installButton": "Zobrazit v obchodě",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Založené na Chromu",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Autor: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Zdrojový kód",
+		"donate": "Přispět"
+	},
+	"uninstalled": {
+		"title": "Ach ne, rozšíření bylo odinstalováno...",
+		"description": "Pokud můžete, vyplňte formulář a pomozte nám pochopit, co se nepovedlo"
+	},
+	"redirect": "Přesměrování... <a id=\"redirect\" class=\"link\">Přesměrování nefunguje?</a>"
+}

@@ -1,0 +1,49 @@
+{
+	"install": "Legg til{browser, select, chrome { i Chrome} firefox { i Firefox} edge { i Edge} other {}}",
+	"headline": "Send meldinger i Google Meet™-chatten uten å skrive.",
+	"features": {
+		"title": "Funksjoner",
+		"click": {
+			"description": "Opprett og lagre ferdige meldinger som kan sendes i chatten med ett klikk",
+			"title": "Chatknapper"
+		},
+		"keyboard": {
+			"description": "Konfigurer hurtigtaster for å sende de ferdige meldingene dine",
+			"title": "Hurtigtaster"
+		},
+		"autoReply": {
+			"description": "Angi automatiske utløsere for å svare på bestemte chatmeldinger",
+			"title": "Automatiske svar"
+		},
+		"settings": {
+			"description": "Administrer de ferdige meldingene dine og juster innstillingene via sprettoppvinduet i adressefeltet",
+			"title": "Full kontroll"
+		}
+	},
+	"installSection": {
+		"title": "Legg til i nettleseren din",
+		"installButton": "Vis i butikken",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-baserte",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Utviklet av <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kildekode",
+		"donate": "Doner"
+	},
+	"uninstalled": {
+		"title": "Å nei, utvidelsen er avinstallert...",
+		"description": "Hvis du kan, fyll ut skjemaet for å hjelpe oss å forstå hva som gikk galt"
+	},
+	"redirect": "Videresender... <a id=\"redirect\" class=\"link\">Ble du ikke videresendt?</a>"
+}

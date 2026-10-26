@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Afegeix a Chrome} firefox {Afegeix a Firefox} edge {Afegeix a Edge} other {Afegeix}}",
+	"headline": "Envia missatges al xat de Google Meet™ sense escriure.",
+	"features": {
+		"title": "Funcions",
+		"click": {
+			"description": "Crea i desa missatges preparats per enviar-los al xat amb un sol clic",
+			"title": "Botons al xat"
+		},
+		"keyboard": {
+			"description": "Configura dreceres de teclat per enviar els teus missatges preparats",
+			"title": "Dreceres de teclat"
+		},
+		"autoReply": {
+			"description": "Defineix activadors automàtics per respondre a missatges concrets del xat",
+			"title": "Resposta automàtica"
+		},
+		"settings": {
+			"description": "Gestiona els teus missatges preparats i ajusta les preferències des de la finestra emergent de la barra d'adreces",
+			"title": "Control complet"
+		}
+	},
+	"installSection": {
+		"title": "Afegeix al teu navegador",
+		"installButton": "Mostra a la botiga",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Basats en Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Desenvolupat per <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Codi font",
+		"donate": "Fes una donació"
+	},
+	"uninstalled": {
+		"title": "Oh, no, s'ha desinstal·lat l'extensió...",
+		"description": "Si pots, omple el formulari per ajudar-nos a entendre què ha anat malament"
+	},
+	"redirect": "S'està redirigint... <a id=\"redirect\" class=\"link\">No s'ha redirigit?</a>"
+}

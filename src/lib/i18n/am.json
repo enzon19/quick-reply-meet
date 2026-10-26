@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {ወደ Chrome አክል} firefox {ወደ Firefox አክል} edge {ወደ Edge አክል} other {አክል}}",
+	"headline": "ሳይተይቡ በGoogle Meet™ ውይይት ውስጥ መልዕክቶችን ይላኩ።",
+	"features": {
+		"title": "ባህሪያት",
+		"click": {
+			"description": "በአንድ ጠቅታ ወደ ውይይት ለመላክ ዝግጁ የሆኑ መልዕክቶችን ይፍጠሩ እና ያስቀምጡ",
+			"title": "የውይይት አዝራሮች"
+		},
+		"keyboard": {
+			"description": "ዝግጁ መልዕክቶችዎን ለመላክ የቁልፍ ሰሌዳ አቋራጮችን ያዋቅሩ",
+			"title": "የቁልፍ ሰሌዳ አቋራጮች"
+		},
+		"autoReply": {
+			"description": "ለተወሰኑ የውይይት መልዕክቶች ምላሽ ለመስጠት ራስ-ሰር ቀስቅሴዎችን ያዋቅሩ",
+			"title": "ራስ-ሰር ምላሽ"
+		},
+		"settings": {
+			"description": "በአድራሻ አሞሌው ላይ ባለው ብቅ ባይ መስኮት ዝግጁ መልዕክቶችዎን ያስተዳድሩ እና ምርጫዎችዎን ያስተካክሉ",
+			"title": "ሙሉ ቁጥጥር"
+		}
+	},
+	"installSection": {
+		"title": "ወደ አሳሽዎ ያክሉ",
+		"installButton": "በመደብሩ ይመልከቱ",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "በChrome ላይ የተመሠረቱ",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "የተዘጋጀው በ <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "የምንጭ ኮድ",
+		"donate": "ልገሳ ያድርጉ"
+	},
+	"uninstalled": {
+		"title": "ወይ አይ፣ ቅጥያው ተወግዷል...",
+		"description": "ከቻሉ፣ ምን እንደተሳሳተ እንድንረዳ ለማገዝ ቅጹን ይሙሉ"
+	},
+	"redirect": "ወደ ሌላ ገጽ እየተዛወረ ነው... <a id=\"redirect\" class=\"link\">ወደ ሌላ ገጽ አልተዛወረም?</a>"
+}

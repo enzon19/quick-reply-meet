@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Føj til Chrome} firefox {Føj til Firefox} edge {Føj til Edge} other {Tilføj}}",
+	"headline": "Send beskeder i Google Meet™-chatten uden at skrive.",
+	"features": {
+		"title": "Funktioner",
+		"click": {
+			"description": "Opret og gem færdige beskeder, som kan sendes i chatten med et enkelt klik",
+			"title": "Chatknapper"
+		},
+		"keyboard": {
+			"description": "Opsæt tastaturgenveje til at sende dine færdige beskeder",
+			"title": "Tastaturgenveje"
+		},
+		"autoReply": {
+			"description": "Indstil automatiske udløsere, der svarer på bestemte chatbeskeder",
+			"title": "Automatiske svar"
+		},
+		"settings": {
+			"description": "Administrer dine færdige beskeder, og tilpas dine præferencer via pop op-vinduet i adresselinjen",
+			"title": "Fuld kontrol"
+		}
+	},
+	"installSection": {
+		"title": "Føj til din browser",
+		"installButton": "Se i butikken",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-baserede",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Udviklet af <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kildekode",
+		"donate": "Doner"
+	},
+	"uninstalled": {
+		"title": "Åh nej, udvidelsen er afinstalleret...",
+		"description": "Udfyld gerne formularen, så vi kan forstå, hvad der gik galt"
+	},
+	"redirect": "Omdirigerer... <a id=\"redirect\" class=\"link\">Blev du ikke omdirigeret?</a>"
+}

@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Pridať do Chromu} firefox {Pridať do Firefoxu} edge {Pridať do Edge} other {Pridať}}",
+	"headline": "Posielajte správy v čete Google Meet™ bez písania.",
+	"features": {
+		"title": "Funkcie",
+		"click": {
+			"description": "Vytvorte a uložte pripravené správy, ktoré odošlete do četu jedným kliknutím",
+			"title": "Tlačidlá v čete"
+		},
+		"keyboard": {
+			"description": "Nastavte si klávesové skratky na odosielanie pripravených správ",
+			"title": "Klávesové skratky"
+		},
+		"autoReply": {
+			"description": "Nastavte automatické spúšťače na odpovedanie na konkrétne správy v čete",
+			"title": "Automatická odpoveď"
+		},
+		"settings": {
+			"description": "Spravujte pripravené správy a upravte si predvoľby pomocou vyskakovacieho okna na paneli s adresou",
+			"title": "Úplná kontrola"
+		}
+	},
+	"installSection": {
+		"title": "Pridajte do svojho prehliadača",
+		"installButton": "Zobraziť v obchode",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Založené na Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Vytvoril <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Zdrojový kód",
+		"donate": "Prispieť"
+	},
+	"uninstalled": {
+		"title": "Ach nie, rozšírenie bolo odinštalované...",
+		"description": "Ak môžete, vyplňte formulár, aby ste nám pomohli pochopiť, čo sa pokazilo"
+	},
+	"redirect": "Presmerovanie... <a id=\"redirect\" class=\"link\">Nepresmerovalo vás?</a>"
+}

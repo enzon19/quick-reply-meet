@@ -1,13 +1,21 @@
 <script lang="ts">
 	import '../app.css';
 	import '$lib/i18n/index';
-	import { _ } from 'svelte-i18n';
+	import { _, locale } from 'svelte-i18n';
 	import { resolve } from '$app/paths';
 	import { Button, Icon } from 'm3-svelte';
 	import InstallButton from '$lib/components/InstallButton.svelte';
 	import { icons } from '$lib/assets/iconify.json';
 
 	let { children } = $props();
+
+	$effect(() => {
+		const language = $locale ?? 'en';
+		document.documentElement.lang = language;
+		document.documentElement.dir = ['ar', 'he', 'fa'].includes(language.split('-')[0])
+			? 'rtl'
+			: 'ltr';
+	});
 </script>
 
 <svelte:head>

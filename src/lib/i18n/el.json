@@ -1,0 +1,49 @@
+{
+	"install": "Προσθήκη{browser, select, chrome { στο Chrome} firefox { στο Firefox} edge { στο Edge} other {}}",
+	"headline": "Στείλτε μηνύματα στη συζήτηση του Google Meet™ χωρίς πληκτρολόγηση.",
+	"features": {
+		"title": "Δυνατότητες",
+		"click": {
+			"description": "Δημιουργήστε και αποθηκεύστε έτοιμα μηνύματα για αποστολή στη συζήτηση με ένα μόνο κλικ",
+			"title": "Κουμπιά συζήτησης"
+		},
+		"keyboard": {
+			"description": "Ορίστε συντομεύσεις πληκτρολογίου για την αποστολή των έτοιμων μηνυμάτων σας",
+			"title": "Συντομεύσεις πληκτρολογίου"
+		},
+		"autoReply": {
+			"description": "Ορίστε αυτόματα εναύσματα για απαντήσεις σε συγκεκριμένα μηνύματα της συζήτησης",
+			"title": "Αυτόματη απάντηση"
+		},
+		"settings": {
+			"description": "Διαχειριστείτε τα έτοιμα μηνύματά σας και προσαρμόστε τις προτιμήσεις σας από το αναδυόμενο παράθυρο στη γραμμή διευθύνσεων",
+			"title": "Πλήρης έλεγχος"
+		}
+	},
+	"installSection": {
+		"title": "Προσθέστε στο πρόγραμμα περιήγησής σας",
+		"installButton": "Προβολή στο κατάστημα",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Βασισμένα στο Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Αναπτύχθηκε από τον <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Πηγαίος κώδικας",
+		"donate": "Δωρεά"
+	},
+	"uninstalled": {
+		"title": "Ωχ, η επέκταση απεγκαταστάθηκε...",
+		"description": "Αν μπορείτε, συμπληρώστε τη φόρμα για να μας βοηθήσετε να καταλάβουμε τι πήγε στραβά"
+	},
+	"redirect": "Ανακατεύθυνση... <a id=\"redirect\" class=\"link\">Δεν έγινε ανακατεύθυνση;</a>"
+}

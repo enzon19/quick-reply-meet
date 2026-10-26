@@ -1,0 +1,49 @@
+{
+	"install": "Adicionar{browser, select, chrome { ao Chrome} firefox { ao Firefox} edge { ao Edge} other {}}",
+	"headline": "Envie mensagens no chat do Google Meet™ sem precisar de escrever.",
+	"features": {
+		"title": "Funcionalidades",
+		"click": {
+			"description": "Crie e guarde mensagens prontas a enviar no chat com apenas um clique",
+			"title": "Botões no chat"
+		},
+		"keyboard": {
+			"description": "Configure atalhos de teclado para enviar as suas mensagens prontas",
+			"title": "Atalhos de teclado"
+		},
+		"autoReply": {
+			"description": "Defina acionadores automáticos para responder a mensagens específicas do chat",
+			"title": "Resposta automática"
+		},
+		"settings": {
+			"description": "Faça a gestão das suas mensagens prontas e ajuste as suas preferências na janela da extensão, na barra de endereços",
+			"title": "Controlo total"
+		}
+	},
+	"installSection": {
+		"title": "Adicione ao seu navegador",
+		"installButton": "Ver na loja",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Baseados no Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Desenvolvido por <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Código-fonte",
+		"donate": "Doar"
+	},
+	"uninstalled": {
+		"title": "Que pena, a extensão foi desinstalada...",
+		"description": "Se puder, preencha o formulário para nos ajudar a compreender o que correu mal"
+	},
+	"redirect": "A redirecionar... <a id=\"redirect\" class=\"link\">Não foi redirecionado?</a>"
+}

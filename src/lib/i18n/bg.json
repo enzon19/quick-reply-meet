@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Добавяне в Chrome} firefox {Добавяне във Firefox} edge {Добавяне в Edge} other {Добавяне}}",
+	"headline": "Изпращайте съобщения в чата на Google Meet™ без писане.",
+	"features": {
+		"title": "Функции",
+		"click": {
+			"description": "Създавайте и запазвайте готови съобщения за изпращане в чата само с едно щракване",
+			"title": "Бутони в чата"
+		},
+		"keyboard": {
+			"description": "Настройте клавишни комбинации за изпращане на готовите си съобщения",
+			"title": "Клавишни комбинации"
+		},
+		"autoReply": {
+			"description": "Задайте автоматични задействания за отговор на определени съобщения в чата",
+			"title": "Автоматичен отговор"
+		},
+		"settings": {
+			"description": "Управлявайте готовите си съобщения и настройвайте предпочитанията си чрез изскачащия прозорец в адресната лента",
+			"title": "Пълен контрол"
+		}
+	},
+	"installSection": {
+		"title": "Добавете към браузъра си",
+		"installButton": "Преглед в магазина",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Базирани на Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Разработено от <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Изходен код",
+		"donate": "Дарение"
+	},
+	"uninstalled": {
+		"title": "О, не, разширението е деинсталирано...",
+		"description": "Ако можете, попълнете формуляра, за да ни помогнете да разберем какво се е объркало"
+	},
+	"redirect": "Пренасочване... <a id=\"redirect\" class=\"link\">Не бяхте пренасочени?</a>"
+}

@@ -1,0 +1,49 @@
+{
+	"install": "Tambahkan{browser, select, chrome { ke Chrome} firefox { ke Firefox} edge { ke Edge} other {}}",
+	"headline": "Kirim pesan di chat Google Meet™ tanpa mengetik.",
+	"features": {
+		"title": "Fitur",
+		"click": {
+			"description": "Buat dan simpan pesan siap kirim ke chat hanya dengan satu klik",
+			"title": "Tombol Chat"
+		},
+		"keyboard": {
+			"description": "Siapkan pintasan keyboard untuk mengirim pesan siap kirim Anda",
+			"title": "Pintasan Keyboard"
+		},
+		"autoReply": {
+			"description": "Atur pemicu otomatis untuk membalas pesan chat tertentu",
+			"title": "Balasan Otomatis"
+		},
+		"settings": {
+			"description": "Kelola pesan siap kirim Anda dan sesuaikan preferensi melalui popup di bilah alamat",
+			"title": "Kontrol Penuh"
+		}
+	},
+	"installSection": {
+		"title": "Tambahkan ke Browser Anda",
+		"installButton": "Lihat di toko",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Berbasis Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Dikembangkan oleh <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Kode sumber",
+		"donate": "Donasi"
+	},
+	"uninstalled": {
+		"title": "Oh tidak, ekstensi dihapus...",
+		"description": "Jika memungkinkan, isi formulir untuk membantu kami memahami apa yang salah"
+	},
+	"redirect": "Mengalihkan... <a id=\"redirect\" class=\"link\">Tidak dialihkan?</a>"
+}

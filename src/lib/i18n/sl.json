@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Dodaj v Chrome} firefox {Dodaj v Firefox} edge {Dodaj v Edge} other {Dodaj}}",
+	"headline": "Pošiljajte sporočila v klepetu Google Meet™ brez tipkanja.",
+	"features": {
+		"title": "Funkcije",
+		"click": {
+			"description": "Ustvarite in shranite pripravljena sporočila za pošiljanje v klepet z enim klikom",
+			"title": "Gumbi v klepetu"
+		},
+		"keyboard": {
+			"description": "Nastavite bližnjice na tipkovnici za pošiljanje pripravljenih sporočil",
+			"title": "Bližnjice na tipkovnici"
+		},
+		"autoReply": {
+			"description": "Nastavite samodejne sprožilce za odgovarjanje na določena sporočila v klepetu",
+			"title": "Samodejni odgovor"
+		},
+		"settings": {
+			"description": "Upravljajte pripravljena sporočila in prilagodite nastavitve prek pojavnega okna v naslovni vrstici",
+			"title": "Popoln nadzor"
+		}
+	},
+	"installSection": {
+		"title": "Dodajte v svoj brskalnik",
+		"installButton": "Ogled v trgovini",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Temelječi na Chromu",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Razvil <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Izvorna koda",
+		"donate": "Doniraj"
+	},
+	"uninstalled": {
+		"title": "O ne, razširitev je bila odstranjena...",
+		"description": "Če lahko, izpolnite obrazec, da nam pomagate razumeti, kaj je šlo narobe"
+	},
+	"redirect": "Preusmerjanje... <a id=\"redirect\" class=\"link\">Niste bili preusmerjeni?</a>"
+}

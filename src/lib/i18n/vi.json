@@ -1,0 +1,49 @@
+{
+	"install": "Thêm{browser, select, chrome { vào Chrome} firefox { vào Firefox} edge { vào Edge} other {}}",
+	"headline": "Gửi tin nhắn trong cuộc trò chuyện Google Meet™ mà không cần gõ.",
+	"features": {
+		"title": "Tính năng",
+		"click": {
+			"description": "Tạo và lưu tin nhắn soạn sẵn để gửi vào cuộc trò chuyện chỉ bằng một cú nhấp",
+			"title": "Nút trong cuộc trò chuyện"
+		},
+		"keyboard": {
+			"description": "Thiết lập phím tắt để gửi tin nhắn soạn sẵn",
+			"title": "Phím tắt"
+		},
+		"autoReply": {
+			"description": "Thiết lập điều kiện kích hoạt tự động để trả lời các tin nhắn cụ thể trong cuộc trò chuyện",
+			"title": "Trả lời tự động"
+		},
+		"settings": {
+			"description": "Quản lý tin nhắn soạn sẵn và điều chỉnh tùy chọn qua cửa sổ bật lên trên thanh địa chỉ",
+			"title": "Kiểm soát toàn diện"
+		}
+	},
+	"installSection": {
+		"title": "Thêm vào trình duyệt của bạn",
+		"installButton": "Xem trên cửa hàng",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Dựa trên Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Phát triển bởi <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Mã nguồn",
+		"donate": "Quyên góp"
+	},
+	"uninstalled": {
+		"title": "Ôi không, tiện ích đã bị gỡ cài đặt...",
+		"description": "Nếu có thể, vui lòng điền vào biểu mẫu để giúp chúng tôi hiểu điều gì đã xảy ra"
+	},
+	"redirect": "Đang chuyển hướng... <a id=\"redirect\" class=\"link\">Chưa được chuyển hướng?</a>"
+}

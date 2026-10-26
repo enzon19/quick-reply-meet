@@ -1,0 +1,49 @@
+{
+	"install": "Lägg till{browser, select, chrome { i Chrome} firefox { i Firefox} edge { i Edge} other {}}",
+	"headline": "Skicka meddelanden i Google Meet™-chatten utan att skriva.",
+	"features": {
+		"title": "Funktioner",
+		"click": {
+			"description": "Skapa och spara färdiga meddelanden att skicka i chatten med ett enda klick",
+			"title": "Chattknappar"
+		},
+		"keyboard": {
+			"description": "Ställ in kortkommandon för att skicka dina färdiga meddelanden",
+			"title": "Kortkommandon"
+		},
+		"autoReply": {
+			"description": "Ställ in automatiska utlösare för att svara på specifika chattmeddelanden",
+			"title": "Automatiska svar"
+		},
+		"settings": {
+			"description": "Hantera dina färdiga meddelanden och anpassa dina inställningar via popupfönstret i adressfältet",
+			"title": "Full kontroll"
+		}
+	},
+	"installSection": {
+		"title": "Lägg till i din webbläsare",
+		"installButton": "Visa i butiken",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Chrome-baserade",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Utvecklad av <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Källkod",
+		"donate": "Donera"
+	},
+	"uninstalled": {
+		"title": "Åh nej, tillägget har avinstallerats...",
+		"description": "Om du kan, fyll i formuläret för att hjälpa oss förstå vad som gick fel"
+	},
+	"redirect": "Omdirigerar... <a id=\"redirect\" class=\"link\">Omdirigerades du inte?</a>"
+}

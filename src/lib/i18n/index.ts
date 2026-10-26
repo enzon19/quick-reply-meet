@@ -1,15 +1,11 @@
 import { addMessages, getLocaleFromNavigator, init } from 'svelte-i18n';
+import type en from './en.json';
 
-import en from './en.json';
-addMessages('en', en);
+const catalogs = import.meta.glob<{ default: typeof en }>('./*.json', { eager: true });
 
-import ptBR from './pt-BR.json';
-addMessages('pt-BR', ptBR);
+for (const [path, catalog] of Object.entries(catalogs)) {
+	const language = path.replace('./', '').replace('.json', '');
+	addMessages(language, catalog.default);
+}
 
-import es from './es.json';
-addMessages('es', es);
-
-init({
-	fallbackLocale: 'en',
-	initialLocale: getLocaleFromNavigator()
-});
+init({ fallbackLocale: 'en', initialLocale: getLocaleFromNavigator() });

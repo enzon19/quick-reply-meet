@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Додај у Chrome} firefox {Додај у Firefox} edge {Додај у Edge} other {Додај}}",
+	"headline": "Шаљите поруке у Google Meet™ ћаскању без куцања.",
+	"features": {
+		"title": "Функције",
+		"click": {
+			"description": "Направите и сачувајте готове поруке за слање у ћаскање једним кликом",
+			"title": "Дугмад у ћаскању"
+		},
+		"keyboard": {
+			"description": "Подесите пречице на тастатури за слање готових порука",
+			"title": "Пречице на тастатури"
+		},
+		"autoReply": {
+			"description": "Подесите аутоматске окидаче за одговарање на одређене поруке у ћаскању",
+			"title": "Аутоматски одговор"
+		},
+		"settings": {
+			"description": "Управљајте готовим порукама и прилагодите подешавања у искачућем прозору проширења на траци за адресу",
+			"title": "Потпуна контрола"
+		}
+	},
+	"installSection": {
+		"title": "Додајте у прегледач",
+		"installButton": "Погледај у продавници",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Засновани на Chrome-у",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Аутор: <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Изворни код",
+		"donate": "Донирај"
+	},
+	"uninstalled": {
+		"title": "О, не, проширење је деинсталирано...",
+		"description": "Ако можете, попуните образац да нам помогнете да разумемо шта је пошло наопако"
+	},
+	"redirect": "Преусмеравање... <a id=\"redirect\" class=\"link\">Преусмеравање није успело?</a>"
+}

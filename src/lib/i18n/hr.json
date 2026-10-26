@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Dodaj u Chrome} firefox {Dodaj u Firefox} edge {Dodaj u Edge} other {Dodaj}}",
+	"headline": "Šaljite poruke u chatu Google Meet™ bez tipkanja.",
+	"features": {
+		"title": "Značajke",
+		"click": {
+			"description": "Izradite i spremite gotove poruke za slanje u chat jednim klikom",
+			"title": "Gumbi u chatu"
+		},
+		"keyboard": {
+			"description": "Postavite tipkovničke prečace za slanje pripremljenih poruka",
+			"title": "Tipkovnički prečaci"
+		},
+		"autoReply": {
+			"description": "Postavite automatske okidače za odgovaranje na određene poruke u chatu",
+			"title": "Automatski odgovor"
+		},
+		"settings": {
+			"description": "Upravljajte pripremljenim porukama i prilagodite postavke putem skočnog prozora na adresnoj traci",
+			"title": "Potpuna kontrola"
+		}
+	},
+	"installSection": {
+		"title": "Dodajte u svoj preglednik",
+		"installButton": "Pogledaj u trgovini",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Temeljeni na Chromeu",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Razvio <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Izvorni kod",
+		"donate": "Doniraj"
+	},
+	"uninstalled": {
+		"title": "O ne, proširenje je deinstalirano...",
+		"description": "Ako možete, ispunite obrazac kako biste nam pomogli razumjeti što je pošlo po zlu"
+	},
+	"redirect": "Preusmjeravanje... <a id=\"redirect\" class=\"link\">Niste preusmjereni?</a>"
+}

@@ -1,0 +1,49 @@
+{
+	"install": "{browser, select, chrome {Idagdag sa Chrome} firefox {Idagdag sa Firefox} edge {Idagdag sa Edge} other {Idagdag}}",
+	"headline": "Magpadala ng mga mensahe sa Google Meet™ chat nang hindi nagta-type.",
+	"features": {
+		"title": "Mga feature",
+		"click": {
+			"description": "Gumawa at mag-save ng mga mensaheng handang ipadala sa chat sa isang click lamang",
+			"title": "Mga button sa chat"
+		},
+		"keyboard": {
+			"description": "Mag-set up ng mga keyboard shortcut para ipadala ang iyong mga nakahandang mensahe",
+			"title": "Mga keyboard shortcut"
+		},
+		"autoReply": {
+			"description": "Magtakda ng mga awtomatikong trigger para tumugon sa mga partikular na mensahe sa chat",
+			"title": "Awtomatikong tugon"
+		},
+		"settings": {
+			"description": "Pamahalaan ang iyong mga nakahandang mensahe at ayusin ang iyong mga kagustuhan sa pamamagitan ng popup sa address bar",
+			"title": "Ganap na kontrol"
+		}
+	},
+	"installSection": {
+		"title": "Idagdag sa iyong browser",
+		"installButton": "Tingnan sa store",
+		"firefox": {
+			"title": "Firefox",
+			"description": "Mozilla Add-ons"
+		},
+		"chrome": {
+			"title": "Mga browser na batay sa Chrome",
+			"description": "Chrome Web Store"
+		},
+		"edge": {
+			"title": "Edge",
+			"description": "Edge Add-ons"
+		}
+	},
+	"footer": {
+		"credits": "Binuo ni <a href=\"https://enzon19.com\" target=\"_blank\" class=\"link\">Enzo (enzon19)</a>",
+		"sourceCode": "Source code",
+		"donate": "Mag-donate"
+	},
+	"uninstalled": {
+		"title": "Naku, na-uninstall ang extension...",
+		"description": "Kung maaari, sagutan ang form para matulungan kaming maunawaan kung ano ang naging problema"
+	},
+	"redirect": "Nagre-redirect... <a id=\"redirect\" class=\"link\">Hindi na-redirect?</a>"
+}
