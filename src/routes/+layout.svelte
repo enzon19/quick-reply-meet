@@ -11,6 +11,9 @@
 </script>
 
 <svelte:head>
+	<meta name="description" content={$_('headline')} />
+	<meta property="og:description" content={$_('headline')} />
+	<meta name="twitter:description" content={$_('headline')} />
 </svelte:head>
 
 <header>
